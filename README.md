@@ -15,6 +15,7 @@ Maak voor elke kerk een nieuwe record aan in nl-churches.json
 	"twitter"_name": "@...",
 	"website": "http://..."
 }
+```
 
 ## Metrics updaten.
 
