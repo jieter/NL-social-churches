@@ -68,7 +68,7 @@
 		"facebook": {
 			"id": "370576742963306",
 			"likes": 304,
-			"talking_about_count": 84,
+			"talking_about_count": 98,
 			"website": "http://www.reconnect.cc"
 		},
 		"website": "http://www.reconnect.cc"
@@ -377,7 +377,7 @@
 		"facebook": {
 			"id": "106632822794682",
 			"likes": 2923,
-			"talking_about_count": 213,
+			"talking_about_count": 208,
 			"website": "http://www.hillsong.nl"
 		},
 		"website": "http://www.hillsong.nl"
@@ -394,7 +394,7 @@
 		"facebook": {
 			"id": "250968861596595",
 			"likes": 955,
-			"talking_about_count": 59,
+			"talking_about_count": 63,
 			"checkings": 38,
 			"website": "http://www.xrds.nl",
 			"were_here_count": 245
@@ -407,7 +407,7 @@
 		"twitter_name": "",
 		"facebook": {
 			"id": "309928182409193",
-			"likes": 1494,
+			"likes": 1495,
 			"talking_about_count": 62,
 			"checkings": 49,
 			"website": "http://www.",
@@ -467,7 +467,7 @@
 		"facebook_url": "https://www.facebook.com/thousandhills",
 		"twitter_name": "@thousand_hills",
 		"twitter": {
-			"tweets": 1107,
+			"tweets": 1108,
 			"followers": 251,
 			"friends": 342
 		},
@@ -765,13 +765,14 @@
 	},
 	{
 		"name": "Morgenstond Delft",
-		"facebook_url": "",
+		"facebook_url": "https://www.facebook.com/groups/148502305195044/",
 		"twitter_name": "@egmdelft",
 		"twitter": {
 			"tweets": 247,
 			"followers": 104,
 			"friends": 110
-		}
+		},
+		"facebook": {}
 	},
 	{
 		"name": "Noordlicht Wezep",
