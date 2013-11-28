@@ -22,7 +22,13 @@ function facebookMetrics (url, callback) {
 		};
 
 		if (body['website']) {
+			if (body['website'].indexOf('http://') !== 0) {
+				var websiteParts = body['website'].split(' ')[0];
+				// blunt assumption here
+				body['website'] = 'http://' + body['website'].split(' ')[0];
+			}
 			data.website = body['website'];
+
 		}
 		if (body['were_here_count']) {
 			data['were_here_count'] = body['were_here_count'];

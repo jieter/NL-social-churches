@@ -13,10 +13,10 @@
 			"likes": 406,
 			"talking_about_count": 151,
 			"checkings": 3,
-			"website": "www.kvdnvlaardingen.nl",
+			"website": "http://www.kvdnvlaardingen.nl",
 			"were_here_count": 9
 		},
-		"website": "www.kvdnvlaardingen.nl"
+		"website": "http://www.kvdnvlaardingen.nl"
 	},
 	{
 		"name": "Victory Outreach Rotterdam",
@@ -32,10 +32,10 @@
 			"likes": 635,
 			"talking_about_count": 199,
 			"checkings": 220,
-			"website": "www.vorotterdam.nl",
+			"website": "http://www.vorotterdam.nl",
 			"were_here_count": 2072
 		},
-		"website": "www.vorotterdam.nl"
+		"website": "http://www.vorotterdam.nl"
 	},
 	{
 		"name": "BethEl Hoogeveen",
@@ -49,7 +49,7 @@
 		"facebook": {
 			"id": "136600443152407",
 			"likes": 111,
-			"talking_about_count": 35,
+			"talking_about_count": 34,
 			"checkings": 1,
 			"website": "http://www.beth-el.nl",
 			"were_here_count": 47
@@ -87,10 +87,10 @@
 			"likes": 1105,
 			"talking_about_count": 184,
 			"checkings": 32,
-			"website": "www.vezwolle.nl",
+			"website": "http://www.vezwolle.nl",
 			"were_here_count": 327
 		},
-		"website": "www.vezwolle.nl"
+		"website": "http://www.vezwolle.nl"
 	},
 	{
 		"name": "Paaskerk Oss",
@@ -138,10 +138,10 @@
 			"likes": 1145,
 			"talking_about_count": 181,
 			"checkings": 132,
-			"website": "www.bethel.nl",
+			"website": "http://www.bethel.nl",
 			"were_here_count": 1114
 		},
-		"website": "www.bethel.nl"
+		"website": "http://www.bethel.nl"
 	},
 	{
 		"name": "Christengemeente De Wingerd",
@@ -194,9 +194,9 @@
 			"id": "113240012075632",
 			"likes": 1119,
 			"talking_about_count": 212,
-			"website": "www.jongenvrij.nl http://webshop.jongenvrij.nl"
+			"website": "http://www.jongenvrij.nl"
 		},
-		"website": "www.jongenvrij.nl http://webshop.jongenvrij.nl"
+		"website": "http://www.jongenvrij.nl"
 	},
 	{
 		"name": "Koningskerk Rotterdam",
@@ -225,9 +225,9 @@
 			"id": "1417424641803008",
 			"likes": 19,
 			"talking_about_count": 2,
-			"website": "https://www.cgmaaseik.be/"
+			"website": "http://https://www.cgmaaseik.be/"
 		},
-		"website": "https://www.cgmaaseik.be/"
+		"website": "http://https://www.cgmaaseik.be/"
 	},
 	{
 		"name": "Ontmoetingskerk Vriezenveen",
@@ -261,9 +261,9 @@
 			"id": "233269330060257",
 			"likes": 101,
 			"talking_about_count": 10,
-			"website": "www.christengemeente.nl"
+			"website": "http://www.christengemeente.nl"
 		},
-		"website": "www.christengemeente.nl"
+		"website": "http://www.christengemeente.nl"
 	},
 	{
 		"name": "Mijn Kerk",
@@ -278,9 +278,9 @@
 			"id": "484647548235132",
 			"likes": 1781,
 			"talking_about_count": 173,
-			"website": "www.mijnkerk.nl of neem contact op met: De kern van Mijn Kerk bestaat uit: » Fred Omvlee - dominee http://www.facebook.com/fred.omvlee » Adrie Stemmer - webredacteur http://www.facebook.com/adrie.stemmer » Bram Dijkstra-Geuze - communitymanager http://www.facebook.com/bramdijkstrageuze"
+			"website": "http://www.mijnkerk.nl"
 		},
-		"website": "www.mijnkerk.nl of neem contact op met: De kern van Mijn Kerk bestaat uit: » Fred Omvlee - dominee http://www.facebook.com/fred.omvlee » Adrie Stemmer - webredacteur http://www.facebook.com/adrie.stemmer » Bram Dijkstra-Geuze - communitymanager http://www.facebook.com/bramdijkstrageuze"
+		"website": "http://www.mijnkerk.nl"
 	},
 	{
 		"name": "Gereformeerde kerk Enter",
@@ -329,10 +329,10 @@
 			"likes": 217,
 			"talking_about_count": 24,
 			"checkings": 3,
-			"website": "www.leef-doetinchem.nl",
+			"website": "http://www.leef-doetinchem.nl",
 			"were_here_count": 63
 		},
-		"website": "www.leef-doetinchem.nl"
+		"website": "http://www.leef-doetinchem.nl"
 	},
 	{
 		"name": "Kerk van de Nazarener Haarlem",
@@ -347,9 +347,9 @@
 			"id": "251985138193875",
 			"likes": 195,
 			"talking_about_count": 17,
-			"website": "www.kvdnhaarlem.nl"
+			"website": "http://www.kvdnhaarlem.nl"
 		},
-		"website": "www.kvdnhaarlem.nl"
+		"website": "http://www.kvdnhaarlem.nl"
 	},
 	{
 		"name": "Hervormd Vriezenveen",
@@ -378,9 +378,9 @@
 			"id": "106632822794682",
 			"likes": 2923,
 			"talking_about_count": 213,
-			"website": "www.hillsong.nl"
+			"website": "http://www.hillsong.nl"
 		},
-		"website": "www.hillsong.nl"
+		"website": "http://www.hillsong.nl"
 	},
 	{
 		"name": "Crossroads Amsterdam",
@@ -396,10 +396,10 @@
 			"likes": 955,
 			"talking_about_count": 59,
 			"checkings": 38,
-			"website": "www.xrds.nl",
+			"website": "http://www.xrds.nl",
 			"were_here_count": 245
 		},
-		"website": "www.xrds.nl"
+		"website": "http://www.xrds.nl"
 	},
 	{
 		"name": "De Maagd Maria Kerk Amsterdam",
@@ -410,10 +410,10 @@
 			"likes": 1494,
 			"talking_about_count": 62,
 			"checkings": 49,
-			"website": "www. koptischekerk.nl",
+			"website": "http://www.",
 			"were_here_count": 423
 		},
-		"website": "www. koptischekerk.nl"
+		"website": "http://www."
 	},
 	{
 		"name": "City Life Church Den Haag",
@@ -443,10 +443,10 @@
 			"likes": 98,
 			"talking_about_count": 6,
 			"checkings": 29,
-			"website": "www.jefta.org",
+			"website": "http://www.jefta.org",
 			"were_here_count": 88
 		},
-		"website": "www.jefta.org"
+		"website": "http://www.jefta.org"
 	},
 	{
 		"name": "Christ Worship Centre",
@@ -457,10 +457,10 @@
 			"likes": 93,
 			"talking_about_count": 5,
 			"checkings": 4,
-			"website": "www.christworshipcentre.com",
+			"website": "http://www.christworshipcentre.com",
 			"were_here_count": 18
 		},
-		"website": "www.christworshipcentre.com"
+		"website": "http://www.christworshipcentre.com"
 	},
 	{
 		"name": "Thousand Hills",
@@ -476,10 +476,10 @@
 			"likes": 1220,
 			"talking_about_count": 58,
 			"checkings": 126,
-			"website": "www.thousandhills.cc",
+			"website": "http://www.thousandhills.cc",
 			"were_here_count": 1012
 		},
-		"website": "www.thousandhills.cc"
+		"website": "http://www.thousandhills.cc"
 	},
 	{
 		"name": "New Life Rotterdam - kerk",
@@ -495,10 +495,10 @@
 			"likes": 76,
 			"talking_about_count": 3,
 			"checkings": 15,
-			"website": "www.newlife010.nl",
+			"website": "http://www.newlife010.nl",
 			"were_here_count": 27
 		},
-		"website": "www.newlife010.nl"
+		"website": "http://www.newlife010.nl"
 	},
 	{
 		"name": "Vrije Baptistengemeente Groningen",
@@ -559,10 +559,10 @@
 			"likes": 139,
 			"talking_about_count": 4,
 			"checkings": 3,
-			"website": "www.vegoldebroek.nl",
+			"website": "http://www.vegoldebroek.nl",
 			"were_here_count": 20
 		},
-		"website": "www.vegoldebroek.nl"
+		"website": "http://www.vegoldebroek.nl"
 	},
 	{
 		"name": "Baptistengemeente Katwijk",
@@ -578,10 +578,10 @@
 			"likes": 246,
 			"talking_about_count": 6,
 			"checkings": 13,
-			"website": "www.baptistengemeentekatwijk.nl",
+			"website": "http://www.baptistengemeentekatwijk.nl",
 			"were_here_count": 80
 		},
-		"website": "www.baptistengemeentekatwijk.nl"
+		"website": "http://www.baptistengemeentekatwijk.nl"
 	},
 	{
 		"name": "Christengemeente Lachai-Roï",
@@ -610,10 +610,10 @@
 			"id": "232334370125233",
 			"likes": 87,
 			"talking_about_count": 2,
-			"website": "www.ngkdoetinchem-velp.nl",
+			"website": "http://www.ngkdoetinchem-velp.nl",
 			"were_here_count": 3
 		},
-		"website": "www.ngkdoetinchem-velp.nl"
+		"website": "http://www.ngkdoetinchem-velp.nl"
 	},
 	{
 		"name": "Rafael Amersfoort",
@@ -629,10 +629,10 @@
 			"likes": 402,
 			"talking_about_count": 8,
 			"checkings": 47,
-			"website": "www.rafaelamersfoort.nl",
+			"website": "http://www.rafaelamersfoort.nl",
 			"were_here_count": 657
 		},
-		"website": "www.rafaelamersfoort.nl"
+		"website": "http://www.rafaelamersfoort.nl"
 	},
 	{
 		"name": "Koepelkerk Arnhem",
@@ -647,9 +647,9 @@
 			"id": "294522140639079",
 			"likes": 200,
 			"talking_about_count": 3,
-			"website": "www.koepelkerk-arnhem.nl"
+			"website": "http://www.koepelkerk-arnhem.nl"
 		},
-		"website": "www.koepelkerk-arnhem.nl"
+		"website": "http://www.koepelkerk-arnhem.nl"
 	},
 	{
 		"name": "Pinkstergemeente Agapé",
@@ -660,10 +660,10 @@
 			"likes": 301,
 			"talking_about_count": 5,
 			"checkings": 11,
-			"website": "www.pinkstergemeente-agape.nl",
+			"website": "http://www.pinkstergemeente-agape.nl",
 			"were_here_count": 467
 		},
-		"website": "www.pinkstergemeente-agape.nl"
+		"website": "http://www.pinkstergemeente-agape.nl"
 	},
 	{
 		"name": "Doorbrekers",
@@ -692,9 +692,9 @@
 			"id": "141635765905039",
 			"likes": 205,
 			"talking_about_count": 0,
-			"website": "www.westland-netwerk.nl"
+			"website": "http://www.westland-netwerk.nl"
 		},
-		"website": "www.westland-netwerk.nl"
+		"website": "http://www.westland-netwerk.nl"
 	},
 	{
 		"name": "Vineyard Amsterdam",
@@ -709,9 +709,9 @@
 			"id": "128574734098",
 			"likes": 1139,
 			"talking_about_count": 1,
-			"website": "www.VineyardAmsterdam.nl"
+			"website": "http://www.VineyardAmsterdam.nl"
 		},
-		"website": "www.VineyardAmsterdam.nl"
+		"website": "http://www.VineyardAmsterdam.nl"
 	},
 	{
 		"name": "GKV Gorinchem",
