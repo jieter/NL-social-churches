@@ -8,8 +8,7 @@ In `nl-churches-with-metrics` vind je diezelfde lijst, maar nu met onderandere h
 
 Allereerst heb je [Node.js](http://nodejs.org/) nodig.
 
-Vervolgens een twitter api-key, zet die in `apis/twitter-api-auth.js`
-
+Vervolgens een twitter api-key, zet die in `apis/twitter-api-auth.js` als volgt:
 ```JavaScript
 module.exports = {
     consumer_key:         '',
