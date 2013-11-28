@@ -7,7 +7,16 @@
 			"tweets": 152,
 			"followers": 122,
 			"friends": 120
-		}
+		},
+		"facebook": {
+			"id": "340107662675701",
+			"likes": 406,
+			"talking_about_count": 151,
+			"checkings": 3,
+			"website": "www.kvdnvlaardingen.nl",
+			"were_here_count": 9
+		},
+		"website": "www.kvdnvlaardingen.nl"
 	},
 	{
 		"name": "Victory Outreach Rotterdam",
@@ -17,7 +26,16 @@
 			"tweets": 449,
 			"followers": 366,
 			"friends": 28
-		}
+		},
+		"facebook": {
+			"id": "142866119103429",
+			"likes": 635,
+			"talking_about_count": 199,
+			"checkings": 220,
+			"website": "www.vorotterdam.nl",
+			"were_here_count": 2072
+		},
+		"website": "www.vorotterdam.nl"
 	},
 	{
 		"name": "BethEl Hoogeveen",
@@ -27,7 +45,16 @@
 			"tweets": 3065,
 			"followers": 139,
 			"friends": 107
-		}
+		},
+		"facebook": {
+			"id": "136600443152407",
+			"likes": 111,
+			"talking_about_count": 35,
+			"checkings": 1,
+			"website": "http://www.beth-el.nl",
+			"were_here_count": 47
+		},
+		"website": "http://www.beth-el.nl"
 	},
 	{
 		"name": "re:connect",
@@ -37,7 +64,14 @@
 			"tweets": 48,
 			"followers": 39,
 			"friends": 8
-		}
+		},
+		"facebook": {
+			"id": "370576742963306",
+			"likes": 304,
+			"talking_about_count": 84,
+			"website": "http://www.reconnect.cc"
+		},
+		"website": "http://www.reconnect.cc"
 	},
 	{
 		"name": "Vrije Evangelisatie Zwolle",
@@ -47,7 +81,16 @@
 			"tweets": 570,
 			"followers": 677,
 			"friends": 127
-		}
+		},
+		"facebook": {
+			"id": "167627793301411",
+			"likes": 1105,
+			"talking_about_count": 184,
+			"checkings": 32,
+			"website": "www.vezwolle.nl",
+			"were_here_count": 327
+		},
+		"website": "www.vezwolle.nl"
 	},
 	{
 		"name": "Paaskerk Oss",
@@ -57,12 +100,29 @@
 			"tweets": 1372,
 			"followers": 71,
 			"friends": 141
-		}
+		},
+		"facebook": {
+			"id": "352468111459124",
+			"likes": 43,
+			"talking_about_count": 7,
+			"checkings": 1,
+			"website": "http://www.pkn-oss.nl https://twitter.com/#!/Paaskerk_Oss",
+			"were_here_count": 17
+		},
+		"website": "http://www.pkn-oss.nl https://twitter.com/#!/Paaskerk_Oss"
 	},
 	{
 		"name": "Ontmoetingskerk Pijnacker",
 		"facebook_url": "https://www.facebook.com/OntmoetingskerkPijnacker",
-		"twitter_name": ""
+		"twitter_name": "",
+		"facebook": {
+			"id": "399663310107793",
+			"likes": 31,
+			"talking_about_count": 5,
+			"website": "http://www.ontmoetingskerk-pijnacker.eu",
+			"were_here_count": 12
+		},
+		"website": "http://www.ontmoetingskerk-pijnacker.eu"
 	},
 	{
 		"name": "Vrije Baptistengemeente Bethel",
@@ -72,7 +132,16 @@
 			"tweets": 1165,
 			"followers": 1193,
 			"friends": 40
-		}
+		},
+		"facebook": {
+			"id": "293286710927",
+			"likes": 1145,
+			"talking_about_count": 181,
+			"checkings": 132,
+			"website": "www.bethel.nl",
+			"were_here_count": 1114
+		},
+		"website": "www.bethel.nl"
 	},
 	{
 		"name": "Christengemeente De Wingerd",
@@ -82,7 +151,16 @@
 			"tweets": 736,
 			"followers": 67,
 			"friends": 35
-		}
+		},
+		"facebook": {
+			"id": "126376950776834",
+			"likes": 106,
+			"talking_about_count": 16,
+			"checkings": 2,
+			"website": "http://www.cgdewingerd.nl",
+			"were_here_count": 5
+		},
+		"website": "http://www.cgdewingerd.nl"
 	},
 	{
 		"name": "Kruiskerk-gemeente",
@@ -92,7 +170,16 @@
 			"tweets": 952,
 			"followers": 150,
 			"friends": 17
-		}
+		},
+		"facebook": {
+			"id": "196399117090830",
+			"likes": 100,
+			"talking_about_count": 13,
+			"checkings": 4,
+			"website": "http://kruiskerk.info",
+			"were_here_count": 25
+		},
+		"website": "http://kruiskerk.info"
 	},
 	{
 		"name": "Jong en Vrij",
@@ -102,7 +189,14 @@
 			"tweets": 1433,
 			"followers": 607,
 			"friends": 42
-		}
+		},
+		"facebook": {
+			"id": "113240012075632",
+			"likes": 1119,
+			"talking_about_count": 212,
+			"website": "www.jongenvrij.nl http://webshop.jongenvrij.nl"
+		},
+		"website": "www.jongenvrij.nl http://webshop.jongenvrij.nl"
 	},
 	{
 		"name": "Koningskerk Rotterdam",
@@ -112,12 +206,28 @@
 			"tweets": 334,
 			"followers": 117,
 			"friends": 68
-		}
+		},
+		"facebook": {
+			"id": "225253930845783",
+			"likes": 103,
+			"talking_about_count": 19,
+			"checkings": 45,
+			"website": "http://www.koningskerk.org",
+			"were_here_count": 244
+		},
+		"website": "http://www.koningskerk.org"
 	},
 	{
 		"name": "Christengemeente Maaseik",
 		"facebook_url": "https://www.facebook.com/cgmaaseik",
-		"twitter_name": ""
+		"twitter_name": "",
+		"facebook": {
+			"id": "1417424641803008",
+			"likes": 19,
+			"talking_about_count": 2,
+			"website": "https://www.cgmaaseik.be/"
+		},
+		"website": "https://www.cgmaaseik.be/"
 	},
 	{
 		"name": "Ontmoetingskerk Vriezenveen",
@@ -127,17 +237,33 @@
 			"tweets": 141,
 			"followers": 63,
 			"friends": 68
-		}
+		},
+		"facebook": {
+			"id": "264141600281551",
+			"likes": 48,
+			"talking_about_count": 5,
+			"checkings": 7,
+			"website": "http://www.ontmoetingskerkvriezenveen.nl",
+			"were_here_count": 56
+		},
+		"website": "http://www.ontmoetingskerkvriezenveen.nl"
 	},
 	{
 		"name": "Christengemeente Hardinxveld-Giessendam",
 		"facebook_url": "https://www.facebook.com/ChristengemeenteHardinxveldGiessendam",
 		"twitter_name": "@ChrGemHveldGdam",
 		"twitter": {
-			"tweets": 186,
+			"tweets": 187,
 			"followers": 46,
 			"friends": 4
-		}
+		},
+		"facebook": {
+			"id": "233269330060257",
+			"likes": 101,
+			"talking_about_count": 10,
+			"website": "www.christengemeente.nl"
+		},
+		"website": "www.christengemeente.nl"
 	},
 	{
 		"name": "Mijn Kerk",
@@ -145,9 +271,16 @@
 		"twitter_name": "@mijnkerkNL",
 		"twitter": {
 			"tweets": 500,
-			"followers": 1031,
+			"followers": 1032,
 			"friends": 1174
-		}
+		},
+		"facebook": {
+			"id": "484647548235132",
+			"likes": 1781,
+			"talking_about_count": 173,
+			"website": "www.mijnkerk.nl of neem contact op met: De kern van Mijn Kerk bestaat uit: » Fred Omvlee - dominee http://www.facebook.com/fred.omvlee » Adrie Stemmer - webredacteur http://www.facebook.com/adrie.stemmer » Bram Dijkstra-Geuze - communitymanager http://www.facebook.com/bramdijkstrageuze"
+		},
+		"website": "www.mijnkerk.nl of neem contact op met: De kern van Mijn Kerk bestaat uit: » Fred Omvlee - dominee http://www.facebook.com/fred.omvlee » Adrie Stemmer - webredacteur http://www.facebook.com/adrie.stemmer » Bram Dijkstra-Geuze - communitymanager http://www.facebook.com/bramdijkstrageuze"
 	},
 	{
 		"name": "Gereformeerde kerk Enter",
@@ -157,12 +290,30 @@
 			"tweets": 104,
 			"followers": 160,
 			"friends": 72
-		}
+		},
+		"facebook": {
+			"id": "101950543246013",
+			"likes": 129,
+			"talking_about_count": 12,
+			"checkings": 10,
+			"website": "http://www.gereformeerdekerkenter.nl",
+			"were_here_count": 76
+		},
+		"website": "http://www.gereformeerdekerkenter.nl"
 	},
 	{
 		"name": "Koptisch Orthodoxe kerk Eindhoven",
 		"facebook_url": "https://www.facebook.com/KoptischOrthodoxeKerkEindhoven",
-		"twitter_name": ""
+		"twitter_name": "",
+		"facebook": {
+			"id": "519236848096033",
+			"likes": 698,
+			"talking_about_count": 70,
+			"checkings": 1,
+			"website": "http://www.koptischekerkeindhoven.nl",
+			"were_here_count": 72
+		},
+		"website": "http://www.koptischekerkeindhoven.nl"
 	},
 	{
 		"name": "LEEF! Doetinchem",
@@ -172,7 +323,16 @@
 			"tweets": 4,
 			"followers": 3,
 			"friends": 8
-		}
+		},
+		"facebook": {
+			"id": "343139999069499",
+			"likes": 217,
+			"talking_about_count": 24,
+			"checkings": 3,
+			"website": "www.leef-doetinchem.nl",
+			"were_here_count": 63
+		},
+		"website": "www.leef-doetinchem.nl"
 	},
 	{
 		"name": "Kerk van de Nazarener Haarlem",
@@ -182,12 +342,28 @@
 			"tweets": 168,
 			"followers": 64,
 			"friends": 0
-		}
+		},
+		"facebook": {
+			"id": "251985138193875",
+			"likes": 195,
+			"talking_about_count": 17,
+			"website": "www.kvdnhaarlem.nl"
+		},
+		"website": "www.kvdnhaarlem.nl"
 	},
 	{
 		"name": "Hervormd Vriezenveen",
 		"facebook_url": "https://www.facebook.com/hervormd",
-		"twitter_name": ""
+		"twitter_name": "",
+		"facebook": {
+			"id": "221840291277611",
+			"likes": 169,
+			"talking_about_count": 13,
+			"checkings": 4,
+			"website": "http://hervormdvriezenveen.nl/",
+			"were_here_count": 40
+		},
+		"website": "http://hervormdvriezenveen.nl/"
 	},
 	{
 		"name": "Hillsong Amsterdam",
@@ -195,9 +371,16 @@
 		"twitter_name": "@hillsongams",
 		"twitter": {
 			"tweets": 222,
-			"followers": 3998,
+			"followers": 3999,
 			"friends": 15
-		}
+		},
+		"facebook": {
+			"id": "106632822794682",
+			"likes": 2923,
+			"talking_about_count": 213,
+			"website": "www.hillsong.nl"
+		},
+		"website": "www.hillsong.nl"
 	},
 	{
 		"name": "Crossroads Amsterdam",
@@ -207,12 +390,30 @@
 			"tweets": 516,
 			"followers": 445,
 			"friends": 12
-		}
+		},
+		"facebook": {
+			"id": "250968861596595",
+			"likes": 955,
+			"talking_about_count": 59,
+			"checkings": 38,
+			"website": "www.xrds.nl",
+			"were_here_count": 245
+		},
+		"website": "www.xrds.nl"
 	},
 	{
 		"name": "De Maagd Maria Kerk Amsterdam",
 		"facebook_url": "https://www.facebook.com/mariakerk",
-		"twitter_name": ""
+		"twitter_name": "",
+		"facebook": {
+			"id": "309928182409193",
+			"likes": 1494,
+			"talking_about_count": 62,
+			"checkings": 49,
+			"website": "www. koptischekerk.nl",
+			"were_here_count": 423
+		},
+		"website": "www. koptischekerk.nl"
 	},
 	{
 		"name": "City Life Church Den Haag",
@@ -222,27 +423,63 @@
 			"tweets": 1535,
 			"followers": 811,
 			"friends": 177
-		}
+		},
+		"facebook": {
+			"id": "137850586233695",
+			"likes": 1249,
+			"talking_about_count": 77,
+			"checkings": 440,
+			"website": "http://www.clcdenhaag.nl",
+			"were_here_count": 3284
+		},
+		"website": "http://www.clcdenhaag.nl"
 	},
 	{
 		"name": "Evangelische Kerk Jefta",
 		"facebook_url": "https://www.facebook.com/evangelischekerkjefta",
-		"twitter_name": ""
+		"twitter_name": "",
+		"facebook": {
+			"id": "156184131096088",
+			"likes": 98,
+			"talking_about_count": 6,
+			"checkings": 29,
+			"website": "www.jefta.org",
+			"were_here_count": 88
+		},
+		"website": "www.jefta.org"
 	},
 	{
 		"name": "Christ Worship Centre",
 		"facebook_url": "https://www.facebook.com/pages/Christ-Worship-Centre/143016309096549",
-		"twitter_name": ""
+		"twitter_name": "",
+		"facebook": {
+			"id": "143016309096549",
+			"likes": 93,
+			"talking_about_count": 5,
+			"checkings": 4,
+			"website": "www.christworshipcentre.com",
+			"were_here_count": 18
+		},
+		"website": "www.christworshipcentre.com"
 	},
 	{
 		"name": "Thousand Hills",
 		"facebook_url": "https://www.facebook.com/thousandhills",
 		"twitter_name": "@thousand_hills",
 		"twitter": {
-			"tweets": 1106,
+			"tweets": 1107,
 			"followers": 251,
 			"friends": 342
-		}
+		},
+		"facebook": {
+			"id": "88656582656",
+			"likes": 1220,
+			"talking_about_count": 58,
+			"checkings": 126,
+			"website": "www.thousandhills.cc",
+			"were_here_count": 1012
+		},
+		"website": "www.thousandhills.cc"
 	},
 	{
 		"name": "New Life Rotterdam - kerk",
@@ -252,7 +489,16 @@
 			"tweets": 613,
 			"followers": 159,
 			"friends": 206
-		}
+		},
+		"facebook": {
+			"id": "251809472094",
+			"likes": 76,
+			"talking_about_count": 3,
+			"checkings": 15,
+			"website": "www.newlife010.nl",
+			"were_here_count": 27
+		},
+		"website": "www.newlife010.nl"
 	},
 	{
 		"name": "Vrije Baptistengemeente Groningen",
@@ -262,7 +508,16 @@
 			"tweets": 857,
 			"followers": 566,
 			"friends": 37
-		}
+		},
+		"facebook": {
+			"id": "117169972216",
+			"likes": 555,
+			"talking_about_count": 19,
+			"checkings": 32,
+			"website": "http://www.vbgroningen.nl/",
+			"were_here_count": 350
+		},
+		"website": "http://www.vbgroningen.nl/"
 	},
 	{
 		"name": "Christelijke gereformeerde kerk Zwolle",
@@ -270,19 +525,44 @@
 		"twitter_name": "@CGKZwolle",
 		"twitter": {
 			"tweets": 714,
-			"followers": 787,
+			"followers": 785,
 			"friends": 125
-		}
+		},
+		"facebook": {
+			"id": "195170248809",
+			"likes": 326,
+			"talking_about_count": 11,
+			"checkings": 6,
+			"website": "http://www.cgkzwolle.nl",
+			"were_here_count": 30
+		},
+		"website": "http://www.cgkzwolle.nl"
 	},
 	{
 		"name": "Hervormd Barneveld",
 		"facebook_url": "https://www.facebook.com/HervormdBarneveld",
-		"twitter_name": ""
+		"twitter_name": "",
+		"facebook": {
+			"id": "279558128818311",
+			"likes": 311,
+			"talking_about_count": 9,
+			"website": "http://www.hervormdbarneveld.nl"
+		},
+		"website": "http://www.hervormdbarneveld.nl"
 	},
 	{
 		"name": "VEG Oldebroek",
 		"facebook_url": "https://www.facebook.com/vegoldebroek",
-		"twitter_name": ""
+		"twitter_name": "",
+		"facebook": {
+			"id": "177798955579273",
+			"likes": 139,
+			"talking_about_count": 4,
+			"checkings": 3,
+			"website": "www.vegoldebroek.nl",
+			"were_here_count": 20
+		},
+		"website": "www.vegoldebroek.nl"
 	},
 	{
 		"name": "Baptistengemeente Katwijk",
@@ -292,7 +572,16 @@
 			"tweets": 177,
 			"followers": 130,
 			"friends": 0
-		}
+		},
+		"facebook": {
+			"id": "179065228843305",
+			"likes": 246,
+			"talking_about_count": 6,
+			"checkings": 13,
+			"website": "www.baptistengemeentekatwijk.nl",
+			"were_here_count": 80
+		},
+		"website": "www.baptistengemeentekatwijk.nl"
 	},
 	{
 		"name": "Christengemeente Lachai-Roï",
@@ -302,12 +591,29 @@
 			"tweets": 88,
 			"followers": 27,
 			"friends": 95
-		}
+		},
+		"facebook": {
+			"id": "400354063378166",
+			"likes": 119,
+			"talking_about_count": 3,
+			"checkings": 1,
+			"website": "http://www.lachai-roi.nl/",
+			"were_here_count": 82
+		},
+		"website": "http://www.lachai-roi.nl/"
 	},
 	{
 		"name": "NGK Doetinchem Velp",
 		"facebook_url": "https://www.facebook.com/pages/NGK-Doetinchem-Velp/232334370125233",
-		"twitter_name": ""
+		"twitter_name": "",
+		"facebook": {
+			"id": "232334370125233",
+			"likes": 87,
+			"talking_about_count": 2,
+			"website": "www.ngkdoetinchem-velp.nl",
+			"were_here_count": 3
+		},
+		"website": "www.ngkdoetinchem-velp.nl"
 	},
 	{
 		"name": "Rafael Amersfoort",
@@ -317,7 +623,16 @@
 			"tweets": 35,
 			"followers": 53,
 			"friends": 18
-		}
+		},
+		"facebook": {
+			"id": "134144006628876",
+			"likes": 402,
+			"talking_about_count": 8,
+			"checkings": 47,
+			"website": "www.rafaelamersfoort.nl",
+			"were_here_count": 657
+		},
+		"website": "www.rafaelamersfoort.nl"
 	},
 	{
 		"name": "Koepelkerk Arnhem",
@@ -327,12 +642,28 @@
 			"tweets": 1,
 			"followers": 37,
 			"friends": 2
-		}
+		},
+		"facebook": {
+			"id": "294522140639079",
+			"likes": 200,
+			"talking_about_count": 3,
+			"website": "www.koepelkerk-arnhem.nl"
+		},
+		"website": "www.koepelkerk-arnhem.nl"
 	},
 	{
 		"name": "Pinkstergemeente Agapé",
 		"facebook_url": "https://www.facebook.com/agapeamsterdam",
-		"twitter_name": ""
+		"twitter_name": "",
+		"facebook": {
+			"id": "373749475739",
+			"likes": 301,
+			"talking_about_count": 5,
+			"checkings": 11,
+			"website": "www.pinkstergemeente-agape.nl",
+			"were_here_count": 467
+		},
+		"website": "www.pinkstergemeente-agape.nl"
 	},
 	{
 		"name": "Doorbrekers",
@@ -342,12 +673,28 @@
 			"tweets": 592,
 			"followers": 1078,
 			"friends": 6
-		}
+		},
+		"facebook": {
+			"id": "138279382864577",
+			"likes": 1770,
+			"talking_about_count": 20,
+			"checkings": 398,
+			"website": "http://www.doorbrekers.nl",
+			"were_here_count": 1219
+		},
+		"website": "http://www.doorbrekers.nl"
 	},
 	{
 		"name": "Westland Netwerk",
 		"facebook_url": "https://www.facebook.com/westlandnetwerk",
-		"twitter_name": ""
+		"twitter_name": "",
+		"facebook": {
+			"id": "141635765905039",
+			"likes": 205,
+			"talking_about_count": 0,
+			"website": "www.westland-netwerk.nl"
+		},
+		"website": "www.westland-netwerk.nl"
 	},
 	{
 		"name": "Vineyard Amsterdam",
@@ -357,7 +704,14 @@
 			"tweets": 400,
 			"followers": 599,
 			"friends": 530
-		}
+		},
+		"facebook": {
+			"id": "128574734098",
+			"likes": 1139,
+			"talking_about_count": 1,
+			"website": "www.VineyardAmsterdam.nl"
+		},
+		"website": "www.VineyardAmsterdam.nl"
 	},
 	{
 		"name": "GKV Gorinchem",
@@ -367,12 +721,30 @@
 			"tweets": 69,
 			"followers": 192,
 			"friends": 15
-		}
+		},
+		"facebook": {
+			"id": "198210630258137",
+			"likes": 71,
+			"talking_about_count": 2,
+			"checkings": 2,
+			"website": "http://gorinchem.gkv.nl/",
+			"were_here_count": 41
+		},
+		"website": "http://gorinchem.gkv.nl/"
 	},
 	{
 		"name": "Kerk van de Nazarener - Amersfoort",
 		"facebook_url": "https://www.facebook.com/pages/Kerk-van-de-Nazarener-Amersfoort/122890037726628",
-		"twitter_name": ""
+		"twitter_name": "",
+		"facebook": {
+			"id": "122890037726628",
+			"likes": 143,
+			"talking_about_count": 0,
+			"checkings": 4,
+			"website": "http://www.amersfoort.nazarener.nl/",
+			"were_here_count": 14
+		},
+		"website": "http://www.amersfoort.nazarener.nl/"
 	},
 	{
 		"name": "COME Zelhem",
@@ -382,7 +754,14 @@
 			"tweets": 371,
 			"followers": 68,
 			"friends": 79
-		}
+		},
+		"facebook": {
+			"id": "201342416544981",
+			"likes": 90,
+			"talking_about_count": 0,
+			"website": "http://www.come-zelhem.nl/"
+		},
+		"website": "http://www.come-zelhem.nl/"
 	},
 	{
 		"name": "Morgenstond Delft",

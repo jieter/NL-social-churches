@@ -2,23 +2,27 @@ var fs = require('fs');
 var async = require('async');
 
 var twitter = require('./apis/twitter.js');
-
+var facebook = require('./apis/facebook.js');
 
 var path = __dirname + '/';
 
+var skipTwitter = false;
+var skipFacebook = false;
+
 var churches = JSON.parse(fs.readFileSync(path + 'nl-churches.json'));
 
-async.map(churches, function (item, callback) {
-	console.log(item);
+var twitterCount = 0;
+var facebookCount = 0;
 
-	if (false || item['twitter_name'] !== '') {
+async.map(churches, function addTwitterMetrics(item, callback) {
+	if (!skipTwitter && item['twitter_name'] && item['twitter_name'] !== '') {
 		twitter(item['twitter_name'].substr(1), function (err, reply) {
 			item['twitter'] = reply;
-			console.log(err, reply);
+
+			twitterCount++;
 			callback(err, item);
 		});
 	} else {
-
 		callback(null, item);
 	}
 }, function (err, result) {
@@ -28,10 +32,21 @@ async.map(churches, function (item, callback) {
 	}
 
 	// add facebook metrics
-	async.map(result, function (item, callback) {
-		console.log('TODO: check Facebook stuff');
+	async.map(result, function addFacebookMetrics(item, callback) {
+		if (!skipFacebook && item['facebook_url'] && item['facebook_url'] !== '') {
+			facebook(item['facebook_url'], function (err, reply) {
+				item['facebook'] = reply;
 
-		callback(null, item);
+				if (item['facebook']['website'] !== '' && !item['website']) {
+					item['website'] = item['facebook']['website'];
+				}
+
+				facebookCount++;
+				callback(err, item);
+			});
+		} else {
+			callback(null, item);
+		}
 	}, function (err, result) {
 		if (err) {
 			console.error(err);
@@ -39,6 +54,8 @@ async.map(churches, function (item, callback) {
 		}
 
 		fs.writeFileSync(path + 'nl-churches-with-metrics.json', JSON.stringify(result, null, '\t'));
-		console.log(JSON.stringify(result));
+
+		console.log('Wrote %d churches, %d with twitter metrics, %d with facebook metrics',
+			result.length, twitterCount, facebookCount);
 	});
 });
