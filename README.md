@@ -5,6 +5,17 @@ In `nl-churches-with-metrics` vind je diezelfde lijst, maar nu met onderandere h
 
 Naar idee en vraag van <a href="https://twitter.com/creatov">@creatov</a>: http://www.creatov.nl/kerken-op-sociale-media/
 
+## Kerken toevoegen
+
+Maak voor elke kerk een nieuwe record aan in nl-churches.json
+```
+{
+	"name": "Naam van de kerk",
+	"facebook_url": "https://www.facebook.com/...",
+	"twitter"_name": "@...",
+	"website": "http://..."
+}
+
 ## Metrics updaten.
 
 Allereerst heb je [Node.js](http://nodejs.org/) nodig.
