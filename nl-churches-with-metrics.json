@@ -1,0 +1,407 @@
+[
+	{
+		"name": "Kerk van de Nazarener Vlaardingen",
+		"facebook_url": "https://www.facebook.com/KerkvandeNazarenerVlaardingen",
+		"twitter_name": "@kvdnvlaardingen",
+		"twitter": {
+			"tweets": 152,
+			"followers": 122,
+			"friends": 120
+		}
+	},
+	{
+		"name": "Victory Outreach Rotterdam",
+		"facebook_url": "https://www.facebook.com/VORotterdam",
+		"twitter_name": "@VORotterdam",
+		"twitter": {
+			"tweets": 449,
+			"followers": 366,
+			"friends": 28
+		}
+	},
+	{
+		"name": "BethEl Hoogeveen",
+		"facebook_url": "https://www.facebook.com/BethElHoogeveen",
+		"twitter_name": "@bethelhgv",
+		"twitter": {
+			"tweets": 3065,
+			"followers": 139,
+			"friends": 107
+		}
+	},
+	{
+		"name": "re:connect",
+		"facebook_url": "https://www.facebook.com/reconnectnl",
+		"twitter_name": "@reconnectnl",
+		"twitter": {
+			"tweets": 48,
+			"followers": 39,
+			"friends": 8
+		}
+	},
+	{
+		"name": "Vrije Evangelisatie Zwolle",
+		"facebook_url": "https://www.facebook.com/VEZwolle",
+		"twitter_name": "@VEZwolle",
+		"twitter": {
+			"tweets": 570,
+			"followers": 677,
+			"friends": 127
+		}
+	},
+	{
+		"name": "Paaskerk Oss",
+		"facebook_url": "https://www.facebook.com/PaaskerkOss",
+		"twitter_name": "@Paaskerk_Oss",
+		"twitter": {
+			"tweets": 1372,
+			"followers": 71,
+			"friends": 141
+		}
+	},
+	{
+		"name": "Ontmoetingskerk Pijnacker",
+		"facebook_url": "https://www.facebook.com/OntmoetingskerkPijnacker",
+		"twitter_name": ""
+	},
+	{
+		"name": "Vrije Baptistengemeente Bethel",
+		"facebook_url": "https://www.facebook.com/vbgbethel",
+		"twitter_name": "@Bethel",
+		"twitter": {
+			"tweets": 1165,
+			"followers": 1193,
+			"friends": 40
+		}
+	},
+	{
+		"name": "Christengemeente De Wingerd",
+		"facebook_url": "https://www.facebook.com/cgdewingerd",
+		"twitter_name": "@cgdewingerd",
+		"twitter": {
+			"tweets": 736,
+			"followers": 67,
+			"friends": 35
+		}
+	},
+	{
+		"name": "Kruiskerk-gemeente",
+		"facebook_url": "https://www.facebook.com/Kruiskerkinfo",
+		"twitter_name": "@Kruiskerkinfo",
+		"twitter": {
+			"tweets": 952,
+			"followers": 150,
+			"friends": 17
+		}
+	},
+	{
+		"name": "Jong en Vrij",
+		"facebook_url": "https://www.facebook.com/jongenvrijnl",
+		"twitter_name": "@jongenvrij",
+		"twitter": {
+			"tweets": 1433,
+			"followers": 607,
+			"friends": 42
+		}
+	},
+	{
+		"name": "Koningskerk Rotterdam",
+		"facebook_url": "https://www.facebook.com/koningskerk",
+		"twitter_name": "@KoningskerkRdam",
+		"twitter": {
+			"tweets": 334,
+			"followers": 117,
+			"friends": 68
+		}
+	},
+	{
+		"name": "Christengemeente Maaseik",
+		"facebook_url": "https://www.facebook.com/cgmaaseik",
+		"twitter_name": ""
+	},
+	{
+		"name": "Ontmoetingskerk Vriezenveen",
+		"facebook_url": "https://www.facebook.com/OntmoetingskerkVriezenveen",
+		"twitter_name": "@JDCOntmoetKerk",
+		"twitter": {
+			"tweets": 141,
+			"followers": 63,
+			"friends": 68
+		}
+	},
+	{
+		"name": "Christengemeente Hardinxveld-Giessendam",
+		"facebook_url": "https://www.facebook.com/ChristengemeenteHardinxveldGiessendam",
+		"twitter_name": "@ChrGemHveldGdam",
+		"twitter": {
+			"tweets": 186,
+			"followers": 46,
+			"friends": 4
+		}
+	},
+	{
+		"name": "Mijn Kerk",
+		"facebook_url": "https://www.facebook.com/Mijnkerk",
+		"twitter_name": "@mijnkerkNL",
+		"twitter": {
+			"tweets": 500,
+			"followers": 1031,
+			"friends": 1174
+		}
+	},
+	{
+		"name": "Gereformeerde kerk Enter",
+		"facebook_url": "https://www.facebook.com/gkenter",
+		"twitter_name": "@kerkenter",
+		"twitter": {
+			"tweets": 104,
+			"followers": 160,
+			"friends": 72
+		}
+	},
+	{
+		"name": "Koptisch Orthodoxe kerk Eindhoven",
+		"facebook_url": "https://www.facebook.com/KoptischOrthodoxeKerkEindhoven",
+		"twitter_name": ""
+	},
+	{
+		"name": "LEEF! Doetinchem",
+		"facebook_url": "https://www.facebook.com/LeefDoetinchem",
+		"twitter_name": "@LEEFDoetinchem",
+		"twitter": {
+			"tweets": 4,
+			"followers": 3,
+			"friends": 8
+		}
+	},
+	{
+		"name": "Kerk van de Nazarener Haarlem",
+		"facebook_url": "https://www.facebook.com/NazarenerHlem",
+		"twitter_name": "@NazarenerHlem",
+		"twitter": {
+			"tweets": 168,
+			"followers": 64,
+			"friends": 0
+		}
+	},
+	{
+		"name": "Hervormd Vriezenveen",
+		"facebook_url": "https://www.facebook.com/hervormd",
+		"twitter_name": ""
+	},
+	{
+		"name": "Hillsong Amsterdam",
+		"facebook_url": "https://www.facebook.com/HillsongAmsterdam",
+		"twitter_name": "@hillsongams",
+		"twitter": {
+			"tweets": 222,
+			"followers": 3998,
+			"friends": 15
+		}
+	},
+	{
+		"name": "Crossroads Amsterdam",
+		"facebook_url": "https://www.facebook.com/crossroadsamsterdam",
+		"twitter_name": "@xrdsamsterdam",
+		"twitter": {
+			"tweets": 516,
+			"followers": 445,
+			"friends": 12
+		}
+	},
+	{
+		"name": "De Maagd Maria Kerk Amsterdam",
+		"facebook_url": "https://www.facebook.com/mariakerk",
+		"twitter_name": ""
+	},
+	{
+		"name": "City Life Church Den Haag",
+		"facebook_url": "https://www.facebook.com/clcdenhaag",
+		"twitter_name": "@CLCDenHaag",
+		"twitter": {
+			"tweets": 1535,
+			"followers": 811,
+			"friends": 177
+		}
+	},
+	{
+		"name": "Evangelische Kerk Jefta",
+		"facebook_url": "https://www.facebook.com/evangelischekerkjefta",
+		"twitter_name": ""
+	},
+	{
+		"name": "Christ Worship Centre",
+		"facebook_url": "https://www.facebook.com/pages/Christ-Worship-Centre/143016309096549",
+		"twitter_name": ""
+	},
+	{
+		"name": "Thousand Hills",
+		"facebook_url": "https://www.facebook.com/thousandhills",
+		"twitter_name": "@thousand_hills",
+		"twitter": {
+			"tweets": 1106,
+			"followers": 251,
+			"friends": 342
+		}
+	},
+	{
+		"name": "New Life Rotterdam - kerk",
+		"facebook_url": "https://www.facebook.com/newlife010",
+		"twitter_name": "@newlife010",
+		"twitter": {
+			"tweets": 613,
+			"followers": 159,
+			"friends": 206
+		}
+	},
+	{
+		"name": "Vrije Baptistengemeente Groningen",
+		"facebook_url": "https://www.facebook.com/vbgroningen",
+		"twitter_name": "@VBGroningen",
+		"twitter": {
+			"tweets": 857,
+			"followers": 566,
+			"friends": 37
+		}
+	},
+	{
+		"name": "Christelijke gereformeerde kerk Zwolle",
+		"facebook_url": "https://www.facebook.com/CGKZwolle",
+		"twitter_name": "@CGKZwolle",
+		"twitter": {
+			"tweets": 714,
+			"followers": 787,
+			"friends": 125
+		}
+	},
+	{
+		"name": "Hervormd Barneveld",
+		"facebook_url": "https://www.facebook.com/HervormdBarneveld",
+		"twitter_name": ""
+	},
+	{
+		"name": "VEG Oldebroek",
+		"facebook_url": "https://www.facebook.com/vegoldebroek",
+		"twitter_name": ""
+	},
+	{
+		"name": "Baptistengemeente Katwijk",
+		"facebook_url": "https://www.facebook.com/BaptistengemeenteKatwijk",
+		"twitter_name": "@BaptistKatwijk",
+		"twitter": {
+			"tweets": 177,
+			"followers": 130,
+			"friends": 0
+		}
+	},
+	{
+		"name": "Christengemeente Lachai-Roï",
+		"facebook_url": "https://www.facebook.com/CGLachaiRoi",
+		"twitter_name": "@CGLachaiRoi",
+		"twitter": {
+			"tweets": 88,
+			"followers": 27,
+			"friends": 95
+		}
+	},
+	{
+		"name": "NGK Doetinchem Velp",
+		"facebook_url": "https://www.facebook.com/pages/NGK-Doetinchem-Velp/232334370125233",
+		"twitter_name": ""
+	},
+	{
+		"name": "Rafael Amersfoort",
+		"facebook_url": "https://www.facebook.com/rafaelamersfoort",
+		"twitter_name": "@rafaelafoort",
+		"twitter": {
+			"tweets": 35,
+			"followers": 53,
+			"friends": 18
+		}
+	},
+	{
+		"name": "Koepelkerk Arnhem",
+		"facebook_url": "https://www.facebook.com/koepelkerkarnhem",
+		"twitter_name": "@KoepelkerkArnh",
+		"twitter": {
+			"tweets": 1,
+			"followers": 37,
+			"friends": 2
+		}
+	},
+	{
+		"name": "Pinkstergemeente Agapé",
+		"facebook_url": "https://www.facebook.com/agapeamsterdam",
+		"twitter_name": ""
+	},
+	{
+		"name": "Doorbrekers",
+		"facebook_url": "https://www.facebook.com/DoorBrekers",
+		"twitter_name": "@DoorBrekers",
+		"twitter": {
+			"tweets": 592,
+			"followers": 1078,
+			"friends": 6
+		}
+	},
+	{
+		"name": "Westland Netwerk",
+		"facebook_url": "https://www.facebook.com/westlandnetwerk",
+		"twitter_name": ""
+	},
+	{
+		"name": "Vineyard Amsterdam",
+		"facebook_url": "https://www.facebook.com/pages/Vineyard-Amsterdam/128574734098",
+		"twitter_name": "@VineyardA_dam",
+		"twitter": {
+			"tweets": 400,
+			"followers": 599,
+			"friends": 530
+		}
+	},
+	{
+		"name": "GKV Gorinchem",
+		"facebook_url": "https://www.facebook.com/GKvGorinchem",
+		"twitter_name": "@gkvgorinchem",
+		"twitter": {
+			"tweets": 69,
+			"followers": 192,
+			"friends": 15
+		}
+	},
+	{
+		"name": "Kerk van de Nazarener - Amersfoort",
+		"facebook_url": "https://www.facebook.com/pages/Kerk-van-de-Nazarener-Amersfoort/122890037726628",
+		"twitter_name": ""
+	},
+	{
+		"name": "COME Zelhem",
+		"facebook_url": "https://www.facebook.com/comezelhem",
+		"twitter_name": "@comezelhem",
+		"twitter": {
+			"tweets": 371,
+			"followers": 68,
+			"friends": 79
+		}
+	},
+	{
+		"name": "Morgenstond Delft",
+		"facebook_url": "",
+		"twitter_name": "@egmdelft",
+		"twitter": {
+			"tweets": 247,
+			"followers": 104,
+			"friends": 110
+		}
+	},
+	{
+		"name": "Noordlicht Wezep",
+		"facebook_url": "",
+		"twitter_name": "@gkvwezep",
+		"twitter": {
+			"tweets": 256,
+			"followers": 62,
+			"friends": 5
+		}
+	}
+]
