@@ -233,5 +233,23 @@
 		"name": "Noordlicht Wezep",
 		"facebook_url": "",
 		"twitter_name": "@gkvwezep"
+	},
+	{
+		"name": "Binnenstad-Vrijenban (Hervormd Delft)",
+		"facebook_url": "https://www.facebook.com/pages/Binnenstad-Vrijenban/395309503836943",
+		"twitter_name": "",
+		"website": "http://www.binnenstad-vrijenban.nl"
+	},
+	{
+		"name": "Levend Water Delft",
+		"facebook_url": "https://www.facebook.com/pages/Levend-Water-Delft-ENGnl/279322932115695",
+		"twitter_name": "@levendwaterNL",
+		"website": "http://www.levendwater.nl/"
+	},
+	{
+		"name": "Gereformeerde kerk vrijgemaakt Delft",
+		"facebook_url": "",
+		"twitter_name": "",
+		"website": "http://www.gkvdelft.nl/"
 	}
 ]

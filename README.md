@@ -1,8 +1,9 @@
 # Hoe sociaal zijn kerken in Nederland?
 
-
-Zie `nl-churches.json` voor de lijst met kerken, twitter-screennames en facebook-pagina's.
+Zie `nl-churches.json` voor de lijst met kerknamen, twitter-screennames en facebook-pagina's.
 In `nl-churches-with-metrics` vind je diezelfde lijst, maar nu met onderandere het aantal volgers, tweets, likes.
+
+Naar idee en vraag van <a href="https://twitter.com/creatov">@creatov</a>: http://www.creatov.nl/kerken-op-sociale-media/
 
 ## Metrics updaten.
 
@@ -31,3 +32,5 @@ node index.js
 ```
 
 Als je geen foutmelding krijgt zijn twitter/facebook-metrics geüpdateted.
+
+Twitter limiteert het aantal aanvragen tot 180 per 15 minuten.
