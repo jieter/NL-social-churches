@@ -10,15 +10,12 @@
 	<link href="assets/theme.bootstrap.css" rel="stylesheet">
 
 	<style>
-		.container {
-			max-width: 8000px;
-		}
 
 		#churches td {
 			line-height: 20px;
 			text-align: middle;
 		}
-		.facebook_likes, .twitter_tweets, .twitter_followers {
+		.facebook_likes, .facebook_checkins, .twitter_tweets, .twitter_followers {
 			text-align: right;
 		}
 	</style>
@@ -33,7 +30,9 @@
 
 <div class="container">
 	<h2>Hoe sociaal zijn de kerken in Nederland?</h2>
-	<a href="http://www.creatov.nl/kerken-op-sociale-media/">Creatov over 'Kerken op Sociale Media'</a>
+	<p>
+		<a href="http://www.creatov.nl/kerken-op-sociale-media/">Creatov over 'Kerken op Sociale Media'</a>
+	</p>
 
 	<table class="table table-striped" id="churches">
 		<thead>
@@ -41,6 +40,7 @@
 			<th>Website</th>
 			<th>Facebook</th>
 			<th title="Facebook likes" class="facebook_likes">Likes</th>
+			<th title="Facebook likes" class="facebook_checkins">Checkins</th>
 			<th>Twitter</th>
 			<th>Tweets</th>
 			<th>Volgers</th>
@@ -63,30 +63,47 @@
 			list.forEach(function (item) {
 				tr = $('<tr></tr>');
 
-				tr.append('<td>' + item['name'] + '</td>');
+				var td = function (value, cssClass) {
+					if (value === undefined) {
+						value = '';
+					}
+					var ret = $('<td>' + value + '</td>');
+					if (cssClass) {
+						ret.addClass(cssClass);
+					}
+					return ret.appendTo(tr);
+				};
+
+				td(item['name']);
+
 				if (item['website']) {
-					tr.append('<td><a href="' + item['website'] + '">' + item['website'] + '</a></td>');
+					td('<a href="' + item['website'] + '">' + item['website'] + '</a>', 'website');
 				} else {
-					tr.append('<td></td>');
+					td();
 				}
 
-				if (item['facebook_url'] && item['facebook_url'] !== '' && item['facebook']['likes'] !== undefined) {
+				if (item['facebook_url'] && item['facebook_url'] !== '') {
 					facebook = item['facebook'];
 
-					tr.append('<td class="facebook"><a href="' + item['facebook_url'] + '"><i class="fa fa-facebook-square fa-2x"></i></td>');
-					tr.append('<td class="facebook_likes">' + facebook['likes'] + '</td>');
+					td('<a href="' + item['facebook_url'] + '"><i class="fa fa-facebook-square fa-2x"></i>', 'facebook');
+
+					td(facebook['likes'], 'facebook_likes');
+					td(facebook['checkins'], 'facebook_checkins');
+
 				} else {
-					tr.append('<td colspan="2"></td>');
+					td('-', 'no-facebook').attr('colspan', 3);
 				}
 
 				if (item['twitter_name'] && item['twitter_name'] !== '') {
 					twitter = item['twitter'];
 
-					tr.append('<td class="twitter"><a href="https://twitter.com/' + item['twitter_name'].substr(1) + '">' + item['twitter_name'] + '</a></td>');
-					tr.append('<td class="twitter_tweets">' + twitter['tweets'] + '</td>');
-					tr.append('<td class="twitter_followers">' + twitter['followers'] + '</td>');
+					td('<a href="https://twitter.com/' + item['twitter_name'].substr(1) + '">' + item['twitter_name'] + '</a>')
+						.addClass('twitter');
+
+					td(twitter['tweets'], 'twitter_tweets');
+					td(twitter['followers'], 'twitter_followers');
 				} else {
-					tr.append('<td colspan="3"></td>');
+					td('-', 'no-twitter').attr('colspan', 3);
 				}
 
 				table.append(tr);
