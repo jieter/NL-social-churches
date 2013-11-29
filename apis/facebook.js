@@ -1,9 +1,11 @@
 var request = require('request');
 
 function facebookMetrics (url, callback) {
-	var parts = url.split('/');
 	var graphUrl = 'http://graph.facebook.com/';
 
+	var parts = url.split('/').filter(function (item) {
+		return item !== '';
+	});
 	graphUrl += parts[parts.length - 1];
 
 	request({
@@ -15,10 +17,11 @@ function facebookMetrics (url, callback) {
 		}
 
 		var data = {
+			graphUrl: graphUrl,
 			id: body['id'],
 			likes: body['likes'],
 			talking_about_count: body['talking_about_count'],
-			checkings: body['checkins']
+			checkins: body['checkins']
 		};
 
 		if (body['website']) {
@@ -42,7 +45,7 @@ module.exports = facebookMetrics;
 
 if (require.main === module) {
 	// testing it.
-	var urls = 'https://www.facebook.com/DoorBrekers,https://www.facebook.com/westlandnetwerk,https://www.facebook.com/pages/Vineyard-Amsterdam/128574734098,https://www.facebook.com/GKvGorinchem,https://www.facebook.com/pages/Kerk-van-de-Nazarener-Amersfoort/122890037726628,https://www.facebook.com/comezelhem'.split(',');
+	var urls = 'https://www.facebook.com/DoorBrekers,https://www.facebook.com/pages/Vineyard-Amsterdam/128574734098,https://www.facebook.com/GKvGorinchem,https://www.facebook.com/pages/Kerk-van-de-Nazarener-Amersfoort/122890037726628,https://www.facebook.com/comezelhem,https://www.facebook.com/groups/148502305195044/'.split(',');
 
 
 	urls.forEach(function (item) {
