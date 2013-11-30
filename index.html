@@ -12,7 +12,7 @@
 	<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7/leaflet.css" />
 
 	<style>
-		.tab-content {
+		#list {
 			margin-top: 20px;
 		}
 		#churches td {
@@ -38,11 +38,12 @@
 <body>
 
 <div class="container">
-	<h1>Hoe sociaal zijn de kerken in Nederland?</h1>
-
-	<p>
-		<a href="http://www.creatov.nl/kerken-op-sociale-media/">Creatov over 'Kerken op Sociale Media'</a>
-	</p>
+	<h1>
+		Hoe sociaal zijn de kerken in Nederland?
+		<small>
+			<a href="http://www.creatov.nl/kerken-op-sociale-media/">Creatov over 'Kerken op Sociale Media'</a>
+		</small>
+	</h1>
 
 	<ul class="nav nav-tabs">
 		<li class="active"><a href="#list" data-toggle="tab">Overzicht</a></li>
@@ -80,7 +81,7 @@
 
 	<script>
 		var tr, facebook;
-		var map = L.map('mapContainer').setView([52, 5], 8);
+		var map = L.map('mapContainer').setView([52.5, 5], 8);
 
 		// navigation
 		$('a[data-toggle="tab"').click(function (e) {

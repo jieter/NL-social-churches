@@ -91,7 +91,7 @@
 		"facebook_url": "https://www.facebook.com/reconnectnl",
 		"twitter_name": "@reconnectnl",
 		"twitter": {
-			"statuses_count": 50,
+			"statuses_count": 53,
 			"followers_count": 40,
 			"friends_count": 8
 		},
@@ -117,7 +117,7 @@
 		"twitter_name": "@VEZwolle",
 		"twitter": {
 			"statuses_count": 574,
-			"followers_count": 678,
+			"followers_count": 679,
 			"friends_count": 127
 		},
 		"facebook": {
@@ -204,7 +204,7 @@
 		"facebook": {
 			"graphUrl": "http://graph.facebook.com/vbgbethel",
 			"id": "293286710927",
-			"likes": 1145,
+			"likes": 1146,
 			"talking_about_count": 209,
 			"were_here_count": 1114,
 			"checkins": 132,
@@ -291,7 +291,7 @@
 		"facebook": {
 			"graphUrl": "http://graph.facebook.com/jongenvrijnl",
 			"id": "113240012075632",
-			"likes": 1120,
+			"likes": 1121,
 			"talking_about_count": 245,
 			"website": "http://www.jongenvrij.nl"
 		},
@@ -553,7 +553,7 @@
 		"facebook": {
 			"graphUrl": "http://graph.facebook.com/HillsongAmsterdam",
 			"id": "106632822794682",
-			"likes": 2928,
+			"likes": 2929,
 			"talking_about_count": 131,
 			"location": {
 				"street": "Oostelijke Handelskade 4",
@@ -708,9 +708,9 @@
 		"facebook": {
 			"graphUrl": "http://graph.facebook.com/thousandhills",
 			"id": "88656582656",
-			"likes": 1220,
+			"likes": 1221,
 			"talking_about_count": 47,
-			"were_here_count": 1012,
+			"were_here_count": 1013,
 			"checkins": 126,
 			"location": {
 				"street": "Neuweg 148",

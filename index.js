@@ -10,7 +10,6 @@ var async = require('async');
 var twitter = require('./apis/twitter.js');
 var facebook = require('./apis/facebook.js');
 
-
 var skipTwitter = false;
 var skipFacebook = false;
 
@@ -64,10 +63,18 @@ function addFacebookMetrics(list, callback) {
 }
 
 var path = __dirname + '/data/';
+var srcFilename = path + 'nl-churches.json';
+var dstFilename = path + 'nl-churches-with-metrics.json';
 
 async.waterfall([
 	function loadChurches(callback) {
-		callback(null, JSON.parse(fs.readFileSync(path + 'nl-churches.json')));
+		var src = dstFilename;
+
+		// do update normally, but total reload if requested.
+		if (process.argv[1] && process.argv[1] === 'reload') {
+			src = srcFilename;
+		}
+		callback(null, JSON.parse(fs.readFileSync(src)));
 	},
 	addTwitterMetrics,
 	addFacebookMetrics,
@@ -78,8 +85,11 @@ async.waterfall([
 		return;
 	}
 
+	// save the caches.
+	facebook.saveCache();
+	twitter.saveCache();
+
 	var jsonString = JSON.stringify(result, null, '\t');
-	var dstFilename = path + 'nl-churches-with-metrics.json';
 	fs.writeFileSync(dstFilename, jsonString);
 
 	console.log('Wrote %d churches to %s:', result.length, dstFilename);

@@ -4,7 +4,29 @@
  *
  * Jan Pieter Waagmeester <jieter@jieter.nl>
  */
+
 var request = require('request');
+
+var cache = require('./cache.js')('__facebook-cache.json');
+
+function graphRequest(graphUrl, callback) {
+	if (cache.has(graphUrl)) {
+		callback(null, cache.get(graphUrl));
+	} else {
+		request({
+			url: graphUrl,
+			json: true
+		}, function (err, response, body) {
+			if (err && response.statusCode !== 200) {
+				callback(err);
+			} else {
+				cache.put(graphUrl, body);
+				callback(null, body);
+			}
+		});
+	}
+}
+
 
 function facebookMetrics (url, callback) {
 	var parts = url.split('/').filter(function (item) {
@@ -13,12 +35,9 @@ function facebookMetrics (url, callback) {
 
 	var graphUrl = 'http://graph.facebook.com/' + parts[parts.length - 1];
 
-	request({
-		url: graphUrl,
-		json: true
-	}, function (err, response, body) {
-		if (err && response.statusCode !== 200) {
-			callback(err);
+	graphRequest(graphUrl, function (err, result) {
+		if (err) {
+			return callback(err);
 		}
 
 		var data = {
@@ -33,18 +52,18 @@ function facebookMetrics (url, callback) {
 			'checkins',
 			'location'
 		].forEach(function (key) {
-			if (body[key]) {
-				data[key] = body[key];
+			if (result[key]) {
+				data[key] = result[key];
 			}
 		});
 
-		if (body['website']) {
-			if (body['website'].indexOf('http://') !== 0) {
-				var websiteParts = body['website'].split(' ')[0];
+		if (result['website']) {
+			if (result['website'].indexOf('http://') !== 0) {
+				var websiteParts = result['website'].split(' ')[0];
 				// TODO fix blunt assumption here
-				body['website'] = 'http://' + body['website'].split(' ')[0];
+				result['website'] = 'http://' + result['website'].split(' ')[0];
 			}
-			data.website = body['website'];
+			data.website = result['website'];
 		}
 
 		callback(null, data);
@@ -52,6 +71,13 @@ function facebookMetrics (url, callback) {
 }
 
 module.exports = facebookMetrics;
+
+module.exports.saveCache = function () {
+	cache.save();
+};
+module.exports.clearCache = function () {
+	cache.clear();
+};
 
 // Simple testing...
 if (require.main === module) {

@@ -7,23 +7,23 @@
 var Twit = require('twit');
 var T = new Twit(require('./twitter-api-auth.js'));
 
-var cache = {};
+var cache = require('./cache.js')('__facebook-cache.json');
 
 function twitterUser(name, callback) {
-	if (cache[name]) {
-		callback(null, cache[name]);
+	if (cache.has(name)) {
+		callback(null, cache.get(name));
 	}
 	T.get('users/show', { screen_name: name },  function (err, reply) {
 		if (err) {
 			callback(err);
 			return;
 		}
-		cache[name] = reply;
+		cache.put(name, reply);
 		callback(null, reply);
 	});
 }
 
-module.exports = function (name, callback) {
+function twitterMetrics(name, callback) {
 	twitterUser(name, function (err, reply) {
 		if (err) {
 			return callback(err);
@@ -44,3 +44,13 @@ module.exports = function (name, callback) {
 		callback(null, data);
 	});
 };
+
+module.exports.saveCache = function () {
+	cache.save();
+};
+module.exports.clearCache = function () {
+	cache.clear();
+};
+
+
+module.exports = twitterMetrics;
