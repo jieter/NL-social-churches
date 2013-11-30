@@ -9,7 +9,7 @@ var fs = require('fs');
 function Cache (filename) {
 
 	this.filename = filename;
-	this._cache = fs.exists(filename) ? JSON.parse(fs.readFileSync(filename)) : {};
+	this._cache = fs.existsSync(filename) ? JSON.parse(fs.readFileSync(filename)) : {};
 
 	this.put = function (key, obj) {
 		this._cache[key] = obj;
@@ -20,7 +20,7 @@ function Cache (filename) {
 	};
 
 	this.has = function (key) {
-		return key in this._cache;
+		return this._cache[key] !== undefined;
 	};
 
 	this.get = function (key) {
@@ -29,7 +29,7 @@ function Cache (filename) {
 
 	this.save = function () {
 		fs.writeFileSync(this.filename, JSON.stringify(this._cache));
-	}
+	};
 }
 
 module.exports = function (filename) {

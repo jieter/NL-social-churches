@@ -19,7 +19,7 @@
 			line-height: 20px;
 			text-align: middle;
 		}
-		.facebook_likes, .facebook_checkins, .twitter_tweets, .twitter_followers {
+		.facebook_likes, .facebook_checkins, .twitter_tweets, .twitter_followers, .facebook_talking_about {
 			text-align: right;
 		}
 
@@ -67,7 +67,8 @@
 					<th>Website</th>
 					<th>Facebook</th>
 					<th title="Facebook likes" class="facebook_likes">Likes</th>
-					<th title="Facebook likes" class="facebook_checkins">Checkins</th>
+					<th title="Talking about this" class="facebook_talking_about">Interacties</th>
+					<th title="Facebook checkins" class="facebook_checkins">Checkins</th>
 					<th>Twitter</th>
 					<th>Tweets</th>
 					<th>Volgers</th>
@@ -119,7 +120,7 @@
 			return link(url, '<i class="fa fa-facebook-square fa-2x"></i>');
 		};
 		var twitterLink = function (name) {
-			return link('https://twitter.com/' + name.substr(1), '<i class="fa fa-twitter fa-2x"></i> ' + name);
+			return link('https://twitter.com/' + name.substr(1), '<i class="fa fa-twitter fa-2x"></i>' + name);
 		};
 
 		$.getJSON('data/nl-churches-with-metrics.json', function (list) {
@@ -152,10 +153,11 @@
 
 					if (facebook['likes']) {
 						td(facebook['likes'], 'facebook_likes');
+						td(facebook['talking_about_count'], 'facebook_talking_about');
 						td(facebook['checkins'], 'facebook_checkins');
 					} else {
 						// TODO add more precise remark
-						td('Gesloten groep').attr('colspan', 2);
+						td('Gesloten groep').attr('colspan', 3);
 					}
 
 					if (facebook['location'] && facebook['location']['latitude']) {
@@ -179,7 +181,7 @@
 					}
 
 				} else {
-					td('-', 'no-facebook').attr('colspan', 3);
+					td('-', 'no-facebook').attr('colspan', 4);
 				}
 
 				if (item['twitter_name'] && item['twitter_name'] !== '') {

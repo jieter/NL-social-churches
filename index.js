@@ -71,9 +71,10 @@ async.waterfall([
 		var src = dstFilename;
 
 		// do update normally, but total reload if requested.
-		if (process.argv[1] && process.argv[1] === 'reload') {
+		if (process.argv[2] && process.argv[2] === 'reload') {
 			src = srcFilename;
 		}
+		console.log('Load churches from ' + src);
 		callback(null, JSON.parse(fs.readFileSync(src)));
 	},
 	addTwitterMetrics,

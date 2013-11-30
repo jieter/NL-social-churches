@@ -11,7 +11,7 @@ var cache = require('./cache.js')('__twitter-cache.json');
 
 function twitterUser(name, callback) {
 	if (cache.has(name)) {
-		callback(null, cache.get(name));
+		return callback(null, cache.get(name));
 	}
 	T.get('users/show', { screen_name: name },  function (err, reply) {
 		if (err) {
