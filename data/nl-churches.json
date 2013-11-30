@@ -283,5 +283,17 @@
 		"facebook_url": "https://www.facebook.com/marcuskerk",
 		"twitter_name": "@Marcuskerk",
 		"website": "http://www.marcuskerk-denhaag.nl/"
+	},
+	{
+		"name": "Protestantse Gemeente Leidschendam",
+		"facebook_url": "https://www.facebook.com/pages/Protestantse-Gemeente-Leidschendam/164100007084804",
+		"twitter_name": "@Leidraad_",
+		"website": "http://www.pgleidschendam.nl/"
+	},
+	{
+		"name": "Evangelisch-Lutherse Kerk Haarlem",
+		"facebook_url": "https://www.facebook.com/luthersekerkhaarlem",
+		"twitter_name": "@ELGHaarlem",
+		"website": "http://www.luthersekerkhaarlem.nl/"
 	}
 ]

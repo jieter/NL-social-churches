@@ -40,9 +40,13 @@ npm install
 en kan je de boel updaten met
 
 ```
-node index.js
+$ node index.js
+Load churches from [...]/NL-social-church/data/nl-churches.json
+Wrote 57 churches to [...]/NL-social-church/data/nl-churches-with-metrics.json:
+      41 with Twitter metrics,
+      54 with Facebook metrics
 ```
 
-Als je geen foutmelding krijgt zijn twitter/facebook-metrics geüpdateted.
+Met `node index.js reload` wordt naar nieuwe kerkenin `nl-churches.json` gekeken.
 
 Twitter limiteert het aantal aanvragen tot 180 per 15 minuten.

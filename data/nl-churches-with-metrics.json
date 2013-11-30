@@ -1325,5 +1325,37 @@
 			},
 			"website": "http://www.marcuskerk-denhaag.nl"
 		}
+	},
+	{
+		"name": "Protestantse Gemeente Leidschendam",
+		"facebook_url": "https://www.facebook.com/pages/Protestantse-Gemeente-Leidschendam/164100007084804",
+		"twitter_name": "@Leidraad_",
+		"website": "http://www.pgleidschendam.nl/",
+		"twitter": {
+			"statuses_count": 15,
+			"followers_count": 26,
+			"friends_count": 1
+		},
+		"facebook": {
+			"graphUrl": "http://graph.facebook.com/164100007084804"
+		}
+	},
+	{
+		"name": "Evangelisch-Lutherse Kerk Haarlem",
+		"facebook_url": "https://www.facebook.com/luthersekerkhaarlem",
+		"twitter_name": "@ELGHaarlem",
+		"website": "http://www.luthersekerkhaarlem.nl/",
+		"twitter": {
+			"statuses_count": 1775,
+			"followers_count": 362,
+			"friends_count": 299
+		},
+		"facebook": {
+			"graphUrl": "http://graph.facebook.com/luthersekerkhaarlem",
+			"id": "156092701224264",
+			"likes": 17,
+			"talking_about_count": 8,
+			"website": "http://www.luthersekerkhaarlem.nl"
+		}
 	}
 ]
