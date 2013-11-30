@@ -4,18 +4,18 @@
 		"facebook_url": "https://www.facebook.com/KerkvandeNazarenerVlaardingen",
 		"twitter_name": "@kvdnvlaardingen",
 		"twitter": {
-			"tweets": 152,
-			"followers": 122,
-			"friends": 120
+			"statuses_count": 152,
+			"followers_count": 125,
+			"friends_count": 120
 		},
 		"facebook": {
 			"graphUrl": "http://graph.facebook.com/KerkvandeNazarenerVlaardingen",
 			"id": "340107662675701",
-			"likes": 407,
-			"talking_about_count": 151,
+			"likes": 408,
+			"talking_about_count": 167,
+			"were_here_count": 9,
 			"checkins": 3,
-			"website": "http://www.kvdnvlaardingen.nl",
-			"were_here_count": 9
+			"website": "http://www.kvdnvlaardingen.nl"
 		},
 		"website": "http://www.kvdnvlaardingen.nl"
 	},
@@ -24,18 +24,18 @@
 		"facebook_url": "https://www.facebook.com/VORotterdam",
 		"twitter_name": "@VORotterdam",
 		"twitter": {
-			"tweets": 449,
-			"followers": 366,
-			"friends": 28
+			"statuses_count": 454,
+			"followers_count": 369,
+			"friends_count": 29
 		},
 		"facebook": {
 			"graphUrl": "http://graph.facebook.com/VORotterdam",
 			"id": "142866119103429",
-			"likes": 636,
-			"talking_about_count": 191,
+			"likes": 637,
+			"talking_about_count": 186,
+			"were_here_count": 2073,
 			"checkins": 220,
-			"website": "http://www.vorotterdam.nl",
-			"were_here_count": 2072
+			"website": "http://www.vorotterdam.nl"
 		},
 		"website": "http://www.vorotterdam.nl"
 	},
@@ -44,18 +44,18 @@
 		"facebook_url": "https://www.facebook.com/BethElHoogeveen",
 		"twitter_name": "@bethelhgv",
 		"twitter": {
-			"tweets": 3065,
-			"followers": 139,
-			"friends": 107
+			"statuses_count": 3065,
+			"followers_count": 139,
+			"friends_count": 107
 		},
 		"facebook": {
 			"graphUrl": "http://graph.facebook.com/BethElHoogeveen",
 			"id": "136600443152407",
 			"likes": 111,
-			"talking_about_count": 34,
+			"talking_about_count": 35,
+			"were_here_count": 47,
 			"checkins": 1,
-			"website": "http://www.beth-el.nl",
-			"were_here_count": 47
+			"website": "http://www.beth-el.nl"
 		},
 		"website": "http://www.beth-el.nl"
 	},
@@ -64,15 +64,15 @@
 		"facebook_url": "https://www.facebook.com/reconnectnl",
 		"twitter_name": "@reconnectnl",
 		"twitter": {
-			"tweets": 48,
-			"followers": 39,
-			"friends": 8
+			"statuses_count": 50,
+			"followers_count": 40,
+			"friends_count": 8
 		},
 		"facebook": {
 			"graphUrl": "http://graph.facebook.com/reconnectnl",
 			"id": "370576742963306",
-			"likes": 304,
-			"talking_about_count": 98,
+			"likes": 306,
+			"talking_about_count": 121,
 			"website": "http://www.reconnect.cc"
 		},
 		"website": "http://www.reconnect.cc"
@@ -82,18 +82,18 @@
 		"facebook_url": "https://www.facebook.com/VEZwolle",
 		"twitter_name": "@VEZwolle",
 		"twitter": {
-			"tweets": 571,
-			"followers": 678,
-			"friends": 127
+			"statuses_count": 574,
+			"followers_count": 678,
+			"friends_count": 127
 		},
 		"facebook": {
 			"graphUrl": "http://graph.facebook.com/VEZwolle",
 			"id": "167627793301411",
-			"likes": 1105,
-			"talking_about_count": 184,
+			"likes": 1106,
+			"talking_about_count": 163,
+			"were_here_count": 327,
 			"checkins": 32,
-			"website": "http://www.vezwolle.nl",
-			"were_here_count": 327
+			"website": "http://www.vezwolle.nl"
 		},
 		"website": "http://www.vezwolle.nl"
 	},
@@ -102,18 +102,18 @@
 		"facebook_url": "https://www.facebook.com/PaaskerkOss",
 		"twitter_name": "@Paaskerk_Oss",
 		"twitter": {
-			"tweets": 1372,
-			"followers": 71,
-			"friends": 141
+			"statuses_count": 1372,
+			"followers_count": 70,
+			"friends_count": 141
 		},
 		"facebook": {
 			"graphUrl": "http://graph.facebook.com/PaaskerkOss",
 			"id": "352468111459124",
 			"likes": 43,
-			"talking_about_count": 7,
+			"talking_about_count": 6,
+			"were_here_count": 17,
 			"checkins": 1,
-			"website": "http://www.pkn-oss.nl https://twitter.com/#!/Paaskerk_Oss",
-			"were_here_count": 17
+			"website": "http://www.pkn-oss.nl https://twitter.com/#!/Paaskerk_Oss"
 		},
 		"website": "http://www.pkn-oss.nl https://twitter.com/#!/Paaskerk_Oss"
 	},
@@ -126,8 +126,8 @@
 			"id": "399663310107793",
 			"likes": 31,
 			"talking_about_count": 5,
-			"website": "http://www.ontmoetingskerk-pijnacker.eu",
-			"were_here_count": 12
+			"were_here_count": 12,
+			"website": "http://www.ontmoetingskerk-pijnacker.eu"
 		},
 		"website": "http://www.ontmoetingskerk-pijnacker.eu"
 	},
@@ -136,18 +136,18 @@
 		"facebook_url": "https://www.facebook.com/vbgbethel",
 		"twitter_name": "@Bethel",
 		"twitter": {
-			"tweets": 1165,
-			"followers": 1194,
-			"friends": 40
+			"statuses_count": 1169,
+			"followers_count": 1192,
+			"friends_count": 41
 		},
 		"facebook": {
 			"graphUrl": "http://graph.facebook.com/vbgbethel",
 			"id": "293286710927",
 			"likes": 1145,
-			"talking_about_count": 181,
+			"talking_about_count": 209,
+			"were_here_count": 1114,
 			"checkins": 132,
-			"website": "http://www.bethel.nl",
-			"were_here_count": 1114
+			"website": "http://www.bethel.nl"
 		},
 		"website": "http://www.bethel.nl"
 	},
@@ -156,18 +156,18 @@
 		"facebook_url": "https://www.facebook.com/cgdewingerd",
 		"twitter_name": "@cgdewingerd",
 		"twitter": {
-			"tweets": 736,
-			"followers": 67,
-			"friends": 35
+			"statuses_count": 737,
+			"followers_count": 67,
+			"friends_count": 35
 		},
 		"facebook": {
 			"graphUrl": "http://graph.facebook.com/cgdewingerd",
 			"id": "126376950776834",
 			"likes": 106,
-			"talking_about_count": 16,
+			"talking_about_count": 11,
+			"were_here_count": 5,
 			"checkins": 2,
-			"website": "http://www.cgdewingerd.nl",
-			"were_here_count": 5
+			"website": "http://www.cgdewingerd.nl"
 		},
 		"website": "http://www.cgdewingerd.nl"
 	},
@@ -176,18 +176,18 @@
 		"facebook_url": "https://www.facebook.com/Kruiskerkinfo",
 		"twitter_name": "@Kruiskerkinfo",
 		"twitter": {
-			"tweets": 952,
-			"followers": 150,
-			"friends": 17
+			"statuses_count": 953,
+			"followers_count": 150,
+			"friends_count": 17
 		},
 		"facebook": {
 			"graphUrl": "http://graph.facebook.com/Kruiskerkinfo",
 			"id": "196399117090830",
 			"likes": 100,
-			"talking_about_count": 13,
+			"talking_about_count": 8,
+			"were_here_count": 25,
 			"checkins": 4,
-			"website": "http://kruiskerk.info",
-			"were_here_count": 25
+			"website": "http://kruiskerk.info"
 		},
 		"website": "http://kruiskerk.info"
 	},
@@ -196,15 +196,15 @@
 		"facebook_url": "https://www.facebook.com/jongenvrijnl",
 		"twitter_name": "@jongenvrij",
 		"twitter": {
-			"tweets": 1433,
-			"followers": 607,
-			"friends": 42
+			"statuses_count": 1433,
+			"followers_count": 605,
+			"friends_count": 42
 		},
 		"facebook": {
 			"graphUrl": "http://graph.facebook.com/jongenvrijnl",
 			"id": "113240012075632",
-			"likes": 1119,
-			"talking_about_count": 212,
+			"likes": 1120,
+			"talking_about_count": 245,
 			"website": "http://www.jongenvrij.nl"
 		},
 		"website": "http://www.jongenvrij.nl"
@@ -214,18 +214,18 @@
 		"facebook_url": "https://www.facebook.com/koningskerk",
 		"twitter_name": "@KoningskerkRdam",
 		"twitter": {
-			"tweets": 334,
-			"followers": 117,
-			"friends": 68
+			"statuses_count": 334,
+			"followers_count": 117,
+			"friends_count": 68
 		},
 		"facebook": {
 			"graphUrl": "http://graph.facebook.com/koningskerk",
 			"id": "225253930845783",
 			"likes": 103,
-			"talking_about_count": 19,
+			"talking_about_count": 34,
+			"were_here_count": 245,
 			"checkins": 45,
-			"website": "http://www.koningskerk.org",
-			"were_here_count": 244
+			"website": "http://www.koningskerk.org"
 		},
 		"website": "http://www.koningskerk.org"
 	},
@@ -237,7 +237,7 @@
 			"graphUrl": "http://graph.facebook.com/cgmaaseik",
 			"id": "1417424641803008",
 			"likes": 19,
-			"talking_about_count": 2,
+			"talking_about_count": 1,
 			"website": "http://https://www.cgmaaseik.be/"
 		},
 		"website": "http://https://www.cgmaaseik.be/"
@@ -247,18 +247,18 @@
 		"facebook_url": "https://www.facebook.com/OntmoetingskerkVriezenveen",
 		"twitter_name": "@JDCOntmoetKerk",
 		"twitter": {
-			"tweets": 141,
-			"followers": 63,
-			"friends": 68
+			"statuses_count": 142,
+			"followers_count": 63,
+			"friends_count": 68
 		},
 		"facebook": {
 			"graphUrl": "http://graph.facebook.com/OntmoetingskerkVriezenveen",
 			"id": "264141600281551",
 			"likes": 48,
-			"talking_about_count": 5,
+			"talking_about_count": 4,
+			"were_here_count": 56,
 			"checkins": 7,
-			"website": "http://www.ontmoetingskerkvriezenveen.nl",
-			"were_here_count": 56
+			"website": "http://www.ontmoetingskerkvriezenveen.nl"
 		},
 		"website": "http://www.ontmoetingskerkvriezenveen.nl"
 	},
@@ -267,15 +267,15 @@
 		"facebook_url": "https://www.facebook.com/ChristengemeenteHardinxveldGiessendam",
 		"twitter_name": "@ChrGemHveldGdam",
 		"twitter": {
-			"tweets": 187,
-			"followers": 46,
-			"friends": 4
+			"statuses_count": 187,
+			"followers_count": 46,
+			"friends_count": 4
 		},
 		"facebook": {
 			"graphUrl": "http://graph.facebook.com/ChristengemeenteHardinxveldGiessendam",
 			"id": "233269330060257",
 			"likes": 101,
-			"talking_about_count": 10,
+			"talking_about_count": 9,
 			"website": "http://www.christengemeente.nl"
 		},
 		"website": "http://www.christengemeente.nl"
@@ -285,15 +285,15 @@
 		"facebook_url": "https://www.facebook.com/Mijnkerk",
 		"twitter_name": "@mijnkerkNL",
 		"twitter": {
-			"tweets": 501,
-			"followers": 1034,
-			"friends": 1174
+			"statuses_count": 501,
+			"followers_count": 1037,
+			"friends_count": 1173
 		},
 		"facebook": {
 			"graphUrl": "http://graph.facebook.com/Mijnkerk",
 			"id": "484647548235132",
-			"likes": 1782,
-			"talking_about_count": 173,
+			"likes": 1783,
+			"talking_about_count": 170,
 			"website": "http://www.mijnkerk.nl"
 		},
 		"website": "http://www.mijnkerk.nl"
@@ -303,18 +303,18 @@
 		"facebook_url": "https://www.facebook.com/gkenter",
 		"twitter_name": "@kerkenter",
 		"twitter": {
-			"tweets": 104,
-			"followers": 160,
-			"friends": 72
+			"statuses_count": 104,
+			"followers_count": 160,
+			"friends_count": 72
 		},
 		"facebook": {
 			"graphUrl": "http://graph.facebook.com/gkenter",
 			"id": "101950543246013",
 			"likes": 129,
-			"talking_about_count": 12,
+			"talking_about_count": 16,
+			"were_here_count": 76,
 			"checkins": 10,
-			"website": "http://www.gereformeerdekerkenter.nl",
-			"were_here_count": 76
+			"website": "http://www.gereformeerdekerkenter.nl"
 		},
 		"website": "http://www.gereformeerdekerkenter.nl"
 	},
@@ -325,11 +325,11 @@
 		"facebook": {
 			"graphUrl": "http://graph.facebook.com/KoptischOrthodoxeKerkEindhoven",
 			"id": "519236848096033",
-			"likes": 697,
-			"talking_about_count": 70,
+			"likes": 699,
+			"talking_about_count": 59,
+			"were_here_count": 72,
 			"checkins": 1,
-			"website": "http://www.koptischekerkeindhoven.nl",
-			"were_here_count": 72
+			"website": "http://www.koptischekerkeindhoven.nl"
 		},
 		"website": "http://www.koptischekerkeindhoven.nl"
 	},
@@ -338,18 +338,18 @@
 		"facebook_url": "https://www.facebook.com/LeefDoetinchem",
 		"twitter_name": "@LEEFDoetinchem",
 		"twitter": {
-			"tweets": 4,
-			"followers": 3,
-			"friends": 8
+			"statuses_count": 4,
+			"followers_count": 4,
+			"friends_count": 8
 		},
 		"facebook": {
 			"graphUrl": "http://graph.facebook.com/LeefDoetinchem",
 			"id": "343139999069499",
-			"likes": 217,
-			"talking_about_count": 14,
+			"likes": 218,
+			"talking_about_count": 13,
+			"were_here_count": 63,
 			"checkins": 3,
-			"website": "http://www.leef-doetinchem.nl",
-			"were_here_count": 63
+			"website": "http://www.leef-doetinchem.nl"
 		},
 		"website": "http://www.leef-doetinchem.nl"
 	},
@@ -358,15 +358,14 @@
 		"facebook_url": "https://www.facebook.com/NazarenerHlem",
 		"twitter_name": "@NazarenerHlem",
 		"twitter": {
-			"tweets": 168,
-			"followers": 64,
-			"friends": 0
+			"statuses_count": 168,
+			"followers_count": 64
 		},
 		"facebook": {
 			"graphUrl": "http://graph.facebook.com/NazarenerHlem",
 			"id": "251985138193875",
 			"likes": 195,
-			"talking_about_count": 17,
+			"talking_about_count": 18,
 			"website": "http://www.kvdnhaarlem.nl"
 		},
 		"website": "http://www.kvdnhaarlem.nl"
@@ -378,11 +377,11 @@
 		"facebook": {
 			"graphUrl": "http://graph.facebook.com/hervormd",
 			"id": "221840291277611",
-			"likes": 169,
-			"talking_about_count": 13,
+			"likes": 168,
+			"talking_about_count": 14,
+			"were_here_count": 40,
 			"checkins": 4,
-			"website": "http://hervormdvriezenveen.nl/",
-			"were_here_count": 40
+			"website": "http://hervormdvriezenveen.nl/"
 		},
 		"website": "http://hervormdvriezenveen.nl/"
 	},
@@ -391,15 +390,15 @@
 		"facebook_url": "https://www.facebook.com/HillsongAmsterdam",
 		"twitter_name": "@hillsongams",
 		"twitter": {
-			"tweets": 222,
-			"followers": 4000,
-			"friends": 15
+			"statuses_count": 226,
+			"followers_count": 4002,
+			"friends_count": 15
 		},
 		"facebook": {
 			"graphUrl": "http://graph.facebook.com/HillsongAmsterdam",
 			"id": "106632822794682",
-			"likes": 2923,
-			"talking_about_count": 208,
+			"likes": 2928,
+			"talking_about_count": 131,
 			"website": "http://www.hillsong.nl"
 		},
 		"website": "http://www.hillsong.nl"
@@ -409,18 +408,18 @@
 		"facebook_url": "https://www.facebook.com/crossroadsamsterdam",
 		"twitter_name": "@xrdsamsterdam",
 		"twitter": {
-			"tweets": 516,
-			"followers": 445,
-			"friends": 12
+			"statuses_count": 516,
+			"followers_count": 444,
+			"friends_count": 12
 		},
 		"facebook": {
 			"graphUrl": "http://graph.facebook.com/crossroadsamsterdam",
 			"id": "250968861596595",
-			"likes": 956,
-			"talking_about_count": 63,
+			"likes": 957,
+			"talking_about_count": 62,
+			"were_here_count": 245,
 			"checkins": 38,
-			"website": "http://www.xrds.nl",
-			"were_here_count": 245
+			"website": "http://www.xrds.nl"
 		},
 		"website": "http://www.xrds.nl"
 	},
@@ -431,11 +430,11 @@
 		"facebook": {
 			"graphUrl": "http://graph.facebook.com/mariakerk",
 			"id": "309928182409193",
-			"likes": 1494,
-			"talking_about_count": 62,
+			"likes": 1496,
+			"talking_about_count": 58,
+			"were_here_count": 423,
 			"checkins": 49,
-			"website": "http://www.",
-			"were_here_count": 423
+			"website": "http://www."
 		},
 		"website": "http://www."
 	},
@@ -444,18 +443,18 @@
 		"facebook_url": "https://www.facebook.com/clcdenhaag",
 		"twitter_name": "@CLCDenHaag",
 		"twitter": {
-			"tweets": 1535,
-			"followers": 811,
-			"friends": 177
+			"statuses_count": 1537,
+			"followers_count": 811,
+			"friends_count": 177
 		},
 		"facebook": {
 			"graphUrl": "http://graph.facebook.com/clcdenhaag",
 			"id": "137850586233695",
-			"likes": 1249,
-			"talking_about_count": 77,
-			"checkins": 440,
-			"website": "http://www.clcdenhaag.nl",
-			"were_here_count": 3299
+			"likes": 1251,
+			"talking_about_count": 94,
+			"were_here_count": 3328,
+			"checkins": 439,
+			"website": "http://www.clcdenhaag.nl"
 		},
 		"website": "http://www.clcdenhaag.nl"
 	},
@@ -467,10 +466,10 @@
 			"graphUrl": "http://graph.facebook.com/evangelischekerkjefta",
 			"id": "156184131096088",
 			"likes": 98,
-			"talking_about_count": 6,
+			"talking_about_count": 4,
+			"were_here_count": 88,
 			"checkins": 29,
-			"website": "http://www.jefta.org",
-			"were_here_count": 88
+			"website": "http://www.jefta.org"
 		},
 		"website": "http://www.jefta.org"
 	},
@@ -482,10 +481,10 @@
 			"graphUrl": "http://graph.facebook.com/143016309096549",
 			"id": "143016309096549",
 			"likes": 93,
-			"talking_about_count": 5,
+			"talking_about_count": 6,
+			"were_here_count": 18,
 			"checkins": 4,
-			"website": "http://www.christworshipcentre.com",
-			"were_here_count": 18
+			"website": "http://www.christworshipcentre.com"
 		},
 		"website": "http://www.christworshipcentre.com"
 	},
@@ -494,18 +493,18 @@
 		"facebook_url": "https://www.facebook.com/thousandhills",
 		"twitter_name": "@thousand_hills",
 		"twitter": {
-			"tweets": 1107,
-			"followers": 251,
-			"friends": 342
+			"statuses_count": 1115,
+			"followers_count": 250,
+			"friends_count": 342
 		},
 		"facebook": {
 			"graphUrl": "http://graph.facebook.com/thousandhills",
 			"id": "88656582656",
-			"likes": 1221,
-			"talking_about_count": 58,
+			"likes": 1220,
+			"talking_about_count": 47,
+			"were_here_count": 1012,
 			"checkins": 126,
-			"website": "http://www.thousandhills.cc",
-			"were_here_count": 1012
+			"website": "http://www.thousandhills.cc"
 		},
 		"website": "http://www.thousandhills.cc"
 	},
@@ -514,18 +513,18 @@
 		"facebook_url": "https://www.facebook.com/newlife010",
 		"twitter_name": "@newlife010",
 		"twitter": {
-			"tweets": 613,
-			"followers": 159,
-			"friends": 206
+			"statuses_count": 613,
+			"followers_count": 159,
+			"friends_count": 206
 		},
 		"facebook": {
 			"graphUrl": "http://graph.facebook.com/newlife010",
 			"id": "251809472094",
 			"likes": 76,
 			"talking_about_count": 3,
+			"were_here_count": 27,
 			"checkins": 15,
-			"website": "http://www.newlife010.nl",
-			"were_here_count": 27
+			"website": "http://www.newlife010.nl"
 		},
 		"website": "http://www.newlife010.nl"
 	},
@@ -534,18 +533,18 @@
 		"facebook_url": "https://www.facebook.com/vbgroningen",
 		"twitter_name": "@VBGroningen",
 		"twitter": {
-			"tweets": 857,
-			"followers": 566,
-			"friends": 37
+			"statuses_count": 857,
+			"followers_count": 566,
+			"friends_count": 37
 		},
 		"facebook": {
 			"graphUrl": "http://graph.facebook.com/vbgroningen",
 			"id": "117169972216",
-			"likes": 555,
-			"talking_about_count": 17,
+			"likes": 554,
+			"talking_about_count": 23,
+			"were_here_count": 350,
 			"checkins": 32,
-			"website": "http://www.vbgroningen.nl/",
-			"were_here_count": 350
+			"website": "http://www.vbgroningen.nl/"
 		},
 		"website": "http://www.vbgroningen.nl/"
 	},
@@ -554,18 +553,18 @@
 		"facebook_url": "https://www.facebook.com/CGKZwolle",
 		"twitter_name": "@CGKZwolle",
 		"twitter": {
-			"tweets": 714,
-			"followers": 786,
-			"friends": 125
+			"statuses_count": 714,
+			"followers_count": 788,
+			"friends_count": 125
 		},
 		"facebook": {
 			"graphUrl": "http://graph.facebook.com/CGKZwolle",
 			"id": "195170248809",
 			"likes": 326,
-			"talking_about_count": 11,
+			"talking_about_count": 10,
+			"were_here_count": 30,
 			"checkins": 6,
-			"website": "http://www.cgkzwolle.nl",
-			"were_here_count": 30
+			"website": "http://www.cgkzwolle.nl"
 		},
 		"website": "http://www.cgkzwolle.nl"
 	},
@@ -577,7 +576,7 @@
 			"graphUrl": "http://graph.facebook.com/HervormdBarneveld",
 			"id": "279558128818311",
 			"likes": 311,
-			"talking_about_count": 9,
+			"talking_about_count": 10,
 			"website": "http://www.hervormdbarneveld.nl"
 		},
 		"website": "http://www.hervormdbarneveld.nl"
@@ -590,10 +589,10 @@
 			"graphUrl": "http://graph.facebook.com/vegoldebroek",
 			"id": "177798955579273",
 			"likes": 139,
-			"talking_about_count": 4,
+			"talking_about_count": 6,
+			"were_here_count": 20,
 			"checkins": 3,
-			"website": "http://www.vegoldebroek.nl",
-			"were_here_count": 20
+			"website": "http://www.vegoldebroek.nl"
 		},
 		"website": "http://www.vegoldebroek.nl"
 	},
@@ -602,18 +601,17 @@
 		"facebook_url": "https://www.facebook.com/BaptistengemeenteKatwijk",
 		"twitter_name": "@BaptistKatwijk",
 		"twitter": {
-			"tweets": 177,
-			"followers": 130,
-			"friends": 0
+			"statuses_count": 177,
+			"followers_count": 130
 		},
 		"facebook": {
 			"graphUrl": "http://graph.facebook.com/BaptistengemeenteKatwijk",
 			"id": "179065228843305",
 			"likes": 246,
-			"talking_about_count": 6,
+			"talking_about_count": 4,
+			"were_here_count": 80,
 			"checkins": 13,
-			"website": "http://www.baptistengemeentekatwijk.nl",
-			"were_here_count": 80
+			"website": "http://www.baptistengemeentekatwijk.nl"
 		},
 		"website": "http://www.baptistengemeentekatwijk.nl"
 	},
@@ -622,18 +620,18 @@
 		"facebook_url": "https://www.facebook.com/CGLachaiRoi",
 		"twitter_name": "@CGLachaiRoi",
 		"twitter": {
-			"tweets": 88,
-			"followers": 27,
-			"friends": 95
+			"statuses_count": 89,
+			"followers_count": 27,
+			"friends_count": 95
 		},
 		"facebook": {
 			"graphUrl": "http://graph.facebook.com/CGLachaiRoi",
 			"id": "400354063378166",
 			"likes": 120,
-			"talking_about_count": 3,
+			"talking_about_count": 1,
+			"were_here_count": 82,
 			"checkins": 1,
-			"website": "http://www.lachai-roi.nl/",
-			"were_here_count": 82
+			"website": "http://www.lachai-roi.nl/"
 		},
 		"website": "http://www.lachai-roi.nl/"
 	},
@@ -646,8 +644,8 @@
 			"id": "232334370125233",
 			"likes": 87,
 			"talking_about_count": 2,
-			"website": "http://www.ngkdoetinchem-velp.nl",
-			"were_here_count": 3
+			"were_here_count": 3,
+			"website": "http://www.ngkdoetinchem-velp.nl"
 		},
 		"website": "http://www.ngkdoetinchem-velp.nl"
 	},
@@ -656,18 +654,18 @@
 		"facebook_url": "https://www.facebook.com/rafaelamersfoort",
 		"twitter_name": "@rafaelafoort",
 		"twitter": {
-			"tweets": 35,
-			"followers": 53,
-			"friends": 18
+			"statuses_count": 35,
+			"followers_count": 53,
+			"friends_count": 18
 		},
 		"facebook": {
 			"graphUrl": "http://graph.facebook.com/rafaelamersfoort",
 			"id": "134144006628876",
 			"likes": 402,
-			"talking_about_count": 8,
+			"talking_about_count": 23,
+			"were_here_count": 657,
 			"checkins": 47,
-			"website": "http://www.rafaelamersfoort.nl",
-			"were_here_count": 657
+			"website": "http://www.rafaelamersfoort.nl"
 		},
 		"website": "http://www.rafaelamersfoort.nl"
 	},
@@ -676,14 +674,14 @@
 		"facebook_url": "https://www.facebook.com/koepelkerkarnhem",
 		"twitter_name": "@KoepelkerkArnh",
 		"twitter": {
-			"tweets": 1,
-			"followers": 37,
-			"friends": 2
+			"statuses_count": 1,
+			"followers_count": 37,
+			"friends_count": 2
 		},
 		"facebook": {
 			"graphUrl": "http://graph.facebook.com/koepelkerkarnhem",
 			"id": "294522140639079",
-			"likes": 201,
+			"likes": 202,
 			"talking_about_count": 3,
 			"website": "http://www.koepelkerk-arnhem.nl"
 		},
@@ -698,9 +696,9 @@
 			"id": "373749475739",
 			"likes": 301,
 			"talking_about_count": 3,
+			"were_here_count": 467,
 			"checkins": 11,
-			"website": "http://www.pinkstergemeente-agape.nl",
-			"were_here_count": 467
+			"website": "http://www.pinkstergemeente-agape.nl"
 		},
 		"website": "http://www.pinkstergemeente-agape.nl"
 	},
@@ -709,18 +707,18 @@
 		"facebook_url": "https://www.facebook.com/DoorBrekers",
 		"twitter_name": "@DoorBrekers",
 		"twitter": {
-			"tweets": 592,
-			"followers": 1078,
-			"friends": 6
+			"statuses_count": 592,
+			"followers_count": 1079,
+			"friends_count": 6
 		},
 		"facebook": {
 			"graphUrl": "http://graph.facebook.com/DoorBrekers",
 			"id": "138279382864577",
-			"likes": 1771,
-			"talking_about_count": 20,
+			"likes": 1772,
+			"talking_about_count": 22,
+			"were_here_count": 1219,
 			"checkins": 398,
-			"website": "http://www.doorbrekers.nl",
-			"were_here_count": 1219
+			"website": "http://www.doorbrekers.nl"
 		},
 		"website": "http://www.doorbrekers.nl"
 	},
@@ -732,7 +730,7 @@
 			"graphUrl": "http://graph.facebook.com/westlandnetwerk",
 			"id": "141635765905039",
 			"likes": 205,
-			"talking_about_count": 0,
+			"talking_about_count": 23,
 			"website": "http://www.westland-netwerk.nl"
 		},
 		"website": "http://www.westland-netwerk.nl"
@@ -742,15 +740,15 @@
 		"facebook_url": "https://www.facebook.com/pages/Vineyard-Amsterdam/128574734098",
 		"twitter_name": "@VineyardA_dam",
 		"twitter": {
-			"tweets": 400,
-			"followers": 599,
-			"friends": 530
+			"statuses_count": 401,
+			"followers_count": 599,
+			"friends_count": 530
 		},
 		"facebook": {
 			"graphUrl": "http://graph.facebook.com/128574734098",
 			"id": "128574734098",
 			"likes": 1139,
-			"talking_about_count": 1,
+			"talking_about_count": 10,
 			"website": "http://www.VineyardAmsterdam.nl"
 		},
 		"website": "http://www.VineyardAmsterdam.nl"
@@ -760,18 +758,18 @@
 		"facebook_url": "https://www.facebook.com/GKvGorinchem",
 		"twitter_name": "@gkvgorinchem",
 		"twitter": {
-			"tweets": 69,
-			"followers": 192,
-			"friends": 15
+			"statuses_count": 69,
+			"followers_count": 193,
+			"friends_count": 15
 		},
 		"facebook": {
 			"graphUrl": "http://graph.facebook.com/GKvGorinchem",
 			"id": "198210630258137",
 			"likes": 71,
 			"talking_about_count": 2,
+			"were_here_count": 41,
 			"checkins": 2,
-			"website": "http://gorinchem.gkv.nl/",
-			"were_here_count": 41
+			"website": "http://gorinchem.gkv.nl/"
 		},
 		"website": "http://gorinchem.gkv.nl/"
 	},
@@ -783,10 +781,9 @@
 			"graphUrl": "http://graph.facebook.com/122890037726628",
 			"id": "122890037726628",
 			"likes": 143,
-			"talking_about_count": 0,
+			"were_here_count": 14,
 			"checkins": 4,
-			"website": "http://www.amersfoort.nazarener.nl/",
-			"were_here_count": 14
+			"website": "http://www.amersfoort.nazarener.nl/"
 		},
 		"website": "http://www.amersfoort.nazarener.nl/"
 	},
@@ -795,15 +792,14 @@
 		"facebook_url": "https://www.facebook.com/comezelhem",
 		"twitter_name": "@comezelhem",
 		"twitter": {
-			"tweets": 371,
-			"followers": 68,
-			"friends": 79
+			"statuses_count": 373,
+			"followers_count": 68,
+			"friends_count": 79
 		},
 		"facebook": {
 			"graphUrl": "http://graph.facebook.com/comezelhem",
 			"id": "201342416544981",
 			"likes": 90,
-			"talking_about_count": 0,
 			"website": "http://www.come-zelhem.nl/"
 		},
 		"website": "http://www.come-zelhem.nl/"
@@ -813,9 +809,9 @@
 		"facebook_url": "https://www.facebook.com/groups/148502305195044/",
 		"twitter_name": "@egmdelft",
 		"twitter": {
-			"tweets": 247,
-			"followers": 104,
-			"friends": 110
+			"statuses_count": 247,
+			"followers_count": 104,
+			"friends_count": 110
 		},
 		"facebook": {
 			"graphUrl": "http://graph.facebook.com/148502305195044"
@@ -826,9 +822,9 @@
 		"facebook_url": "",
 		"twitter_name": "@gkvwezep",
 		"twitter": {
-			"tweets": 257,
-			"followers": 62,
-			"friends": 5
+			"statuses_count": 259,
+			"followers_count": 62,
+			"friends_count": 5
 		}
 	},
 	{
@@ -846,18 +842,18 @@
 		"twitter_name": "@levendwaterNL",
 		"website": "http://www.levendwater.nl/",
 		"twitter": {
-			"tweets": 112,
-			"followers": 54,
-			"friends": 24
+			"statuses_count": 112,
+			"followers_count": 54,
+			"friends_count": 24
 		},
 		"facebook": {
 			"graphUrl": "http://graph.facebook.com/279322932115695",
 			"id": "279322932115695",
 			"likes": 24,
 			"talking_about_count": 4,
+			"were_here_count": 89,
 			"checkins": 1,
-			"website": "http://www.levendwater.nl/en",
-			"were_here_count": 89
+			"website": "http://www.levendwater.nl/en"
 		}
 	},
 	{
