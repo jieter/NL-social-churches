@@ -815,7 +815,13 @@
 	{
 		"name": "Hervormd Barneveld",
 		"facebook_url": "https://www.facebook.com/HervormdBarneveld",
-		"twitter_name": "",
+		"twitter_name": "@hervbvld",
+		"website": "http://www.hervormdbarneveld.nl/",
+		"twitter": {
+			"statuses_count": 4790,
+			"followers_count": 426,
+			"friends_count": 340
+		},
 		"facebook": {
 			"graphUrl": "http://graph.facebook.com/HervormdBarneveld",
 			"id": "279558128818311",
@@ -829,13 +835,13 @@
 				"zip": ""
 			},
 			"website": "http://www.hervormdbarneveld.nl"
-		},
-		"website": "http://www.hervormdbarneveld.nl"
+		}
 	},
 	{
 		"name": "VEG Oldebroek",
 		"facebook_url": "https://www.facebook.com/vegoldebroek",
 		"twitter_name": "",
+		"website": "http://www.vegoldebroek.nl/",
 		"facebook": {
 			"graphUrl": "http://graph.facebook.com/vegoldebroek",
 			"id": "177798955579273",
@@ -853,8 +859,7 @@
 				"longitude": 5.91295
 			},
 			"website": "http://www.vegoldebroek.nl"
-		},
-		"website": "http://www.vegoldebroek.nl"
+		}
 	},
 	{
 		"name": "Baptistengemeente Katwijk",
@@ -1494,6 +1499,95 @@
 			"statuses_count": 238,
 			"followers_count": 111,
 			"friends_count": 64
+		}
+	},
+	{
+		"name": "Hervormde wijkgemeente Kralingen West",
+		"facebook_url": "https://www.facebook.com/pages/Hervormde-wijkgemeente-Kralingen-West/191896124218124",
+		"twitter_name": "@KralingenWest",
+		"website": "http://www.hervormdkralingenwest.nl/",
+		"twitter": {
+			"statuses_count": 202,
+			"followers_count": 92,
+			"friends_count": 32
+		},
+		"facebook": {
+			"graphUrl": "http://graph.facebook.com/191896124218124",
+			"id": "191896124218124",
+			"likes": 39,
+			"website": "http://www.hervormdkralingenwest.nl"
+		}
+	},
+	{
+		"name": "Hervormd Vriezeveen",
+		"facebook_url": "https://www.facebook.com/hervormd",
+		"twitter_name": "",
+		"website": "http://hervormdvriezenveen.nl/",
+		"facebook": {
+			"graphUrl": "http://graph.facebook.com/hervormd",
+			"id": "221840291277611",
+			"likes": 168,
+			"talking_about_count": 14,
+			"were_here_count": 40,
+			"checkins": 4,
+			"location": {
+				"street": "Westeinde 39",
+				"city": "Vriezenveen",
+				"state": "",
+				"country": "Netherlands",
+				"zip": "7671 EK",
+				"latitude": 52.412187719609,
+				"longitude": 6.6252922388953
+			},
+			"website": "http://hervormdvriezenveen.nl/"
+		}
+	},
+	{
+		"name": "Hervormde gemeente te Sprang",
+		"facebook_url": "https://www.facebook.com/hervormdsprang",
+		"twitter_name": "",
+		"website": "http://www.hervormd-sprang.nl/",
+		"facebook": {
+			"graphUrl": "http://graph.facebook.com/hervormdsprang",
+			"id": "198797486811946",
+			"likes": 122,
+			"talking_about_count": 4,
+			"were_here_count": 51,
+			"checkins": 2,
+			"location": {
+				"street": "Kerkstraat 34",
+				"city": "Sprang-Capelle",
+				"state": "",
+				"country": "Netherlands",
+				"zip": "5161 ED",
+				"latitude": 51.6702635381,
+				"longitude": 5.0494442010498
+			},
+			"website": "http://www.hervormd-sprang.nl"
+		}
+	},
+	{
+		"name": "Hervormd Vreeswijk",
+		"facebook_url": "https://www.facebook.com/pages/Hervormd-Vreeswijk/201841393162857",
+		"twitter_name": "",
+		"website": "http://www.hervormdvreeswijk.nl/",
+		"facebook": {
+			"graphUrl": "http://graph.facebook.com/201841393162857",
+			"id": "201841393162857",
+			"likes": 98,
+			"talking_about_count": 1,
+			"were_here_count": 13,
+			"checkins": 1,
+			"location": {
+				"street": "Dorpsstraat 53",
+				"city": "Nieuwegein",
+				"state": "",
+				"country": "Netherlands",
+				"zip": "3433 CM",
+				"latitude": 52.004024946849,
+				"longitude": 5.094536820924
+			},
+			"website": "http://www.hervormdvreeswijk.nl/"
 		}
 	}
 ]

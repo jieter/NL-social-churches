@@ -157,12 +157,14 @@
 	{
 		"name": "Hervormd Barneveld",
 		"facebook_url": "https://www.facebook.com/HervormdBarneveld",
-		"twitter_name": ""
+		"twitter_name": "@hervbvld",
+		"website": "http://www.hervormdbarneveld.nl/"
 	},
 	{
 		"name": "VEG Oldebroek",
 		"facebook_url": "https://www.facebook.com/vegoldebroek",
-		"twitter_name": ""
+		"twitter_name": "",
+		"website": "http://www.vegoldebroek.nl/"
 	},
 	{
 		"name": "Baptistengemeente Katwijk",
@@ -331,5 +333,29 @@
 		"facebook_url": "",
 		"twitter_name": "@BavoKerk",
 		"website": "http://www.bavo.nl/"
+	},
+	{
+		"name": "Hervormde wijkgemeente Kralingen West",
+		"facebook_url": "https://www.facebook.com/pages/Hervormde-wijkgemeente-Kralingen-West/191896124218124",
+		"twitter_name": "@KralingenWest",
+		"website": "http://www.hervormdkralingenwest.nl/"
+	},
+	{
+		"name": "Hervormd Vriezeveen",
+		"facebook_url": "https://www.facebook.com/hervormd",
+		"twitter_name": "",
+		"website": "http://hervormdvriezenveen.nl/"
+	},
+	{
+		"name": "Hervormde gemeente te Sprang",
+		"facebook_url": "https://www.facebook.com/hervormdsprang",
+		"twitter_name": "",
+		"website": "http://www.hervormd-sprang.nl/"
+	},
+	{
+		"name": "Hervormd Vreeswijk",
+		"facebook_url": "https://www.facebook.com/pages/Hervormd-Vreeswijk/201841393162857",
+		"twitter_name": "",
+		"website": "http://www.hervormdvreeswijk.nl/"
 	}
 ]
