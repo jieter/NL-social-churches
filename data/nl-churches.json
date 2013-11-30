@@ -233,7 +233,8 @@
 	{
 		"name": "Noordlicht Wezep",
 		"facebook_url": "",
-		"twitter_name": "@gkvwezep"
+		"twitter_name": "@gkvwezep",
+		"website": "http://www.gkvwezep.nl/"
 	},
 	{
 		"name": "Binnenstad-Vrijenban (Hervormd Delft)",
@@ -252,5 +253,11 @@
 		"facebook_url": "",
 		"twitter_name": "",
 		"website": "http://www.gkvdelft.nl/"
+	},
+	{
+		"name": "Hervormde gemeente Woudrichem",
+		"facebook_url": "https://www.facebook.com/KerkWoudrichem",
+		"twitter_name": "",
+		"website": "http://www.hervormdegemeentewoudrichem.nl/"
 	}
 ]
