@@ -1,10 +1,15 @@
-var Twit = require('twit');
+/**
+ * Fetch selected Twitter statistics with twit module
+ *
+ * Jan Pieter Waagmeester <jieter@jieter.nl>
+ */
 
+var Twit = require('twit');
 var T = new Twit(require('./twitter-api-auth.js'));
 
 var cache = {};
 
-function user(name, callback) {
+function twitterUser(name, callback) {
 	if (cache[name]) {
 		callback(null, cache[name]);
 	}
@@ -19,15 +24,23 @@ function user(name, callback) {
 }
 
 module.exports = function (name, callback) {
-	user(name, function (err, reply) {
+	twitterUser(name, function (err, reply) {
 		if (err) {
 			return callback(err);
 		}
 
-		callback(null, {
-			tweets: reply['statuses_count'],
-			followers: reply['followers_count'],
-			friends: reply['friends_count']
+		var data = {};
+
+		[
+			'statuses_count',
+			'followers_count',
+			'friends_count'
+		].forEach(function (key) {
+			if (reply[key]) {
+				data[key] = reply[key];
+			}
 		});
+
+		callback(null, data);
 	});
 };

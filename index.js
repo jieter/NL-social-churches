@@ -1,61 +1,90 @@
+/**
+ * Fetch selected social media statistics for a list of Dutch churches.
+ *
+ * Jan Pieter Waagmeester <jieter@jieter.nl>
+ */
+
 var fs = require('fs');
 var async = require('async');
 
 var twitter = require('./apis/twitter.js');
 var facebook = require('./apis/facebook.js');
 
-var path = __dirname + '/';
 
 var skipTwitter = false;
 var skipFacebook = false;
 
-var churches = JSON.parse(fs.readFileSync(path + 'nl-churches.json'));
-
+// counts for reporting
 var twitterCount = 0;
 var facebookCount = 0;
 
-async.map(churches, function addTwitterMetrics(item, callback) {
-	if (!skipTwitter && item['twitter_name'] && item['twitter_name'] !== '') {
+function addTwitterMetrics(list, callback) {
+	console.log(list);
+	if (skipTwitter) {
+		callback(null, list);
+		return;
+	}
+	async.map(list, function (item, itemDone) {
+		if(!item['twitter_name'] && item['twitter_name'] === '') {
+			itemDone(null, item);
+			return;
+		}
+
 		twitter(item['twitter_name'].substr(1), function (err, reply) {
 			item['twitter'] = reply;
 
 			twitterCount++;
-			callback(err, item);
+			itemDone(err, item);
 		});
-	} else {
-		callback(null, item);
+	}, callback);
+}
+
+function addFacebookMetrics(list, callback) {
+	if (skipFacebook) {
+		callback(null, list);
+		return;
 	}
-}, function (err, result) {
+
+	async.map(list, function (item, itemDone) {
+		if(!item['facebook_url'] && item['facebook_url'] === '') {
+			itemDone(null, item);
+			return;
+		}
+		facebook(item['facebook_url'], function (err, reply) {
+			item['facebook'] = reply;
+
+			// copy website from facebook profile if not already in item.
+			if (item['facebook']['website'] !== '' && !item['website']) {
+				item['website'] = item['facebook']['website'];
+			}
+
+			facebookCount++;
+			itemDone(err, item);
+		});
+	}, callback);
+}
+
+var path = __dirname + '/';
+
+async.waterfall([
+	function loadChurches(callback) {
+		callback(null, JSON.parse(fs.readFileSync(path + 'nl-churches.json')));
+	},
+	addTwitterMetrics,
+	addFacebookMetrics,
+], function tasksDone(err, result) {
+
 	if (err) {
 		console.error(err);
 		return;
 	}
 
-	// add facebook metrics
-	async.map(result, function addFacebookMetrics(item, callback) {
-		if (!skipFacebook && item['facebook_url'] && item['facebook_url'] !== '') {
-			facebook(item['facebook_url'], function (err, reply) {
-				item['facebook'] = reply;
+	var jsonString = JSON.stringify(result, null, '\t');
+	var dstFilename = path + 'nl-churches-with-metrics.json';
+	fs.writeFileSync(dstFilename, jsonString);
 
-				if (item['facebook']['website'] !== '' && !item['website']) {
-					item['website'] = item['facebook']['website'];
-				}
+	console.log('Wrote %d churches to %s:', result.length, dstFilename);
+	console.log('      %d with Twitter metrics,', twitterCount);
+	console.log('      %d with Facebook metrics', facebookCount);
 
-				facebookCount++;
-				callback(err, item);
-			});
-		} else {
-			callback(null, item);
-		}
-	}, function (err, result) {
-		if (err) {
-			console.error(err);
-			return;
-		}
-
-		fs.writeFileSync(path + 'nl-churches-with-metrics.json', JSON.stringify(result, null, '\t'));
-
-		console.log('Wrote %d churches, %d with twitter metrics, %d with facebook metrics',
-			result.length, twitterCount, facebookCount);
-	});
 });

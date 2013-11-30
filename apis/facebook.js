@@ -1,12 +1,17 @@
+/**
+ * Fetch selected Facebook statistics for profile/group/page url
+ * from the Facebook graph API
+ *
+ * Jan Pieter Waagmeester <jieter@jieter.nl>
+ */
 var request = require('request');
 
 function facebookMetrics (url, callback) {
-	var graphUrl = 'http://graph.facebook.com/';
-
 	var parts = url.split('/').filter(function (item) {
 		return item !== '';
 	});
-	graphUrl += parts[parts.length - 1];
+
+	var graphUrl = 'http://graph.facebook.com/' + parts[parts.length - 1];
 
 	request({
 		url: graphUrl,
@@ -17,34 +22,38 @@ function facebookMetrics (url, callback) {
 		}
 
 		var data = {
-			graphUrl: graphUrl,
-			id: body['id'],
-			likes: body['likes'],
-			talking_about_count: body['talking_about_count'],
-			checkins: body['checkins']
+			graphUrl: graphUrl
 		};
+
+		[
+			'id',
+			'likes',
+			'talking_about_count',
+			'were_here_count',
+			'checkins'
+		].forEach(function (key) {
+			if (body[key]) {
+				data[key] = body[key];
+			}
+		});
 
 		if (body['website']) {
 			if (body['website'].indexOf('http://') !== 0) {
 				var websiteParts = body['website'].split(' ')[0];
-				// blunt assumption here
+				// TODO fix blunt assumption here
 				body['website'] = 'http://' + body['website'].split(' ')[0];
 			}
 			data.website = body['website'];
-
-		}
-		if (body['were_here_count']) {
-			data['were_here_count'] = body['were_here_count'];
 		}
 
 		callback(null, data);
 	});
-};
+}
 
 module.exports = facebookMetrics;
 
+// Simple testing...
 if (require.main === module) {
-	// testing it.
 	var urls = 'https://www.facebook.com/DoorBrekers,https://www.facebook.com/pages/Vineyard-Amsterdam/128574734098,https://www.facebook.com/GKvGorinchem,https://www.facebook.com/pages/Kerk-van-de-Nazarener-Amersfoort/122890037726628,https://www.facebook.com/comezelhem,https://www.facebook.com/groups/148502305195044/'.split(',');
 
 
