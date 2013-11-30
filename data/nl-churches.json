@@ -295,5 +295,41 @@
 		"facebook_url": "https://www.facebook.com/luthersekerkhaarlem",
 		"twitter_name": "@ELGHaarlem",
 		"website": "http://www.luthersekerkhaarlem.nl/"
+	},
+	{
+		"name": "Nieuwe kerk Groningen",
+		"facebook_url": "https://www.facebook.com/pages/Nieuwe-Kerk-Groningen/213806181966671",
+		"twitter_name": "@NwKrkGrnngn",
+		"website": "http://www.nieuwekerk.org"
+	},
+	{
+		"name": "Hervormde Gemeente Nieuw-Vennep",
+		"facebook_url": "https://www.facebook.com/WitteKerk",
+		"twitter_name": "@WitteKerk",
+		"website": "http://www.wittekerk.nl/"
+	},
+	{
+		"name": "Hervormde Kerk Kapelle",
+		"facebook_url": "",
+		"twitter_name": "@HervKerkKapelle",
+		"website": "http://hervormdekerk-kapelle.nl"
+	},
+	{
+		"name": "Kompas Zoetermeer (GkV)",
+		"facebook_url": "https://www.facebook.com/KompasZoetermeer",
+		"twitter_name": "@KompasZmeer",
+		"website": "http://www.kompaszoetermeer.nl/"
+	},
+	{
+		"name": "Hervormde Gemeente Maranatha - Nieuw-Lekkerland",
+		"facebook_url": "https://www.facebook.com/kerkmaranatha",
+		"twitter_name": "@KerkMaranatha",
+		"website": "http://www.hervormdegemeentemaranatha.nl/"
+	},
+	{
+		"name": "Grote of St-Bavokerk - Haarlem",
+		"facebook_url": "",
+		"twitter_name": "@BavoKerk",
+		"website": "http://www.bavo.nl/"
 	}
 ]

@@ -1357,5 +1357,143 @@
 			"talking_about_count": 8,
 			"website": "http://www.luthersekerkhaarlem.nl"
 		}
+	},
+	{
+		"name": "Nieuwe kerk Groningen",
+		"facebook_url": "https://www.facebook.com/pages/Nieuwe-Kerk-Groningen/213806181966671",
+		"twitter_name": "@NwKrkGrnngn",
+		"website": "http://www.nieuwekerk.org",
+		"twitter": {
+			"statuses_count": 1207,
+			"followers_count": 209,
+			"friends_count": 158
+		},
+		"facebook": {
+			"graphUrl": "http://graph.facebook.com/213806181966671",
+			"id": "213806181966671",
+			"likes": 25,
+			"talking_about_count": 1,
+			"were_here_count": 331,
+			"checkins": 31,
+			"location": {
+				"street": "Nieuwe Kerkhof 1",
+				"city": "Groningen",
+				"state": "",
+				"country": "Netherlands",
+				"zip": "9712 PT",
+				"latitude": 53.223387626149,
+				"longitude": 6.5616664238187
+			},
+			"website": "http://www.nieuwekerk.org"
+		}
+	},
+	{
+		"name": "Hervormde Gemeente Nieuw-Vennep",
+		"facebook_url": "https://www.facebook.com/WitteKerk",
+		"twitter_name": "@WitteKerk",
+		"website": "http://www.wittekerk.nl/",
+		"twitter": {
+			"statuses_count": 770,
+			"followers_count": 151,
+			"friends_count": 164
+		},
+		"facebook": {
+			"graphUrl": "http://graph.facebook.com/WitteKerk",
+			"id": "192399067555910",
+			"likes": 106,
+			"talking_about_count": 22,
+			"were_here_count": 119,
+			"checkins": 25,
+			"location": {
+				"street": "Hoofdweg 1318",
+				"city": "Nieuw-Vennep",
+				"state": "",
+				"country": "Netherlands",
+				"zip": "2153 LS",
+				"latitude": 52.264715350077,
+				"longitude": 4.6346818836872
+			},
+			"website": "http://www.wittekerk.nl"
+		}
+	},
+	{
+		"name": "Hervormde Kerk Kapelle",
+		"facebook_url": "",
+		"twitter_name": "@HervKerkKapelle",
+		"website": "http://hervormdekerk-kapelle.nl",
+		"twitter": {
+			"statuses_count": 388,
+			"followers_count": 164,
+			"friends_count": 111
+		}
+	},
+	{
+		"name": "Kompas Zoetermeer (GkV)",
+		"facebook_url": "https://www.facebook.com/KompasZoetermeer",
+		"twitter_name": "@KompasZmeer",
+		"website": "http://www.kompaszoetermeer.nl/",
+		"twitter": {
+			"statuses_count": 538,
+			"followers_count": 244,
+			"friends_count": 254
+		},
+		"facebook": {
+			"graphUrl": "http://graph.facebook.com/KompasZoetermeer",
+			"id": "264449630259413",
+			"likes": 114,
+			"talking_about_count": 3,
+			"were_here_count": 77,
+			"checkins": 4,
+			"location": {
+				"street": "Piet Heinplein 13",
+				"city": "Zoetermeer",
+				"state": "",
+				"country": "Netherlands",
+				"zip": "2712 KC",
+				"latitude": 52.050670195469,
+				"longitude": 4.4999552158691
+			},
+			"website": "http://www.kompaszoetermeer.nl"
+		}
+	},
+	{
+		"name": "Hervormde Gemeente Maranatha - Nieuw-Lekkerland",
+		"facebook_url": "https://www.facebook.com/kerkmaranatha",
+		"twitter_name": "@KerkMaranatha",
+		"website": "http://www.hervormdegemeentemaranatha.nl/",
+		"twitter": {
+			"statuses_count": 616,
+			"followers_count": 191,
+			"friends_count": 155
+		},
+		"facebook": {
+			"graphUrl": "http://graph.facebook.com/kerkmaranatha",
+			"id": "190751350962817",
+			"likes": 88,
+			"talking_about_count": 4,
+			"were_here_count": 38,
+			"checkins": 9,
+			"location": {
+				"street": "Mattenbies 1",
+				"city": "Nieuw-Lekkerland",
+				"state": "",
+				"country": "Netherlands",
+				"zip": "2957 RJ",
+				"latitude": 51.88687,
+				"longitude": 4.68027
+			},
+			"website": "http://www.hervormdegemeentemaranatha.nl"
+		}
+	},
+	{
+		"name": "Grote of St-Bavokerk - Haarlem",
+		"facebook_url": "",
+		"twitter_name": "@BavoKerk",
+		"website": "http://www.bavo.nl/",
+		"twitter": {
+			"statuses_count": 238,
+			"followers_count": 111,
+			"friends_count": 64
+		}
 	}
 ]
