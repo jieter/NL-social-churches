@@ -15,6 +15,15 @@
 			"talking_about_count": 167,
 			"were_here_count": 9,
 			"checkins": 3,
+			"location": {
+				"street": "Zwanensingel",
+				"city": "Vlaardingen",
+				"state": "",
+				"country": "Netherlands",
+				"zip": "3136 GZ",
+				"latitude": 51.927683971518,
+				"longitude": 4.36223588607
+			},
 			"website": "http://www.kvdnvlaardingen.nl"
 		},
 		"website": "http://www.kvdnvlaardingen.nl"
@@ -35,6 +44,15 @@
 			"talking_about_count": 186,
 			"were_here_count": 2073,
 			"checkins": 220,
+			"location": {
+				"street": "Mijnsherenplein 9",
+				"city": "Rotterdam",
+				"state": "",
+				"country": "Netherlands",
+				"zip": "3081 CN",
+				"latitude": 51.893186349756,
+				"longitude": 4.4887466041352
+			},
 			"website": "http://www.vorotterdam.nl"
 		},
 		"website": "http://www.vorotterdam.nl"
@@ -55,6 +73,15 @@
 			"talking_about_count": 35,
 			"were_here_count": 47,
 			"checkins": 1,
+			"location": {
+				"street": "Boekweitlaan 65a",
+				"city": "Hoogeveen",
+				"state": "",
+				"country": "Netherlands",
+				"zip": "7906 LB",
+				"latitude": 52.714172402867,
+				"longitude": 6.4917241878365
+			},
 			"website": "http://www.beth-el.nl"
 		},
 		"website": "http://www.beth-el.nl"
@@ -73,6 +100,13 @@
 			"id": "370576742963306",
 			"likes": 306,
 			"talking_about_count": 121,
+			"location": {
+				"street": "Lange Begijnestraat 11",
+				"city": "Haarlem",
+				"state": "",
+				"country": "Netherlands",
+				"zip": ""
+			},
 			"website": "http://www.reconnect.cc"
 		},
 		"website": "http://www.reconnect.cc"
@@ -93,6 +127,15 @@
 			"talking_about_count": 163,
 			"were_here_count": 327,
 			"checkins": 32,
+			"location": {
+				"street": "Buitengasthuisstraat 8",
+				"city": "Zwolle",
+				"state": "",
+				"country": "Netherlands",
+				"zip": "8041",
+				"latitude": 52.5159675,
+				"longitude": 6.0764641
+			},
 			"website": "http://www.vezwolle.nl"
 		},
 		"website": "http://www.vezwolle.nl"
@@ -113,6 +156,15 @@
 			"talking_about_count": 6,
 			"were_here_count": 17,
 			"checkins": 1,
+			"location": {
+				"street": "Wethouder van Eschstraat 165 ",
+				"city": "Oss",
+				"state": "",
+				"country": "Netherlands",
+				"zip": "",
+				"latitude": 51.761593318599,
+				"longitude": 5.5231294147254
+			},
 			"website": "http://www.pkn-oss.nl https://twitter.com/#!/Paaskerk_Oss"
 		},
 		"website": "http://www.pkn-oss.nl https://twitter.com/#!/Paaskerk_Oss"
@@ -127,6 +179,15 @@
 			"likes": 31,
 			"talking_about_count": 5,
 			"were_here_count": 12,
+			"location": {
+				"street": "Klapwijkseweg 91",
+				"city": "Pijnacker",
+				"state": "",
+				"country": "Netherlands",
+				"zip": "2642 RA",
+				"latitude": 52.012631590422,
+				"longitude": 4.4428482291952
+			},
 			"website": "http://www.ontmoetingskerk-pijnacker.eu"
 		},
 		"website": "http://www.ontmoetingskerk-pijnacker.eu"
@@ -147,6 +208,15 @@
 			"talking_about_count": 209,
 			"were_here_count": 1114,
 			"checkins": 132,
+			"location": {
+				"street": "De Bolder 75",
+				"city": "Drachten",
+				"state": "",
+				"country": "Netherlands",
+				"zip": "9206 AP",
+				"latitude": 53.117721265098,
+				"longitude": 6.0746874405293
+			},
 			"website": "http://www.bethel.nl"
 		},
 		"website": "http://www.bethel.nl"
@@ -167,6 +237,15 @@
 			"talking_about_count": 11,
 			"were_here_count": 5,
 			"checkins": 2,
+			"location": {
+				"street": "'t Borchuus, Kerkplein 3",
+				"city": "Varsseveld",
+				"state": "",
+				"country": "Netherlands",
+				"zip": "7051 CX",
+				"latitude": 51.943546624503,
+				"longitude": 6.4628543100976
+			},
 			"website": "http://www.cgdewingerd.nl"
 		},
 		"website": "http://www.cgdewingerd.nl"
@@ -187,6 +266,15 @@
 			"talking_about_count": 8,
 			"were_here_count": 25,
 			"checkins": 4,
+			"location": {
+				"street": "J. van Wassenaerstraat 1 (hoek Naarderstraat-Karel Doormanlaan)",
+				"city": "Huizen",
+				"state": "",
+				"country": "Netherlands",
+				"zip": "1272 BP",
+				"latitude": 52.296332843986,
+				"longitude": 5.2300482260514
+			},
 			"website": "http://kruiskerk.info"
 		},
 		"website": "http://kruiskerk.info"
@@ -225,6 +313,15 @@
 			"talking_about_count": 34,
 			"were_here_count": 245,
 			"checkins": 45,
+			"location": {
+				"street": "Stieltjesstraat 30",
+				"city": "Rotterdam",
+				"state": "",
+				"country": "Netherlands",
+				"zip": "3071 JX",
+				"latitude": 51.91122,
+				"longitude": 4.49726
+			},
 			"website": "http://www.koningskerk.org"
 		},
 		"website": "http://www.koningskerk.org"
@@ -258,6 +355,15 @@
 			"talking_about_count": 4,
 			"were_here_count": 56,
 			"checkins": 7,
+			"location": {
+				"street": "Schout Doddestraat 1",
+				"city": "Vriezenveen",
+				"state": "",
+				"country": "Netherlands",
+				"zip": "7671 GT",
+				"latitude": 52.408357939431,
+				"longitude": 6.6242424080465
+			},
 			"website": "http://www.ontmoetingskerkvriezenveen.nl"
 		},
 		"website": "http://www.ontmoetingskerkvriezenveen.nl"
@@ -276,6 +382,13 @@
 			"id": "233269330060257",
 			"likes": 101,
 			"talking_about_count": 9,
+			"location": {
+				"street": "Breedewaij 1a",
+				"city": "Hardinxveld",
+				"state": "",
+				"country": "Netherlands",
+				"zip": "3371"
+			},
 			"website": "http://www.christengemeente.nl"
 		},
 		"website": "http://www.christengemeente.nl"
@@ -314,6 +427,15 @@
 			"talking_about_count": 16,
 			"were_here_count": 76,
 			"checkins": 10,
+			"location": {
+				"street": "Rijssenseweg 13",
+				"city": "Enter",
+				"state": "",
+				"country": "Netherlands",
+				"zip": "7468 AA",
+				"latitude": 52.295035017945,
+				"longitude": 6.574492696661
+			},
 			"website": "http://www.gereformeerdekerkenter.nl"
 		},
 		"website": "http://www.gereformeerdekerkenter.nl"
@@ -329,6 +451,15 @@
 			"talking_about_count": 59,
 			"were_here_count": 72,
 			"checkins": 1,
+			"location": {
+				"street": "Stokroosstraat 2B",
+				"city": "Eindhoven",
+				"state": "",
+				"country": "Netherlands",
+				"zip": "5644 CE",
+				"latitude": 51.421214452538,
+				"longitude": 5.4939131180916
+			},
 			"website": "http://www.koptischekerkeindhoven.nl"
 		},
 		"website": "http://www.koptischekerkeindhoven.nl"
@@ -349,6 +480,15 @@
 			"talking_about_count": 13,
 			"were_here_count": 63,
 			"checkins": 3,
+			"location": {
+				"street": "Varsseveldseweg 104-106",
+				"city": "Doetinchem",
+				"state": "",
+				"country": "Netherlands",
+				"zip": "7003 AA",
+				"latitude": 51.966127003856,
+				"longitude": 6.3019744044555
+			},
 			"website": "http://www.leef-doetinchem.nl"
 		},
 		"website": "http://www.leef-doetinchem.nl"
@@ -366,6 +506,13 @@
 			"id": "251985138193875",
 			"likes": 195,
 			"talking_about_count": 18,
+			"location": {
+				"street": "Zijlweg 218",
+				"city": "Haarlem",
+				"state": "",
+				"country": "Netherlands",
+				"zip": "2015 CK"
+			},
 			"website": "http://www.kvdnhaarlem.nl"
 		},
 		"website": "http://www.kvdnhaarlem.nl"
@@ -381,6 +528,15 @@
 			"talking_about_count": 14,
 			"were_here_count": 40,
 			"checkins": 4,
+			"location": {
+				"street": "Westeinde 39",
+				"city": "Vriezenveen",
+				"state": "",
+				"country": "Netherlands",
+				"zip": "7671 EK",
+				"latitude": 52.412187719609,
+				"longitude": 6.6252922388953
+			},
 			"website": "http://hervormdvriezenveen.nl/"
 		},
 		"website": "http://hervormdvriezenveen.nl/"
@@ -399,6 +555,13 @@
 			"id": "106632822794682",
 			"likes": 2928,
 			"talking_about_count": 131,
+			"location": {
+				"street": "Oostelijke Handelskade 4",
+				"city": "Amsterdam",
+				"state": "",
+				"country": "Netherlands",
+				"zip": ""
+			},
 			"website": "http://www.hillsong.nl"
 		},
 		"website": "http://www.hillsong.nl"
@@ -415,10 +578,19 @@
 		"facebook": {
 			"graphUrl": "http://graph.facebook.com/crossroadsamsterdam",
 			"id": "250968861596595",
-			"likes": 957,
+			"likes": 958,
 			"talking_about_count": 62,
 			"were_here_count": 245,
 			"checkins": 38,
+			"location": {
+				"street": "Buitenplein 55",
+				"city": "Amstelveen",
+				"state": "",
+				"country": "Netherlands",
+				"zip": "1187 XR",
+				"latitude": 52.294305283608,
+				"longitude": 4.8569467272564
+			},
 			"website": "http://www.xrds.nl"
 		},
 		"website": "http://www.xrds.nl"
@@ -434,6 +606,15 @@
 			"talking_about_count": 58,
 			"were_here_count": 423,
 			"checkins": 49,
+			"location": {
+				"street": "Mosstraat  2",
+				"city": "Amsterdam",
+				"state": "",
+				"country": "Netherlands",
+				"zip": "1032 JW",
+				"latitude": 52.393249353938,
+				"longitude": 4.9136246157204
+			},
 			"website": "http://www."
 		},
 		"website": "http://www."
@@ -454,6 +635,15 @@
 			"talking_about_count": 94,
 			"were_here_count": 3328,
 			"checkins": 439,
+			"location": {
+				"street": "Escamplaan 280",
+				"city": "The Hague",
+				"state": "",
+				"country": "Netherlands",
+				"zip": "2547 GP",
+				"latitude": 52.062620893608,
+				"longitude": 4.2724213780725
+			},
 			"website": "http://www.clcdenhaag.nl"
 		},
 		"website": "http://www.clcdenhaag.nl"
@@ -469,6 +659,15 @@
 			"talking_about_count": 4,
 			"were_here_count": 88,
 			"checkins": 29,
+			"location": {
+				"street": "Meidoornstraat 111",
+				"city": "Breda",
+				"state": "",
+				"country": "Netherlands",
+				"zip": "4814 KB",
+				"latitude": 51.588745853515,
+				"longitude": 4.7540021582256
+			},
 			"website": "http://www.jefta.org"
 		},
 		"website": "http://www.jefta.org"
@@ -484,6 +683,15 @@
 			"talking_about_count": 6,
 			"were_here_count": 18,
 			"checkins": 4,
+			"location": {
+				"street": "Witbolstraat 9b",
+				"city": "Amsterdam",
+				"state": "",
+				"country": "Netherlands",
+				"zip": "1032 LC ",
+				"latitude": 52.39471,
+				"longitude": 4.90874
+			},
 			"website": "http://www.christworshipcentre.com"
 		},
 		"website": "http://www.christworshipcentre.com"
@@ -504,6 +712,15 @@
 			"talking_about_count": 47,
 			"were_here_count": 1012,
 			"checkins": 126,
+			"location": {
+				"street": "Neuweg 148",
+				"city": "Hilversum",
+				"state": "",
+				"country": "Netherlands",
+				"zip": "1214 HA",
+				"latitude": 52.215567314287,
+				"longitude": 5.171135210704
+			},
 			"website": "http://www.thousandhills.cc"
 		},
 		"website": "http://www.thousandhills.cc"
@@ -524,6 +741,15 @@
 			"talking_about_count": 3,
 			"were_here_count": 27,
 			"checkins": 15,
+			"location": {
+				"street": "Bruijnstraat 16",
+				"city": "Rotterdam",
+				"state": "",
+				"country": "Netherlands",
+				"zip": "3026 VD",
+				"latitude": 51.91408,
+				"longitude": 4.44384
+			},
 			"website": "http://www.newlife010.nl"
 		},
 		"website": "http://www.newlife010.nl"
@@ -544,6 +770,15 @@
 			"talking_about_count": 23,
 			"were_here_count": 350,
 			"checkins": 32,
+			"location": {
+				"street": "Friesestraatweg 221",
+				"city": "Groningen",
+				"state": "",
+				"country": "Netherlands",
+				"zip": "9743AE",
+				"latitude": 53.20426,
+				"longitude": 6.55942
+			},
 			"website": "http://www.vbgroningen.nl/"
 		},
 		"website": "http://www.vbgroningen.nl/"
@@ -564,6 +799,15 @@
 			"talking_about_count": 10,
 			"were_here_count": 30,
 			"checkins": 6,
+			"location": {
+				"street": "Thorbeckegracht 37",
+				"city": "Zwolle",
+				"state": "",
+				"country": "Netherlands",
+				"zip": "8011 VN",
+				"latitude": 52.51473,
+				"longitude": 6.09644
+			},
 			"website": "http://www.cgkzwolle.nl"
 		},
 		"website": "http://www.cgkzwolle.nl"
@@ -577,6 +821,13 @@
 			"id": "279558128818311",
 			"likes": 311,
 			"talking_about_count": 10,
+			"location": {
+				"street": "",
+				"city": "Barneveld",
+				"state": "",
+				"country": "Netherlands",
+				"zip": ""
+			},
 			"website": "http://www.hervormdbarneveld.nl"
 		},
 		"website": "http://www.hervormdbarneveld.nl"
@@ -592,6 +843,15 @@
 			"talking_about_count": 6,
 			"were_here_count": 20,
 			"checkins": 3,
+			"location": {
+				"street": "Zuiderzeestraatweg 226-2",
+				"city": "Oldebroek",
+				"state": "",
+				"country": "Netherlands",
+				"zip": "8096 CH",
+				"latitude": 52.45273,
+				"longitude": 5.91295
+			},
 			"website": "http://www.vegoldebroek.nl"
 		},
 		"website": "http://www.vegoldebroek.nl"
@@ -611,6 +871,15 @@
 			"talking_about_count": 4,
 			"were_here_count": 80,
 			"checkins": 13,
+			"location": {
+				"street": "Groen van Prinstererweg 1",
+				"city": "Katwijk",
+				"state": "",
+				"country": "Netherlands",
+				"zip": "2221 AA",
+				"latitude": 52.2075386,
+				"longitude": 4.4103999
+			},
 			"website": "http://www.baptistengemeentekatwijk.nl"
 		},
 		"website": "http://www.baptistengemeentekatwijk.nl"
@@ -631,6 +900,15 @@
 			"talking_about_count": 1,
 			"were_here_count": 82,
 			"checkins": 1,
+			"location": {
+				"street": "Olympiaweg 32",
+				"city": "Sommelsdijk",
+				"state": "",
+				"country": "Netherlands",
+				"zip": "3245 DL",
+				"latitude": 51.751108514224,
+				"longitude": 4.1567172530262
+			},
 			"website": "http://www.lachai-roi.nl/"
 		},
 		"website": "http://www.lachai-roi.nl/"
@@ -645,6 +923,15 @@
 			"likes": 87,
 			"talking_about_count": 2,
 			"were_here_count": 3,
+			"location": {
+				"street": "Bilderdijkstraat 3",
+				"city": "Doetinchem",
+				"state": "",
+				"country": "Netherlands",
+				"zip": "7009 JL",
+				"latitude": 51.97092,
+				"longitude": 6.29855
+			},
 			"website": "http://www.ngkdoetinchem-velp.nl"
 		},
 		"website": "http://www.ngkdoetinchem-velp.nl"
@@ -665,6 +952,15 @@
 			"talking_about_count": 23,
 			"were_here_count": 657,
 			"checkins": 47,
+			"location": {
+				"street": "Kosmonaut 2",
+				"city": "Amersfoort",
+				"state": "",
+				"country": "Netherlands",
+				"zip": "3824 MK",
+				"latitude": 52.1921046,
+				"longitude": 5.3892692806265
+			},
 			"website": "http://www.rafaelamersfoort.nl"
 		},
 		"website": "http://www.rafaelamersfoort.nl"
@@ -698,6 +994,15 @@
 			"talking_about_count": 3,
 			"were_here_count": 467,
 			"checkins": 11,
+			"location": {
+				"street": "Regenboogkerk, Kometensingel 58",
+				"city": "Amsterdam",
+				"state": "",
+				"country": "Netherlands",
+				"zip": "1033BW",
+				"latitude": 52.41495,
+				"longitude": 4.89311
+			},
 			"website": "http://www.pinkstergemeente-agape.nl"
 		},
 		"website": "http://www.pinkstergemeente-agape.nl"
@@ -718,6 +1023,15 @@
 			"talking_about_count": 22,
 			"were_here_count": 1219,
 			"checkins": 398,
+			"location": {
+				"street": "Burgemeester Kuntzelaan 25",
+				"city": "Barneveld",
+				"state": "",
+				"country": "Netherlands",
+				"zip": "3771 EP ",
+				"latitude": 52.138285204093,
+				"longitude": 5.5903055726162
+			},
 			"website": "http://www.doorbrekers.nl"
 		},
 		"website": "http://www.doorbrekers.nl"
@@ -749,6 +1063,13 @@
 			"id": "128574734098",
 			"likes": 1139,
 			"talking_about_count": 10,
+			"location": {
+				"street": "Meeting Point (our Sunday morning gathering) location: Keizersgracht 102 (in de Rode Hoed), Amsterdam. We begin at 11:00 and conclude at 12:30.",
+				"city": "Amsterdam",
+				"state": "",
+				"country": "Netherlands",
+				"zip": ""
+			},
 			"website": "http://www.VineyardAmsterdam.nl"
 		},
 		"website": "http://www.VineyardAmsterdam.nl"
@@ -769,6 +1090,15 @@
 			"talking_about_count": 2,
 			"were_here_count": 41,
 			"checkins": 2,
+			"location": {
+				"street": "Kalkhaven 25",
+				"city": "Gorinchem",
+				"state": "",
+				"country": "Netherlands",
+				"zip": "4201 BA",
+				"latitude": 51.8287506,
+				"longitude": 4.97856
+			},
 			"website": "http://gorinchem.gkv.nl/"
 		},
 		"website": "http://gorinchem.gkv.nl/"
@@ -783,6 +1113,15 @@
 			"likes": 143,
 			"were_here_count": 14,
 			"checkins": 4,
+			"location": {
+				"street": "Lambert Heijnricsstraart 23",
+				"city": "Amersfoort",
+				"state": "",
+				"country": "Netherlands",
+				"zip": "3817 ER",
+				"latitude": 52.14502,
+				"longitude": 5.39745
+			},
 			"website": "http://www.amersfoort.nazarener.nl/"
 		},
 		"website": "http://www.amersfoort.nazarener.nl/"
@@ -808,8 +1147,9 @@
 		"name": "Morgenstond Delft",
 		"facebook_url": "https://www.facebook.com/groups/148502305195044/",
 		"twitter_name": "@egmdelft",
+		"website": "http://morgenstonddelft.nl/",
 		"twitter": {
-			"statuses_count": 247,
+			"statuses_count": 248,
 			"followers_count": 104,
 			"friends_count": 110
 		},
@@ -853,6 +1193,15 @@
 			"talking_about_count": 4,
 			"were_here_count": 89,
 			"checkins": 1,
+			"location": {
+				"street": "Hermesstraat 65",
+				"city": "Delft",
+				"state": "",
+				"country": "Netherlands",
+				"zip": "2624 BG",
+				"latitude": 51.9984512,
+				"longitude": 4.3564701
+			},
 			"website": "http://www.levendwater.nl/en"
 		}
 	},

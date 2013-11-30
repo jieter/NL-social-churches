@@ -30,7 +30,8 @@ function facebookMetrics (url, callback) {
 			'likes',
 			'talking_about_count',
 			'were_here_count',
-			'checkins'
+			'checkins',
+			'location'
 		].forEach(function (key) {
 			if (body[key]) {
 				data[key] = body[key];

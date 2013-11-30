@@ -19,7 +19,6 @@ var twitterCount = 0;
 var facebookCount = 0;
 
 function addTwitterMetrics(list, callback) {
-	console.log(list);
 	if (skipTwitter) {
 		callback(null, list);
 		return;
@@ -64,7 +63,7 @@ function addFacebookMetrics(list, callback) {
 	}, callback);
 }
 
-var path = __dirname + '/';
+var path = __dirname + '/data/';
 
 async.waterfall([
 	function loadChurches(callback) {
