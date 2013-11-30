@@ -7,7 +7,7 @@
 var Twit = require('twit');
 var T = new Twit(require('./twitter-api-auth.js'));
 
-var cache = require('./cache.js')('__facebook-cache.json');
+var cache = require('./cache.js')('__twitter-cache.json');
 
 function twitterUser(name, callback) {
 	if (cache.has(name)) {
@@ -45,12 +45,10 @@ function twitterMetrics(name, callback) {
 	});
 };
 
+module.exports = twitterMetrics;
 module.exports.saveCache = function () {
 	cache.save();
 };
 module.exports.clearCache = function () {
 	cache.clear();
 };
-
-
-module.exports = twitterMetrics;

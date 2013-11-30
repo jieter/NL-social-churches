@@ -399,13 +399,13 @@
 		"twitter_name": "@mijnkerkNL",
 		"twitter": {
 			"statuses_count": 501,
-			"followers_count": 1037,
+			"followers_count": 1039,
 			"friends_count": 1173
 		},
 		"facebook": {
 			"graphUrl": "http://graph.facebook.com/Mijnkerk",
 			"id": "484647548235132",
-			"likes": 1783,
+			"likes": 1784,
 			"talking_about_count": 170,
 			"website": "http://www.mijnkerk.nl"
 		},
@@ -603,7 +603,7 @@
 			"graphUrl": "http://graph.facebook.com/mariakerk",
 			"id": "309928182409193",
 			"likes": 1496,
-			"talking_about_count": 58,
+			"talking_about_count": 54,
 			"were_here_count": 423,
 			"checkins": 49,
 			"location": {

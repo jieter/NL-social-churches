@@ -27,6 +27,15 @@
 			width: 100%;
 			height: 800px;
 		}
+
+
+		.fa-facebook, .fa-facebook-square {
+			color: #3b5998;
+		}
+
+		.fa-twitter, .twitter {
+			color: #55acee;
+		}
 	</style>
 	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
 	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -100,6 +109,19 @@
 			maxZoom: 18
 		}).addTo(map);
 
+		var link = function (href, body) {
+			body = body || href;
+
+			return '<a href="' + href + '">' + body + '</a>';
+		};
+
+		var facebookLink = function (url) {
+			return link(url, '<i class="fa fa-facebook-square fa-2x"></i>');
+		};
+		var twitterLink = function (name) {
+			return link('https://twitter.com/' + name.substr(1), '<i class="fa fa-twitter fa-2x"></i> ' + name);
+		};
+
 		$.getJSON('data/nl-churches-with-metrics.json', function (list) {
 			list.forEach(function (item) {
 				tr = $('<tr></tr>');
@@ -118,14 +140,14 @@
 				td(item['name']);
 
 				if (item['website']) {
-					td('<a href="' + item['website'] + '">' + item['website'] + '</a>', 'website');
+					td(link(item['website']), 'website');
 				} else {
 					td();
 				}
 
 				if (item['facebook_url'] && item['facebook_url'] !== '') {
 					facebook = item['facebook'];
-					var facebook_link = '<a href="' + item['facebook_url'] + '"><i class="fa fa-facebook-square fa-2x"></i>';
+					var facebook_link = facebookLink(item['facebook_url']);
 					td(facebook_link, 'facebook');
 
 					if (facebook['likes']) {
@@ -141,6 +163,10 @@
 							'<h5>' + item['name'] + '</h5>' +
 							facebook_link;
 
+						if (item['twitter_name'] && item['twitter_name'] !== '') {
+							popupHtml += '<br />' + twitterLink(item['twitter_name']);
+						}
+
 						L.marker([
 							facebook['location']['latitude'],
 							facebook['location']['longitude']
@@ -154,8 +180,7 @@
 				if (item['twitter_name'] && item['twitter_name'] !== '') {
 					twitter = item['twitter'];
 
-					td('<a href="https://twitter.com/' + item['twitter_name'].substr(1) + '">' + item['twitter_name'] + '</a>')
-						.addClass('twitter');
+					td(twitterLink(item['twitter_name'])).addClass('twitter');
 
 					td(twitter['tweets'], 'twitter_tweets');
 					td(twitter['followers'], 'twitter_followers');
