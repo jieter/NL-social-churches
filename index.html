@@ -159,18 +159,23 @@
 					}
 
 					if (facebook['location'] && facebook['location']['latitude']) {
-						var popupHtml =
+						var location = facebook['location'];
+						var popup =
 							'<h5>' + item['name'] + '</h5>' +
-							facebook_link;
+							location['street'] + '<br />' +
+							location['zip'] + location['country'];
+
+
+						popup += '<br />' + facebook_link;
 
 						if (item['twitter_name'] && item['twitter_name'] !== '') {
-							popupHtml += '<br />' + twitterLink(item['twitter_name']);
+							popup += '<br />' + twitterLink(item['twitter_name']);
 						}
 
 						L.marker([
-							facebook['location']['latitude'],
-							facebook['location']['longitude']
-						]).bindPopup(popupHtml).addTo(map);
+							location['latitude'],
+							location['longitude']
+						]).bindPopup(popup).addTo(map);
 					}
 
 				} else {
@@ -182,8 +187,9 @@
 
 					td(twitterLink(item['twitter_name'])).addClass('twitter');
 
-					td(twitter['tweets'], 'twitter_tweets');
-					td(twitter['followers'], 'twitter_followers');
+					console.log(twitter);
+					td(twitter['statuses_count'], 'twitter_tweets');
+					td(twitter['followers_count'], 'twitter_followers');
 				} else {
 					td('-', 'no-twitter').attr('colspan', 3);
 				}
