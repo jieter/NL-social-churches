@@ -36,6 +36,9 @@
 		.fa-twitter, .twitter {
 			color: #55acee;
 		}
+		.fa-github {
+			color: black;
+		}
 	</style>
 	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
 	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -57,26 +60,42 @@
 	<ul class="nav nav-tabs">
 		<li class="active"><a href="#list" data-toggle="tab">Overzicht</a></li>
 		<li><a href="#map" data-toggle="tab">Kaart</a></li>
+		<li><a href="#about" data-toggle="tab">Over</a></li>
 	</ul>
 
 	<div class="tab-content">
 		<div class="tab-pane fade in active" id="list">
 			<table class="table table-striped table-bordered" id="churches">
 				<thead>
-					<th>Naam</th>
-					<th>Website</th>
-					<th>Facebook</th>
-					<th title="Facebook likes" class="facebook_likes">Likes</th>
-					<th title="Talking about this" class="facebook_talking_about">Interacties</th>
-					<th title="Facebook checkins" class="facebook_checkins">Checkins</th>
-					<th>Twitter</th>
-					<th>Tweets</th>
-					<th>Volgers</th>
+					<tr>
+						<th>Naam</th>
+						<th>Website</th>
+						<th>Facebook</th>
+						<th title="Facebook likes" class="facebook_likes">Likes</th>
+						<th title="Talking about this" class="facebook_talking_about">Interacties</th>
+						<th title="Facebook checkins" class="facebook_checkins">Checkins</th>
+						<th>Twitter</th>
+						<th>Tweets</th>
+						<th>Volgers</th>
+					</tr>
 				</thead>
+				<tfoot></tfoot>
 			</table>
 		</div>
 		<div class="tab-pane fade" id="map">
 			<div id="mapContainer"></div>
+		</div>
+		<div class="tab-pane fade col-md-8" id="about">
+			<h2>Over</h2>
+			<p>
+				Overzicht van kerken in Nederland met een facebook- en/of twitteraccount.
+				Naar een idee van <a href="https://twitter.com/creatov">@creatov</a>, zie originele blogpost: <a href="http://www.creatov.nl/kerken-op-sociale-media/">Creatov.nl over 'Kerken op Sociale Media'</a>
+			</p>
+			<h3>Bijdragen</h3>
+			<p>
+				Stuur een <em>pull request</em> op GitHub:
+				<a href="https://github.com/jieter/NL-social-churches"><i class="fa fa-github"></i> jieter/NL-social-churches</a>
+			</p>
 		</div>
 	</div>
 
@@ -102,6 +121,7 @@
 		});
 
 		var table = $('table#churches');
+		table.find('thead tr').clone().prependTo(table.find('tfoot'));
 
 		L.tileLayer('http://a{s}.acetate.geoiq.com/tiles/acetate-hillshading/{z}/{x}/{y}.png', {
 			attribution: '&copy;2012 Esri & Stamen, Data from OSM and Natural Earth',
@@ -181,7 +201,8 @@
 					}
 
 				} else {
-					td('-', 'no-facebook').attr('colspan', 4);
+					td('-', 'no-facebook');
+					td('-', 'no-facebook').attr('colspan', 3);
 				}
 
 				if (item['twitter_name'] && item['twitter_name'] !== '') {
@@ -189,7 +210,6 @@
 
 					td(twitterLink(item['twitter_name'])).addClass('twitter');
 
-					console.log(twitter);
 					td(twitter['statuses_count'], 'twitter_tweets');
 					td(twitter['followers_count'], 'twitter_followers');
 				} else {
@@ -206,10 +226,22 @@
 				sortAsc: 'glyphicon glyphicon-chevron-up',
 				sortDesc: 'glyphicon glyphicon-chevron-down',
 			});
+			$.tablesorter.addParser({
+				id: 'twitter',
+				is: function(s) { return false; },
+				format: function(s) {
+					return s.replace('@', '')
+						// move twitterless churches to the end
+						.replace('-', 'zzzzzz');
+				},
+				type: 'text'
+			});
 
 			$("table").tablesorter({
-				// this will apply the bootstrap theme if "uitheme" widget is included
-				// the widgetOptions.uitheme is no longer required to be set
+				headers: {
+					2: { sorter: false },
+					6: { sorter: 'twitter' }
+				},
 				theme : "bootstrap",
 
 				widthFixed: true,
