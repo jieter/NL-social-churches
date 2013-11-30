@@ -259,5 +259,29 @@
 		"facebook_url": "https://www.facebook.com/KerkWoudrichem",
 		"twitter_name": "",
 		"website": "http://www.hervormdegemeentewoudrichem.nl/"
+	},
+	{
+		"name": "Gereformeerde kerk Bunschoten Spakenburg",
+		"facebook_url": "https://www.facebook.com/pages/Gereformeerde-kerk-Bunschoten-Spakenburg/280158508701206",
+		"twitter_name": "@GKBSonline",
+		"website": "http://www.gkbs.nl/"
+	},
+	{
+		"name": "Gereformeerde Kerk Urk (PKN)",
+		"facebook_url": "https://www.facebook.com/GereformeerdeKerkUrk",
+		"twitter_name": "@gkupkn",
+		"website": "http://gku-pkn.nl"
+	},
+	{
+		"name": "Grote Kerk Maassluis",
+		"facebook_url": "",
+		"twitter_name": "GGKMaassluis",
+		"website": "http://www.pknmaassluis.nl/grootekerk/"
+	},
+	{
+		"name": "Marcuskerk Den Haag",
+		"facebook_url": "https://www.facebook.com/marcuskerk",
+		"twitter_name": "@Marcuskerk",
+		"website": "http://www.marcuskerk-denhaag.nl/"
 	}
 ]

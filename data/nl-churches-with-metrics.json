@@ -3,6 +3,11 @@
 		"name": "Kerk van de Nazarener Vlaardingen",
 		"facebook_url": "https://www.facebook.com/KerkvandeNazarenerVlaardingen",
 		"twitter_name": "@kvdnvlaardingen",
+		"twitter": {
+			"statuses_count": 152,
+			"followers_count": 125,
+			"friends_count": 120
+		},
 		"facebook": {
 			"graphUrl": "http://graph.facebook.com/KerkvandeNazarenerVlaardingen",
 			"id": "340107662675701",
@@ -21,17 +26,17 @@
 			},
 			"website": "http://www.kvdnvlaardingen.nl"
 		},
-		"website": "http://www.kvdnvlaardingen.nl",
-		"twitter": {
-			"statuses_count": 152,
-			"followers_count": 125,
-			"friends_count": 120
-		}
+		"website": "http://www.kvdnvlaardingen.nl"
 	},
 	{
 		"name": "Victory Outreach Rotterdam",
 		"facebook_url": "https://www.facebook.com/VORotterdam",
 		"twitter_name": "@VORotterdam",
+		"twitter": {
+			"statuses_count": 454,
+			"followers_count": 369,
+			"friends_count": 29
+		},
 		"facebook": {
 			"graphUrl": "http://graph.facebook.com/VORotterdam",
 			"id": "142866119103429",
@@ -50,17 +55,17 @@
 			},
 			"website": "http://www.vorotterdam.nl"
 		},
-		"website": "http://www.vorotterdam.nl",
-		"twitter": {
-			"statuses_count": 454,
-			"followers_count": 369,
-			"friends_count": 29
-		}
+		"website": "http://www.vorotterdam.nl"
 	},
 	{
 		"name": "BethEl Hoogeveen",
 		"facebook_url": "https://www.facebook.com/BethElHoogeveen",
 		"twitter_name": "@bethelhgv",
+		"twitter": {
+			"statuses_count": 3065,
+			"followers_count": 139,
+			"friends_count": 107
+		},
 		"facebook": {
 			"graphUrl": "http://graph.facebook.com/BethElHoogeveen",
 			"id": "136600443152407",
@@ -79,17 +84,17 @@
 			},
 			"website": "http://www.beth-el.nl"
 		},
-		"website": "http://www.beth-el.nl",
-		"twitter": {
-			"statuses_count": 3065,
-			"followers_count": 139,
-			"friends_count": 107
-		}
+		"website": "http://www.beth-el.nl"
 	},
 	{
 		"name": "re:connect",
 		"facebook_url": "https://www.facebook.com/reconnectnl",
 		"twitter_name": "@reconnectnl",
+		"twitter": {
+			"statuses_count": 53,
+			"followers_count": 40,
+			"friends_count": 8
+		},
 		"facebook": {
 			"graphUrl": "http://graph.facebook.com/reconnectnl",
 			"id": "370576742963306",
@@ -104,17 +109,17 @@
 			},
 			"website": "http://www.reconnect.cc"
 		},
-		"website": "http://www.reconnect.cc",
-		"twitter": {
-			"statuses_count": 53,
-			"followers_count": 40,
-			"friends_count": 8
-		}
+		"website": "http://www.reconnect.cc"
 	},
 	{
 		"name": "Vrije Evangelisatie Zwolle",
 		"facebook_url": "https://www.facebook.com/VEZwolle",
 		"twitter_name": "@VEZwolle",
+		"twitter": {
+			"statuses_count": 574,
+			"followers_count": 679,
+			"friends_count": 127
+		},
 		"facebook": {
 			"graphUrl": "http://graph.facebook.com/VEZwolle",
 			"id": "167627793301411",
@@ -133,17 +138,17 @@
 			},
 			"website": "http://www.vezwolle.nl"
 		},
-		"website": "http://www.vezwolle.nl",
-		"twitter": {
-			"statuses_count": 574,
-			"followers_count": 679,
-			"friends_count": 127
-		}
+		"website": "http://www.vezwolle.nl"
 	},
 	{
 		"name": "Paaskerk Oss",
 		"facebook_url": "https://www.facebook.com/PaaskerkOss",
 		"twitter_name": "@Paaskerk_Oss",
+		"twitter": {
+			"statuses_count": 1372,
+			"followers_count": 70,
+			"friends_count": 141
+		},
 		"facebook": {
 			"graphUrl": "http://graph.facebook.com/PaaskerkOss",
 			"id": "352468111459124",
@@ -162,12 +167,7 @@
 			},
 			"website": "http://www.pkn-oss.nl https://twitter.com/#!/Paaskerk_Oss"
 		},
-		"website": "http://www.pkn-oss.nl https://twitter.com/#!/Paaskerk_Oss",
-		"twitter": {
-			"statuses_count": 1372,
-			"followers_count": 70,
-			"friends_count": 141
-		}
+		"website": "http://www.pkn-oss.nl https://twitter.com/#!/Paaskerk_Oss"
 	},
 	{
 		"name": "Ontmoetingskerk Pijnacker",
@@ -196,6 +196,11 @@
 		"name": "Vrije Baptistengemeente Bethel",
 		"facebook_url": "https://www.facebook.com/vbgbethel",
 		"twitter_name": "@Bethel",
+		"twitter": {
+			"statuses_count": 1169,
+			"followers_count": 1192,
+			"friends_count": 41
+		},
 		"facebook": {
 			"graphUrl": "http://graph.facebook.com/vbgbethel",
 			"id": "293286710927",
@@ -214,17 +219,17 @@
 			},
 			"website": "http://www.bethel.nl"
 		},
-		"website": "http://www.bethel.nl",
-		"twitter": {
-			"statuses_count": 1169,
-			"followers_count": 1192,
-			"friends_count": 41
-		}
+		"website": "http://www.bethel.nl"
 	},
 	{
 		"name": "Christengemeente De Wingerd",
 		"facebook_url": "https://www.facebook.com/cgdewingerd",
 		"twitter_name": "@cgdewingerd",
+		"twitter": {
+			"statuses_count": 737,
+			"followers_count": 67,
+			"friends_count": 35
+		},
 		"facebook": {
 			"graphUrl": "http://graph.facebook.com/cgdewingerd",
 			"id": "126376950776834",
@@ -243,17 +248,17 @@
 			},
 			"website": "http://www.cgdewingerd.nl"
 		},
-		"website": "http://www.cgdewingerd.nl",
-		"twitter": {
-			"statuses_count": 737,
-			"followers_count": 67,
-			"friends_count": 35
-		}
+		"website": "http://www.cgdewingerd.nl"
 	},
 	{
 		"name": "Kruiskerk-gemeente",
 		"facebook_url": "https://www.facebook.com/Kruiskerkinfo",
 		"twitter_name": "@Kruiskerkinfo",
+		"twitter": {
+			"statuses_count": 953,
+			"followers_count": 150,
+			"friends_count": 17
+		},
 		"facebook": {
 			"graphUrl": "http://graph.facebook.com/Kruiskerkinfo",
 			"id": "196399117090830",
@@ -272,17 +277,17 @@
 			},
 			"website": "http://kruiskerk.info"
 		},
-		"website": "http://kruiskerk.info",
-		"twitter": {
-			"statuses_count": 953,
-			"followers_count": 150,
-			"friends_count": 17
-		}
+		"website": "http://kruiskerk.info"
 	},
 	{
 		"name": "Jong en Vrij",
 		"facebook_url": "https://www.facebook.com/jongenvrijnl",
 		"twitter_name": "@jongenvrij",
+		"twitter": {
+			"statuses_count": 1433,
+			"followers_count": 605,
+			"friends_count": 42
+		},
 		"facebook": {
 			"graphUrl": "http://graph.facebook.com/jongenvrijnl",
 			"id": "113240012075632",
@@ -290,17 +295,17 @@
 			"talking_about_count": 245,
 			"website": "http://www.jongenvrij.nl"
 		},
-		"website": "http://www.jongenvrij.nl",
-		"twitter": {
-			"statuses_count": 1433,
-			"followers_count": 605,
-			"friends_count": 42
-		}
+		"website": "http://www.jongenvrij.nl"
 	},
 	{
 		"name": "Koningskerk Rotterdam",
 		"facebook_url": "https://www.facebook.com/koningskerk",
 		"twitter_name": "@KoningskerkRdam",
+		"twitter": {
+			"statuses_count": 334,
+			"followers_count": 117,
+			"friends_count": 68
+		},
 		"facebook": {
 			"graphUrl": "http://graph.facebook.com/koningskerk",
 			"id": "225253930845783",
@@ -319,12 +324,7 @@
 			},
 			"website": "http://www.koningskerk.org"
 		},
-		"website": "http://www.koningskerk.org",
-		"twitter": {
-			"statuses_count": 334,
-			"followers_count": 117,
-			"friends_count": 68
-		}
+		"website": "http://www.koningskerk.org"
 	},
 	{
 		"name": "Christengemeente Maaseik",
@@ -343,6 +343,11 @@
 		"name": "Ontmoetingskerk Vriezenveen",
 		"facebook_url": "https://www.facebook.com/OntmoetingskerkVriezenveen",
 		"twitter_name": "@JDCOntmoetKerk",
+		"twitter": {
+			"statuses_count": 142,
+			"followers_count": 63,
+			"friends_count": 68
+		},
 		"facebook": {
 			"graphUrl": "http://graph.facebook.com/OntmoetingskerkVriezenveen",
 			"id": "264141600281551",
@@ -361,17 +366,17 @@
 			},
 			"website": "http://www.ontmoetingskerkvriezenveen.nl"
 		},
-		"website": "http://www.ontmoetingskerkvriezenveen.nl",
-		"twitter": {
-			"statuses_count": 142,
-			"followers_count": 63,
-			"friends_count": 68
-		}
+		"website": "http://www.ontmoetingskerkvriezenveen.nl"
 	},
 	{
 		"name": "Christengemeente Hardinxveld-Giessendam",
 		"facebook_url": "https://www.facebook.com/ChristengemeenteHardinxveldGiessendam",
 		"twitter_name": "@ChrGemHveldGdam",
+		"twitter": {
+			"statuses_count": 187,
+			"followers_count": 46,
+			"friends_count": 4
+		},
 		"facebook": {
 			"graphUrl": "http://graph.facebook.com/ChristengemeenteHardinxveldGiessendam",
 			"id": "233269330060257",
@@ -386,17 +391,17 @@
 			},
 			"website": "http://www.christengemeente.nl"
 		},
-		"website": "http://www.christengemeente.nl",
-		"twitter": {
-			"statuses_count": 187,
-			"followers_count": 46,
-			"friends_count": 4
-		}
+		"website": "http://www.christengemeente.nl"
 	},
 	{
 		"name": "Mijn Kerk",
 		"facebook_url": "https://www.facebook.com/Mijnkerk",
 		"twitter_name": "@mijnkerkNL",
+		"twitter": {
+			"statuses_count": 501,
+			"followers_count": 1039,
+			"friends_count": 1173
+		},
 		"facebook": {
 			"graphUrl": "http://graph.facebook.com/Mijnkerk",
 			"id": "484647548235132",
@@ -404,17 +409,17 @@
 			"talking_about_count": 170,
 			"website": "http://www.mijnkerk.nl"
 		},
-		"website": "http://www.mijnkerk.nl",
-		"twitter": {
-			"statuses_count": 501,
-			"followers_count": 1039,
-			"friends_count": 1173
-		}
+		"website": "http://www.mijnkerk.nl"
 	},
 	{
 		"name": "Gereformeerde kerk Enter",
 		"facebook_url": "https://www.facebook.com/gkenter",
 		"twitter_name": "@kerkenter",
+		"twitter": {
+			"statuses_count": 104,
+			"followers_count": 160,
+			"friends_count": 72
+		},
 		"facebook": {
 			"graphUrl": "http://graph.facebook.com/gkenter",
 			"id": "101950543246013",
@@ -433,12 +438,7 @@
 			},
 			"website": "http://www.gereformeerdekerkenter.nl"
 		},
-		"website": "http://www.gereformeerdekerkenter.nl",
-		"twitter": {
-			"statuses_count": 104,
-			"followers_count": 160,
-			"friends_count": 72
-		}
+		"website": "http://www.gereformeerdekerkenter.nl"
 	},
 	{
 		"name": "Koptisch Orthodoxe kerk Eindhoven",
@@ -468,6 +468,11 @@
 		"name": "LEEF! Doetinchem",
 		"facebook_url": "https://www.facebook.com/LeefDoetinchem",
 		"twitter_name": "@LEEFDoetinchem",
+		"twitter": {
+			"statuses_count": 4,
+			"followers_count": 4,
+			"friends_count": 8
+		},
 		"facebook": {
 			"graphUrl": "http://graph.facebook.com/LeefDoetinchem",
 			"id": "343139999069499",
@@ -486,17 +491,16 @@
 			},
 			"website": "http://www.leef-doetinchem.nl"
 		},
-		"website": "http://www.leef-doetinchem.nl",
-		"twitter": {
-			"statuses_count": 4,
-			"followers_count": 4,
-			"friends_count": 8
-		}
+		"website": "http://www.leef-doetinchem.nl"
 	},
 	{
 		"name": "Kerk van de Nazarener Haarlem",
 		"facebook_url": "https://www.facebook.com/NazarenerHlem",
 		"twitter_name": "@NazarenerHlem",
+		"twitter": {
+			"statuses_count": 168,
+			"followers_count": 64
+		},
 		"facebook": {
 			"graphUrl": "http://graph.facebook.com/NazarenerHlem",
 			"id": "251985138193875",
@@ -511,11 +515,7 @@
 			},
 			"website": "http://www.kvdnhaarlem.nl"
 		},
-		"website": "http://www.kvdnhaarlem.nl",
-		"twitter": {
-			"statuses_count": 168,
-			"followers_count": 64
-		}
+		"website": "http://www.kvdnhaarlem.nl"
 	},
 	{
 		"name": "Hervormd Vriezenveen",
@@ -545,6 +545,11 @@
 		"name": "Hillsong Amsterdam",
 		"facebook_url": "https://www.facebook.com/HillsongAmsterdam",
 		"twitter_name": "@hillsongams",
+		"twitter": {
+			"statuses_count": 227,
+			"followers_count": 4002,
+			"friends_count": 15
+		},
 		"facebook": {
 			"graphUrl": "http://graph.facebook.com/HillsongAmsterdam",
 			"id": "106632822794682",
@@ -559,17 +564,17 @@
 			},
 			"website": "http://www.hillsong.nl"
 		},
-		"website": "http://www.hillsong.nl",
-		"twitter": {
-			"statuses_count": 227,
-			"followers_count": 4002,
-			"friends_count": 15
-		}
+		"website": "http://www.hillsong.nl"
 	},
 	{
 		"name": "Crossroads Amsterdam",
 		"facebook_url": "https://www.facebook.com/crossroadsamsterdam",
 		"twitter_name": "@xrdsamsterdam",
+		"twitter": {
+			"statuses_count": 516,
+			"followers_count": 444,
+			"friends_count": 12
+		},
 		"facebook": {
 			"graphUrl": "http://graph.facebook.com/crossroadsamsterdam",
 			"id": "250968861596595",
@@ -588,12 +593,7 @@
 			},
 			"website": "http://www.xrds.nl"
 		},
-		"website": "http://www.xrds.nl",
-		"twitter": {
-			"statuses_count": 516,
-			"followers_count": 444,
-			"friends_count": 12
-		}
+		"website": "http://www.xrds.nl"
 	},
 	{
 		"name": "De Maagd Maria Kerk Amsterdam",
@@ -623,6 +623,11 @@
 		"name": "City Life Church Den Haag",
 		"facebook_url": "https://www.facebook.com/clcdenhaag",
 		"twitter_name": "@CLCDenHaag",
+		"twitter": {
+			"statuses_count": 1537,
+			"followers_count": 811,
+			"friends_count": 177
+		},
 		"facebook": {
 			"graphUrl": "http://graph.facebook.com/clcdenhaag",
 			"id": "137850586233695",
@@ -641,12 +646,7 @@
 			},
 			"website": "http://www.clcdenhaag.nl"
 		},
-		"website": "http://www.clcdenhaag.nl",
-		"twitter": {
-			"statuses_count": 1537,
-			"followers_count": 811,
-			"friends_count": 177
-		}
+		"website": "http://www.clcdenhaag.nl"
 	},
 	{
 		"name": "Evangelische Kerk Jefta",
@@ -700,6 +700,11 @@
 		"name": "Thousand Hills",
 		"facebook_url": "https://www.facebook.com/thousandhills",
 		"twitter_name": "@thousand_hills",
+		"twitter": {
+			"statuses_count": 1117,
+			"followers_count": 250,
+			"friends_count": 342
+		},
 		"facebook": {
 			"graphUrl": "http://graph.facebook.com/thousandhills",
 			"id": "88656582656",
@@ -718,17 +723,17 @@
 			},
 			"website": "http://www.thousandhills.cc"
 		},
-		"website": "http://www.thousandhills.cc",
-		"twitter": {
-			"statuses_count": 1117,
-			"followers_count": 250,
-			"friends_count": 342
-		}
+		"website": "http://www.thousandhills.cc"
 	},
 	{
 		"name": "New Life Rotterdam - kerk",
 		"facebook_url": "https://www.facebook.com/newlife010",
 		"twitter_name": "@newlife010",
+		"twitter": {
+			"statuses_count": 613,
+			"followers_count": 159,
+			"friends_count": 206
+		},
 		"facebook": {
 			"graphUrl": "http://graph.facebook.com/newlife010",
 			"id": "251809472094",
@@ -747,17 +752,17 @@
 			},
 			"website": "http://www.newlife010.nl"
 		},
-		"website": "http://www.newlife010.nl",
-		"twitter": {
-			"statuses_count": 613,
-			"followers_count": 159,
-			"friends_count": 206
-		}
+		"website": "http://www.newlife010.nl"
 	},
 	{
 		"name": "Vrije Baptistengemeente Groningen",
 		"facebook_url": "https://www.facebook.com/vbgroningen",
 		"twitter_name": "@VBGroningen",
+		"twitter": {
+			"statuses_count": 857,
+			"followers_count": 566,
+			"friends_count": 37
+		},
 		"facebook": {
 			"graphUrl": "http://graph.facebook.com/vbgroningen",
 			"id": "117169972216",
@@ -776,17 +781,17 @@
 			},
 			"website": "http://www.vbgroningen.nl/"
 		},
-		"website": "http://www.vbgroningen.nl/",
-		"twitter": {
-			"statuses_count": 857,
-			"followers_count": 566,
-			"friends_count": 37
-		}
+		"website": "http://www.vbgroningen.nl/"
 	},
 	{
 		"name": "Christelijke gereformeerde kerk Zwolle",
 		"facebook_url": "https://www.facebook.com/CGKZwolle",
 		"twitter_name": "@CGKZwolle",
+		"twitter": {
+			"statuses_count": 714,
+			"followers_count": 788,
+			"friends_count": 125
+		},
 		"facebook": {
 			"graphUrl": "http://graph.facebook.com/CGKZwolle",
 			"id": "195170248809",
@@ -805,12 +810,7 @@
 			},
 			"website": "http://www.cgkzwolle.nl"
 		},
-		"website": "http://www.cgkzwolle.nl",
-		"twitter": {
-			"statuses_count": 714,
-			"followers_count": 788,
-			"friends_count": 125
-		}
+		"website": "http://www.cgkzwolle.nl"
 	},
 	{
 		"name": "Hervormd Barneveld",
@@ -860,6 +860,10 @@
 		"name": "Baptistengemeente Katwijk",
 		"facebook_url": "https://www.facebook.com/BaptistengemeenteKatwijk",
 		"twitter_name": "@BaptistKatwijk",
+		"twitter": {
+			"statuses_count": 177,
+			"followers_count": 130
+		},
 		"facebook": {
 			"graphUrl": "http://graph.facebook.com/BaptistengemeenteKatwijk",
 			"id": "179065228843305",
@@ -878,16 +882,17 @@
 			},
 			"website": "http://www.baptistengemeentekatwijk.nl"
 		},
-		"website": "http://www.baptistengemeentekatwijk.nl",
-		"twitter": {
-			"statuses_count": 177,
-			"followers_count": 130
-		}
+		"website": "http://www.baptistengemeentekatwijk.nl"
 	},
 	{
 		"name": "Christengemeente Lachai-Roï",
 		"facebook_url": "https://www.facebook.com/CGLachaiRoi",
 		"twitter_name": "@CGLachaiRoi",
+		"twitter": {
+			"statuses_count": 89,
+			"followers_count": 27,
+			"friends_count": 95
+		},
 		"facebook": {
 			"graphUrl": "http://graph.facebook.com/CGLachaiRoi",
 			"id": "400354063378166",
@@ -906,12 +911,7 @@
 			},
 			"website": "http://www.lachai-roi.nl/"
 		},
-		"website": "http://www.lachai-roi.nl/",
-		"twitter": {
-			"statuses_count": 89,
-			"followers_count": 27,
-			"friends_count": 95
-		}
+		"website": "http://www.lachai-roi.nl/"
 	},
 	{
 		"name": "NGK Doetinchem Velp",
@@ -940,6 +940,11 @@
 		"name": "Rafael Amersfoort",
 		"facebook_url": "https://www.facebook.com/rafaelamersfoort",
 		"twitter_name": "@rafaelafoort",
+		"twitter": {
+			"statuses_count": 35,
+			"followers_count": 53,
+			"friends_count": 18
+		},
 		"facebook": {
 			"graphUrl": "http://graph.facebook.com/rafaelamersfoort",
 			"id": "134144006628876",
@@ -958,17 +963,17 @@
 			},
 			"website": "http://www.rafaelamersfoort.nl"
 		},
-		"website": "http://www.rafaelamersfoort.nl",
-		"twitter": {
-			"statuses_count": 35,
-			"followers_count": 53,
-			"friends_count": 18
-		}
+		"website": "http://www.rafaelamersfoort.nl"
 	},
 	{
 		"name": "Koepelkerk Arnhem",
 		"facebook_url": "https://www.facebook.com/koepelkerkarnhem",
 		"twitter_name": "@KoepelkerkArnh",
+		"twitter": {
+			"statuses_count": 1,
+			"followers_count": 37,
+			"friends_count": 2
+		},
 		"facebook": {
 			"graphUrl": "http://graph.facebook.com/koepelkerkarnhem",
 			"id": "294522140639079",
@@ -976,12 +981,7 @@
 			"talking_about_count": 3,
 			"website": "http://www.koepelkerk-arnhem.nl"
 		},
-		"website": "http://www.koepelkerk-arnhem.nl",
-		"twitter": {
-			"statuses_count": 1,
-			"followers_count": 37,
-			"friends_count": 2
-		}
+		"website": "http://www.koepelkerk-arnhem.nl"
 	},
 	{
 		"name": "Pinkstergemeente Agapé",
@@ -1011,6 +1011,11 @@
 		"name": "Doorbrekers",
 		"facebook_url": "https://www.facebook.com/DoorBrekers",
 		"twitter_name": "@DoorBrekers",
+		"twitter": {
+			"statuses_count": 592,
+			"followers_count": 1079,
+			"friends_count": 6
+		},
 		"facebook": {
 			"graphUrl": "http://graph.facebook.com/DoorBrekers",
 			"id": "138279382864577",
@@ -1029,12 +1034,7 @@
 			},
 			"website": "http://www.doorbrekers.nl"
 		},
-		"website": "http://www.doorbrekers.nl",
-		"twitter": {
-			"statuses_count": 592,
-			"followers_count": 1079,
-			"friends_count": 6
-		}
+		"website": "http://www.doorbrekers.nl"
 	},
 	{
 		"name": "Westland Netwerk",
@@ -1053,6 +1053,11 @@
 		"name": "Vineyard Amsterdam",
 		"facebook_url": "https://www.facebook.com/pages/Vineyard-Amsterdam/128574734098",
 		"twitter_name": "@VineyardA_dam",
+		"twitter": {
+			"statuses_count": 401,
+			"followers_count": 599,
+			"friends_count": 530
+		},
 		"facebook": {
 			"graphUrl": "http://graph.facebook.com/128574734098",
 			"id": "128574734098",
@@ -1067,17 +1072,17 @@
 			},
 			"website": "http://www.VineyardAmsterdam.nl"
 		},
-		"website": "http://www.VineyardAmsterdam.nl",
-		"twitter": {
-			"statuses_count": 401,
-			"followers_count": 599,
-			"friends_count": 530
-		}
+		"website": "http://www.VineyardAmsterdam.nl"
 	},
 	{
 		"name": "GKV Gorinchem",
 		"facebook_url": "https://www.facebook.com/GKvGorinchem",
 		"twitter_name": "@gkvgorinchem",
+		"twitter": {
+			"statuses_count": 69,
+			"followers_count": 193,
+			"friends_count": 15
+		},
 		"facebook": {
 			"graphUrl": "http://graph.facebook.com/GKvGorinchem",
 			"id": "198210630258137",
@@ -1096,12 +1101,7 @@
 			},
 			"website": "http://gorinchem.gkv.nl/"
 		},
-		"website": "http://gorinchem.gkv.nl/",
-		"twitter": {
-			"statuses_count": 69,
-			"followers_count": 193,
-			"friends_count": 15
-		}
+		"website": "http://gorinchem.gkv.nl/"
 	},
 	{
 		"name": "Kerk van de Nazarener - Amersfoort",
@@ -1130,31 +1130,31 @@
 		"name": "COME Zelhem",
 		"facebook_url": "https://www.facebook.com/comezelhem",
 		"twitter_name": "@comezelhem",
+		"twitter": {
+			"statuses_count": 373,
+			"followers_count": 68,
+			"friends_count": 79
+		},
 		"facebook": {
 			"graphUrl": "http://graph.facebook.com/comezelhem",
 			"id": "201342416544981",
 			"likes": 90,
 			"website": "http://www.come-zelhem.nl/"
 		},
-		"website": "http://www.come-zelhem.nl/",
-		"twitter": {
-			"statuses_count": 373,
-			"followers_count": 68,
-			"friends_count": 79
-		}
+		"website": "http://www.come-zelhem.nl/"
 	},
 	{
 		"name": "Morgenstond Delft",
 		"facebook_url": "https://www.facebook.com/groups/148502305195044/",
 		"twitter_name": "@egmdelft",
 		"website": "http://morgenstonddelft.nl/",
-		"facebook": {
-			"graphUrl": "http://graph.facebook.com/148502305195044"
-		},
 		"twitter": {
 			"statuses_count": 248,
 			"followers_count": 104,
 			"friends_count": 110
+		},
+		"facebook": {
+			"graphUrl": "http://graph.facebook.com/148502305195044"
 		}
 	},
 	{
@@ -1182,6 +1182,11 @@
 		"facebook_url": "https://www.facebook.com/pages/Levend-Water-Delft-ENGnl/279322932115695",
 		"twitter_name": "@levendwaterNL",
 		"website": "http://www.levendwater.nl/",
+		"twitter": {
+			"statuses_count": 112,
+			"followers_count": 54,
+			"friends_count": 24
+		},
 		"facebook": {
 			"graphUrl": "http://graph.facebook.com/279322932115695",
 			"id": "279322932115695",
@@ -1199,11 +1204,6 @@
 				"longitude": 4.3564701
 			},
 			"website": "http://www.levendwater.nl/en"
-		},
-		"twitter": {
-			"statuses_count": 112,
-			"followers_count": 54,
-			"friends_count": 24
 		}
 	},
 	{
@@ -1234,6 +1234,96 @@
 				"longitude": 5.0030049171133
 			},
 			"website": "http://www.hervormdegemeentewoudrichem.nl"
+		}
+	},
+	{
+		"name": "Gereformeerde kerk Bunschoten Spakenburg",
+		"facebook_url": "https://www.facebook.com/pages/Gereformeerde-kerk-Bunschoten-Spakenburg/280158508701206",
+		"twitter_name": "@GKBSonline",
+		"website": "http://www.gkbs.nl/",
+		"twitter": {
+			"statuses_count": 129,
+			"followers_count": 260,
+			"friends_count": 1
+		},
+		"facebook": {
+			"graphUrl": "http://graph.facebook.com/280158508701206",
+			"id": "280158508701206",
+			"likes": 241,
+			"talking_about_count": 41,
+			"location": {
+				"street": "",
+				"city": "Bunschoten",
+				"state": "",
+				"country": "Netherlands",
+				"zip": "3752"
+			},
+			"website": "http://www.gkbs.nl"
+		}
+	},
+	{
+		"name": "Gereformeerde Kerk Urk (PKN)",
+		"facebook_url": "https://www.facebook.com/GereformeerdeKerkUrk",
+		"twitter_name": "@gkupkn",
+		"website": "http://gku-pkn.nl",
+		"twitter": {
+			"statuses_count": 1083,
+			"followers_count": 832,
+			"friends_count": 51
+		},
+		"facebook": {
+			"graphUrl": "http://graph.facebook.com/GereformeerdeKerkUrk",
+			"id": "159865130740611",
+			"likes": 238,
+			"talking_about_count": 2,
+			"location": {
+				"street": "Postbus 162",
+				"city": "Urk",
+				"state": "",
+				"country": "Netherlands",
+				"zip": "8320AD"
+			},
+			"website": "http://www.gku-pkn.nl"
+		}
+	},
+	{
+		"name": "Grote Kerk Maassluis",
+		"facebook_url": "",
+		"twitter_name": "GGKMaassluis",
+		"website": "http://www.pknmaassluis.nl/grootekerk/",
+		"twitter": {
+			"statuses_count": 120,
+			"followers_count": 79,
+			"friends_count": 21
+		}
+	},
+	{
+		"name": "Marcuskerk Den Haag",
+		"facebook_url": "https://www.facebook.com/marcuskerk",
+		"twitter_name": "@Marcuskerk",
+		"website": "http://www.marcuskerk-denhaag.nl/",
+		"twitter": {
+			"statuses_count": 23,
+			"followers_count": 48,
+			"friends_count": 14
+		},
+		"facebook": {
+			"graphUrl": "http://graph.facebook.com/marcuskerk",
+			"id": "503837436377686",
+			"likes": 74,
+			"talking_about_count": 5,
+			"were_here_count": 84,
+			"checkins": 1,
+			"location": {
+				"street": "Jan Luykenlaan 90",
+				"city": "The Hague",
+				"state": "",
+				"country": "Netherlands",
+				"zip": "2533 JT",
+				"latitude": 52.051442643084,
+				"longitude": 4.2955646518541
+			},
+			"website": "http://www.marcuskerk-denhaag.nl"
 		}
 	}
 ]
