@@ -75,7 +75,12 @@ async.waterfall([
 			src = srcFilename;
 		}
 		console.log('Load churches from ' + src);
-		callback(null, JSON.parse(fs.readFileSync(src)));
+
+		var list = JSON.parse(fs.readFileSync(src));
+		list = list.filter(function (item) {
+			return item['name'] !== '';
+		});
+		callback(null, list);
 	},
 	addTwitterMetrics,
 	addFacebookMetrics,
