@@ -231,4 +231,6 @@ $.getJSON('data/nl-churches-with-metrics.json', function onReply(list) {
 		renderStatistics(list);
 	}
 	renderTable(list);
+
+
 });
