@@ -40,7 +40,7 @@
 		"facebook": {
 			"graphUrl": "http://graph.facebook.com/VORotterdam",
 			"id": "142866119103429",
-			"likes": 641,
+			"likes": 642,
 			"talking_about_count": 174,
 			"were_here_count": 2076,
 			"checkins": 220,
@@ -70,7 +70,7 @@
 			"graphUrl": "http://graph.facebook.com/BethElHoogeveen",
 			"id": "136600443152407",
 			"likes": 111,
-			"talking_about_count": 30,
+			"talking_about_count": 29,
 			"were_here_count": 47,
 			"checkins": 1,
 			"location": {
@@ -98,7 +98,7 @@
 		"facebook": {
 			"graphUrl": "http://graph.facebook.com/reconnectnl",
 			"id": "370576742963306",
-			"likes": 307,
+			"likes": 308,
 			"talking_about_count": 119,
 			"location": {
 				"street": "Lange Begijnestraat 11",
@@ -124,7 +124,7 @@
 			"graphUrl": "http://graph.facebook.com/VEZwolle",
 			"id": "167627793301411",
 			"likes": 1116,
-			"talking_about_count": 153,
+			"talking_about_count": 176,
 			"were_here_count": 327,
 			"checkins": 32,
 			"location": {
@@ -197,7 +197,7 @@
 		"facebook_url": "https://www.facebook.com/vbgbethel",
 		"twitter_name": "@Bethel",
 		"twitter": {
-			"statuses_count": 1180,
+			"statuses_count": 1181,
 			"followers_count": 1194,
 			"friends_count": 41
 		},
@@ -416,8 +416,8 @@
 		"facebook_url": "https://www.facebook.com/gkenter",
 		"twitter_name": "@kerkenter",
 		"twitter": {
-			"statuses_count": 104,
-			"followers_count": 159,
+			"statuses_count": 105,
+			"followers_count": 160,
 			"friends_count": 72
 		},
 		"facebook": {
@@ -447,8 +447,8 @@
 		"facebook": {
 			"graphUrl": "http://graph.facebook.com/KoptischOrthodoxeKerkEindhoven",
 			"id": "519236848096033",
-			"likes": 716,
-			"talking_about_count": 56,
+			"likes": 717,
+			"talking_about_count": 192,
 			"were_here_count": 75,
 			"checkins": 1,
 			"location": {
@@ -524,7 +524,7 @@
 		"facebook": {
 			"graphUrl": "http://graph.facebook.com/hervormd",
 			"id": "221840291277611",
-			"likes": 171,
+			"likes": 172,
 			"talking_about_count": 8,
 			"were_here_count": 40,
 			"checkins": 4,
@@ -547,7 +547,7 @@
 		"twitter_name": "@hillsongams",
 		"twitter": {
 			"statuses_count": 227,
-			"followers_count": 4010,
+			"followers_count": 4011,
 			"friends_count": 15
 		},
 		"facebook": {
@@ -578,7 +578,7 @@
 		"facebook": {
 			"graphUrl": "http://graph.facebook.com/crossroadsamsterdam",
 			"id": "250968861596595",
-			"likes": 966,
+			"likes": 968,
 			"talking_about_count": 86,
 			"were_here_count": 252,
 			"checkins": 38,
@@ -701,15 +701,15 @@
 		"facebook_url": "https://www.facebook.com/thousandhills",
 		"twitter_name": "@thousand_hills",
 		"twitter": {
-			"statuses_count": 1122,
+			"statuses_count": 1123,
 			"followers_count": 251,
 			"friends_count": 343
 		},
 		"facebook": {
 			"graphUrl": "http://graph.facebook.com/thousandhills",
 			"id": "88656582656",
-			"likes": 1226,
-			"talking_about_count": 42,
+			"likes": 1227,
+			"talking_about_count": 47,
 			"were_here_count": 1021,
 			"checkins": 126,
 			"location": {
@@ -1210,12 +1210,6 @@
 		}
 	},
 	{
-		"name": "Gereformeerde kerk vrijgemaakt Delft",
-		"facebook_url": "",
-		"twitter_name": "",
-		"website": "http://www.gkvdelft.nl/"
-	},
-	{
 		"name": "Hervormde gemeente Woudrichem",
 		"facebook_url": "https://www.facebook.com/KerkWoudrichem",
 		"twitter_name": "",
@@ -1494,7 +1488,7 @@
 		"twitter_name": "@BavoKerk",
 		"website": "http://www.bavo.nl/",
 		"twitter": {
-			"statuses_count": 238,
+			"statuses_count": 239,
 			"followers_count": 111,
 			"friends_count": 64
 		}
@@ -1525,7 +1519,7 @@
 		"facebook": {
 			"graphUrl": "http://graph.facebook.com/hervormd",
 			"id": "221840291277611",
-			"likes": 171,
+			"likes": 172,
 			"talking_about_count": 8,
 			"were_here_count": 40,
 			"checkins": 4,
