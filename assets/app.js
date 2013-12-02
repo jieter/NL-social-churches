@@ -133,10 +133,11 @@ function renderTable(list) {
 					location['zip'] + location['country'];
 
 
-				popup += '<br />' + facebook_link;
+				popup += '<br />' + link(item['website'], '<i class="fa fa-home fa-2x"></i>') +
+					' ' + facebook_link;
 
 				if (item['twitter_name'] && item['twitter_name'] !== '') {
-					popup += '<br />' + twitterLink(item['twitter_name']);
+					popup += ' ' + twitterLink(item['twitter_name']);
 				}
 
 				L.marker([
