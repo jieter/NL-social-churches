@@ -94,7 +94,8 @@ function renderTable(list) {
 		td(item['name']);
 
 		if (item['website']) {
-			td(link(item['website'], '<i class="fa fa-home fa-2x"></i>'), 'website');
+			td(link(item['website'], '<i class="fa fa-home fa-2x"></i>'), 'website').find('a')
+				.attr('title', 'Ga naar website van deze kerk');
 		} else {
 			td();
 		}
@@ -117,8 +118,8 @@ function renderTable(list) {
 				}
 				td(facebook['checkins'], 'facebook_checkins');
 			} else {
-				// TODO add more precise remark
-				td('Besloten', 'facebook-closed');
+				td('besloten', 'facebook-closed')
+					.attr('title', 'Deze groep is besloten waardoor geen statistieken opgevraagd kunnen worden');
 
 				td('-', 'facebook-closed');
 				td('-', 'facebook-closed');

@@ -17,6 +17,12 @@
 	text-align: right;
 }
 
+.facebook-closed, .no-twitter {
+	color: #888;
+	font-size: 10px;
+	text-align: right;
+}
+
 #mapContainer {
 	width: 100%;
 	height: 800px;
