@@ -1,6 +1,7 @@
 #list {
 	margin-top: 20px;
 }
+
 #churches td {
 	line-height: 20px;
 	text-align: middle;
@@ -13,7 +14,9 @@
 .twitter {
 	white-space: nowrap;
 }
-.facebook_likes, .facebook_checkins, .twitter_tweets, .twitter_followers, .facebook_talking_about, .facebook_activiteit {
+td.facebook_likes, td.facebook_checkins,
+td.twitter_tweets, td.twitter_followers,
+td.facebook_talking_about, td.facebook_activiteit {
 	text-align: right;
 }
 
