@@ -203,7 +203,7 @@ function renderMap(list) {
 		var popup =
 			'<h5>' + item['name'] + '</h5>' +
 			location['street'] + '<br />' +
-			location['zip'] + location['country'];
+			location['zip'] + ' ' + location['country'];
 
 
 		popup += '<br />' + websiteLink(item['website']) +
