@@ -130,6 +130,10 @@
 
 		ga('create', 'UA-19828019-9', 'jieter.github.io');
 		ga('send', 'pageview');
+
+		window.onerror = function(message, file, line) {
+			ga('send', 'event',  'JS Error', file + ':' + line + '\n\n' + message);
+		};
 	</script>
 </body>
 </html>
