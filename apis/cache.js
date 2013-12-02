@@ -1,15 +1,29 @@
 /*
- * cache API request replies in JSON file.
+ * Simple JSON cache.
  *
  * Jan Pieter Waagmeester <jieter@jieter.nl>
  */
 
 var fs = require('fs');
 
-function Cache (filename) {
-
+function Cache (filename, ttl) {
 	this.filename = filename;
-	this._cache = fs.existsSync(filename) ? JSON.parse(fs.readFileSync(filename)) : {};
+
+	// use 2h cache time by default.
+	ttl = ttl || 2 * 60 * 60 * 1000;
+
+	if (fs.existsSync(filename)) {
+		var stat = fs.statSync(filename);
+
+		if (stat.mtime.getTime() + ttl > (new Date()).getTime()) {
+			this._cache = JSON.parse(fs.readFileSync(filename));
+		} else {
+			this._cache = {};
+		}
+
+	} else {
+		this._cache = {};
+	}
 
 	this.put = function (key, obj) {
 		this._cache[key] = obj;
