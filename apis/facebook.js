@@ -9,7 +9,7 @@ var request = require('request');
 
 var cache = require('./cache.js')('__facebook-cache.json');
 
-function graphRequest(graphUrl, callback) {
+function cachedGraphRequest(graphUrl, callback) {
 	if (cache.has(graphUrl)) {
 		callback(null, cache.get(graphUrl));
 	} else {
@@ -35,7 +35,7 @@ function facebookMetrics (url, callback) {
 
 	var graphUrl = 'http://graph.facebook.com/' + parts[parts.length - 1];
 
-	graphRequest(graphUrl, function (err, result) {
+	cachedGraphRequest(graphUrl, function (err, result) {
 		if (err) {
 			return callback(err);
 		}
@@ -82,7 +82,6 @@ module.exports.clearCache = function () {
 // Simple testing...
 if (require.main === module) {
 	var urls = 'https://www.facebook.com/DoorBrekers,https://www.facebook.com/pages/Vineyard-Amsterdam/128574734098,https://www.facebook.com/GKvGorinchem,https://www.facebook.com/pages/Kerk-van-de-Nazarener-Amersfoort/122890037726628,https://www.facebook.com/comezelhem,https://www.facebook.com/groups/148502305195044/'.split(',');
-
 
 	urls.forEach(function (item) {
 		facebookMetrics(item, function (err, result) {

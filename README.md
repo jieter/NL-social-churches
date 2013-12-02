@@ -47,6 +47,6 @@ Wrote 57 churches to [...]/NL-social-church/data/nl-churches-with-metrics.json:
       54 with Facebook metrics
 ```
 
-Met `node index.js reload` wordt naar nieuwe kerkenin `nl-churches.json` gekeken.
+Met `node index.js reload` wordt naar nieuwe kerken in `nl-churches.json` gekeken.
 
-Twitter limiteert het aantal aanvragen tot 180 per 15 minuten.
+Twitter limiteert het aantal aanvragen tot 180 per 15 minuten, maar aanvragen worden gecached in `api/__twitter-cache.json`, na twee uur wordt alles weer opnieuw geladen. Als het aantal kerken dus onder de 180 blijft zou het herhaaldelijk aanroepen van het script dus ook geen probleem moeten opleveren.
