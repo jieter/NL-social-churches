@@ -184,9 +184,11 @@ function renderMap(list) {
 		maxZoom: 18
 	}).addTo(map);
 
+	var layer = L.featureGroup();
 
 	tabs.on('shown.bs.tab', function () {
 		map.invalidateSize();
+		map.fitBounds(layer.getBounds());
 	});
 	list.forEach(function (item) {
 		if (!item['facebook_url'] || item['facebook_url'] === '') {
@@ -214,8 +216,10 @@ function renderMap(list) {
 		L.marker([
 			location['latitude'],
 			location['longitude']
-		]).bindPopup(popup).addTo(map);
+		]).bindPopup(popup).addTo(layer);
 	});
+
+	layer.addTo(map);
 }
 
 $.getJSON('data/nl-churches-with-metrics.json', function onReply(list) {
