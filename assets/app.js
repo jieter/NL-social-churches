@@ -193,7 +193,11 @@ function renderTable(list) {
 					if (data === '' || data === '-') {
 						return '-';
 					} else {
-						return (Math.round(data * 1000) / 10) + '%';
+						data = '' + (Math.round(data * 1000) / 10);
+						if (data.indexOf('.') === -1) {
+							data += '.0';
+						}
+						return data + '%';
 					}
 				}
 			}
