@@ -1,4 +1,3 @@
-var tr, facebook;
 var map = L.map('mapContainer').setView([52.5, 5], 8);
 
 // navigation
@@ -77,6 +76,7 @@ function renderStatistics(list) {
 	});
 }
 function renderTable(list) {
+	var tr, facebook;
 	list.forEach(function (item) {
 		tr = $('<tr></tr>');
 
@@ -94,7 +94,7 @@ function renderTable(list) {
 		td(item['name']);
 
 		if (item['website']) {
-			td(link(item['website']), 'website');
+			td(link(item['website'], '<i class="fa fa-home fa-2x"></i>'), 'website');
 		} else {
 			td();
 		}
@@ -184,7 +184,9 @@ function renderTable(list) {
 	$('#churches').dataTable({
 		'sPaginationType': 'bs_normal',
 		'aoColumnDefs': [
-			{ 'asSorting': [], 'aTargets': [ 2 ] },
+			// no sorting
+			{ 'asSorting': [], 'aTargets': [1, 2] },
+
 			{ 'sType': 'numeric', 'aTargets': [3] },
 			{
 				'sType': 'percent',
