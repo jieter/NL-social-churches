@@ -1627,5 +1627,68 @@
 			},
 			"website": "http://www.crosspointgetsewoud.nl"
 		}
+	},
+	{
+		"name": "Protestantse gemeente Harderwijk",
+		"facebook_url": "https://www.facebook.com/PGHarderwijk",
+		"twitter_name": "@PGHarderwijk",
+		"website": "http://www.pgharderwijk.nl/",
+		"twitter": {
+			"statuses_count": 10,
+			"followers_count": 41,
+			"friends_count": 47
+		},
+		"facebook": {
+			"graphUrl": "http://graph.facebook.com/PGHarderwijk",
+			"id": "455315841201525",
+			"likes": 184,
+			"talking_about_count": 54,
+			"location": {
+				"street": "",
+				"city": "Harderwijk",
+				"state": "",
+				"country": "Netherlands",
+				"zip": ""
+			},
+			"website": "http://www.pgharderwijk.nl"
+		}
+	},
+	{
+		"name": "Protestantse Gemeente Barneveld",
+		"facebook_url": "https://www.facebook.com/Pgbarneveld",
+		"twitter_name": "",
+		"website": "http://www.pgbarneveld.nl/",
+		"facebook": {
+			"graphUrl": "http://graph.facebook.com/Pgbarneveld",
+			"id": "539645659444030",
+			"likes": 91,
+			"talking_about_count": 6,
+			"website": "http://www.pgbarneveld.nl"
+		}
+	},
+	{
+		"name": "Hervormde gemeenten Ilpendam en Watergang",
+		"facebook_url": "https://www.facebook.com/HervormdeGemeenteIlpendamEnWatergang",
+		"twitter_name": "",
+		"website": "http://www.kerkiw.nl",
+		"facebook": {
+			"graphUrl": "http://graph.facebook.com/HervormdeGemeenteIlpendamEnWatergang",
+			"id": "161027087351377",
+			"likes": 30,
+			"talking_about_count": 9,
+			"website": "http://www.kerkiw.nl"
+		}
+	},
+	{
+		"name": "",
+		"facebook_url": "",
+		"twitter_name": "",
+		"website": ""
+	},
+	{
+		"name": "",
+		"facebook_url": "",
+		"twitter_name": "",
+		"website": ""
 	}
 ]

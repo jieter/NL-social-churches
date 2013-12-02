@@ -364,5 +364,35 @@
 		"facebook_url": "https://www.facebook.com/crosspointgetsewoud",
 		"twitter_name": "",
 		"website": "http://crosspointgetsewoud.nl/"
+	},
+	{
+		"name": "Protestantse gemeente Harderwijk",
+		"facebook_url": "https://www.facebook.com/PGHarderwijk",
+		"twitter_name": "@PGHarderwijk",
+		"website": "http://www.pgharderwijk.nl/"
+	},
+	{
+		"name": "Protestantse Gemeente Barneveld",
+		"facebook_url": "https://www.facebook.com/Pgbarneveld",
+		"twitter_name": "",
+		"website": "http://www.pgbarneveld.nl/"
+	},
+	{
+		"name": "Hervormde gemeenten Ilpendam en Watergang",
+		"facebook_url": "https://www.facebook.com/HervormdeGemeenteIlpendamEnWatergang",
+		"twitter_name": "",
+		"website": "http://www.kerkiw.nl"
+	},
+	{
+		"name": "",
+		"facebook_url": "",
+		"twitter_name": "",
+		"website": ""
+	},
+	{
+		"name": "",
+		"facebook_url": "",
+		"twitter_name": "",
+		"website": ""
 	}
 ]
