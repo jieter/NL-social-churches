@@ -28,7 +28,7 @@ var facebookLink = function (url) {
 	return link(url, '<i class="fa fa-facebook-square fa-2x"></i>');
 };
 var twitterLink = function (name) {
-	return link('https://twitter.com/' + name.substr(1), '<i class="fa fa-twitter fa-2x"></i>' + name);
+	return link('https://twitter.com/' + name.substr(1), '<i class="fa fa-twitter fa-2x"></i>');
 };
 
 function renderStatistics(list) {
@@ -187,7 +187,7 @@ function renderTable(list) {
 		'sPaginationType': 'bs_normal',
 		'aoColumnDefs': [
 			// no sorting
-			{ 'asSorting': [], 'aTargets': [1, 2] },
+			{ 'asSorting': [], 'aTargets': [1, 2, 7] },
 
 			{ 'sType': 'numeric', 'aTargets': [3] },
 			{
