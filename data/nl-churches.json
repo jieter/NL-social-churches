@@ -94,6 +94,7 @@
 		"name": "LEEF! Doetinchem",
 		"facebook_url": "https://www.facebook.com/LeefDoetinchem",
 		"twitter_name": "@LEEFDoetinchem"
+		"website": "http://www.leef-doetinchem.nl/"
 	},
 	{
 		"name": "Kerk van de Nazarener Haarlem",
@@ -352,5 +353,11 @@
 		"facebook_url": "https://www.facebook.com/pages/Hervormd-Vreeswijk/201841393162857",
 		"twitter_name": "",
 		"website": "http://www.hervormdvreeswijk.nl/"
+	}
+		{
+		"name": "CrossPoint",
+		"facebook_url": "https://www.facebook.com/crosspointgetsewoud",
+		"twitter_name": "",
+		"website": "http://crosspointgetsewoud.nl/"
 	}
 ]
