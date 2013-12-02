@@ -224,13 +224,61 @@ function renderMap(list) {
 
 $.getJSON('data/nl-churches-with-metrics.json', function onReply(list) {
 
+	renderTable(list);
+
 	if ($('#map').length === 1) {
 		renderMap(list);
 	}
 	if ($('#stats-table').length === 1) {
 		renderStatistics(list);
 	}
-	renderTable(list);
+	if ($('#add-church').length === 1) {
+		var form = $('#add-church');
+		form.on('submit', function (event) {
+			event.preventDefault();
+
+			var data = {};
+			form.find('input').each(function (item) {
+				item = $(this);
+				data[item.attr('id')] = item.val();
+			});
+
+			var name = form.find('input#name').parent();
+			if (data.name.length < 3) {
+				name.addClass('has-error');
+				alert('Naam mag niet leeg zijn');
+				return;
+			} else {
+				name.removeClass('has-error');
+			}
+
+			if (data['facebook_url'] === '' && data['twitter_name'] === '') {
+				form.find('input#facebook_url').addClass('has-error');
+				form.find('input#facebook_url').addClass('has-error');
+
+				alert('Voer minstens één social medium in');
+				return;
+			} else {
+				form.find('input#twitter_name').removeClass('has-error');
+				form.find('input#twitter_name').removeClass('has-error');
+			}
+
+
+			$.ajax({
+				url: 'http://jieter.nl/NL-social-churches/add-church.php',
+				type: 'POST',
+				data: {
+					json: JSON.stringify(data)
+				},
+				dataType: 'json',
+				success: function (event) {
+					form.find('input').val('');
+				}
+			});
+
+			return false;
+		})
+	}
 
 
 });
