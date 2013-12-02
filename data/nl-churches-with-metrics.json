@@ -1678,5 +1678,63 @@
 			"talking_about_count": 9,
 			"website": "http://www.kerkiw.nl"
 		}
+	},
+	{
+		"name": "PKN Wijkgemeente in Zeist-Noord",
+		"facebook_url": "http://www.noorderlichtgemeente.nl/",
+		"twitter_name": "",
+		"website": "http://www.noorderlichtgemeente.nl/",
+		"facebook": {
+			"graphUrl": "http://graph.facebook.com/www.noorderlichtgemeente.nl"
+		}
+	},
+	{
+		"name": "Stadshartkerk Amstelveen",
+		"facebook_url": "https://www.facebook.com/groups/stadshartkerk/",
+		"twitter_name": "@Stadshartkerk",
+		"website": "http://www.stadshartkerk.nl/",
+		"twitter": {
+			"statuses_count": 162,
+			"followers_count": 35
+		},
+		"facebook": {
+			"graphUrl": "http://graph.facebook.com/stadshartkerk",
+			"id": "205883976095135",
+			"likes": 88,
+			"talking_about_count": 2,
+			"were_here_count": 1,
+			"location": {
+				"street": "Maarten Lutherweg 251",
+				"city": "Amstelveen",
+				"state": "",
+				"country": "Netherlands",
+				"zip": "1185 AM",
+				"latitude": 52.291792920506,
+				"longitude": 4.8622377731848
+			},
+			"website": "http://www.stadshartkerk.nl"
+		}
+	},
+	{
+		"name": "Evangelische Gemeente 'De Ambassade'",
+		"facebook_url": "https://www.facebook.com/de.ambassade",
+		"twitter_name": "",
+		"website": "http://www.de-ambassade.nl/",
+		"facebook": {
+			"graphUrl": "http://graph.facebook.com/de.ambassade",
+			"id": "749211191771789",
+			"likes": 44,
+			"talking_about_count": 2,
+			"location": {
+				"street": "Nieuwe Kerkplein 2",
+				"city": "Den Helder",
+				"state": "",
+				"country": "Netherlands",
+				"zip": "1781 BA",
+				"latitude": 52.961355959058,
+				"longitude": 4.7674042950163
+			},
+			"website": "http://www.de-ambassade.nl"
+		}
 	}
 ]

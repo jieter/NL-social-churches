@@ -384,6 +384,24 @@
 		"website": "http://www.kerkiw.nl"
 	},
 	{
+		"name": "PKN Wijkgemeente in Zeist-Noord",
+		"facebook_url": "http://www.noorderlichtgemeente.nl/",
+		"twitter_name": "",
+		"website": "http://www.noorderlichtgemeente.nl/"
+	},
+	{
+		"name": "Stadshartkerk Amstelveen",
+		"facebook_url": "https://www.facebook.com/groups/stadshartkerk/",
+		"twitter_name": "@Stadshartkerk",
+		"website": "http://www.stadshartkerk.nl/"
+	},
+	{
+		"name": "Evangelische Gemeente 'De Ambassade'",
+		"facebook_url": "https://www.facebook.com/de.ambassade",
+		"twitter_name": "",
+		"website": "http://www.de-ambassade.nl/"
+	},
+	{
 		"name": "",
 		"facebook_url": "",
 		"twitter_name": "",
