@@ -144,6 +144,7 @@
 		"name": "Paaskerk Oss",
 		"facebook_url": "https://www.facebook.com/PaaskerkOss",
 		"twitter_name": "@Paaskerk_Oss",
+		"website": "http://www.pkn-oss.nl",
 		"twitter": {
 			"statuses_count": 1372,
 			"followers_count": 70,
@@ -166,8 +167,7 @@
 				"longitude": 5.5231294147254
 			},
 			"website": "http://www.pkn-oss.nl https://twitter.com/#!/Paaskerk_Oss"
-		},
-		"website": "http://www.pkn-oss.nl https://twitter.com/#!/Paaskerk_Oss"
+		}
 	},
 	{
 		"name": "Ontmoetingskerk Pijnacker",
