@@ -1,29 +1,24 @@
-var map = L.map('mapContainer').setView([52.5, 5], 8);
+/*
+ * List of church presence on social networks in NL
+ *
+ * Jan Pieter Waagmeester <jieter@jieter.nl>
+ */
 
 // navigation
-$('a[data-toggle="tab"').click(function (e) {
+var tabs = $('a[data-toggle="tab"').click(function (e) {
 	e.preventDefault();
 	$(this).tab('show');
-}).on('shown.bs.tab', function () {
-	map.invalidateSize();
-});
+})
 
-var table = $('table#churches');
-table.find('thead tr').clone().prependTo(table.find('tfoot'));
-
-L.tileLayer('http://a{s}.acetate.geoiq.com/tiles/acetate-hillshading/{z}/{x}/{y}.png', {
-	attribution: '&copy;2012 Esri & Stamen, Data from OSM and Natural Earth',
-	subdomains: '0123',
-	minZoom: 2,
-	maxZoom: 18
-}).addTo(map);
 
 var link = function (href, body) {
 	body = body || href;
-
 	return '<a href="' + href + '">' + body + '</a>';
 };
 
+var websiteLink = function (url) {
+	return link(url, '<i class="fa fa-home fa-2x"></i>');
+};
 var facebookLink = function (url) {
 	return link(url, '<i class="fa fa-facebook-square fa-2x"></i>');
 };
@@ -36,27 +31,19 @@ function renderStatistics(list) {
 
 	[
 		['Kerken in lijst', list.length],
+
 		['Kerken met facebook', list.reduce(function (a, b) {
-			if (b['facebook_url'] !== '') {
-				return a + 1;
-			} else {
-				return a;
-			}
+			return (b['facebook_url'] !== '') ? a + 1 : a;
 		}, 0)],
+
 		['Aantal likes', list.reduce(function (a, b) {
-			if (b['facebook_url'] !== '' && b['facebook']['likes'] > 0) {
-				return a + b['facebook']['likes'];
-			} else {
-				return a;
-			}
+			return (b['facebook'] && b['facebook']['likes'] > 0) ?
+				a + b['facebook']['likes'] : a;
 		}, 0)],
 		['Kerken met twitter', list.reduce(function (a, b) {
-			if (b['twitter_name']) {
-				return a + 1;
-			} else {
-				return a;
-			}
+			return (b['twitter_name']) ? a + 1 : a;
 		}, 0)],
+
 		['Aantal tweets', list.reduce(function (a, b) {
 			if (b['twitter'] && b['twitter']['statuses_count']) {
 				return a + b['twitter']['statuses_count'] || 0;
@@ -76,6 +63,7 @@ function renderStatistics(list) {
 	});
 }
 function renderTable(list) {
+	var table = $('table#churches');
 	var tr, facebook;
 	list.forEach(function (item) {
 		tr = $('<tr></tr>');
@@ -94,16 +82,16 @@ function renderTable(list) {
 		td(item['name']);
 
 		if (item['website']) {
-			td(link(item['website'], '<i class="fa fa-home fa-2x"></i>'), 'website').find('a')
-				.attr('title', 'Ga naar website van deze kerk');
+			td(websiteLink(item['website']), 'website')
+				.find('a').attr('title', 'Ga naar website van deze kerk');
 		} else {
 			td();
 		}
 
 		if (item['facebook_url'] && item['facebook_url'] !== '') {
 			facebook = item['facebook'];
-			var facebook_link = facebookLink(item['facebook_url']);
-			td(facebook_link, 'facebook');
+
+			td(facebookLink(item['facebook_url']), 'facebook');
 
 			if (facebook['likes']) {
 				td(facebook['likes'], 'facebook_likes');
@@ -125,28 +113,6 @@ function renderTable(list) {
 				td('-', 'facebook-closed');
 				td('-', 'facebook-closed');
 			}
-
-			if (facebook['location'] && facebook['location']['latitude']) {
-				var location = facebook['location'];
-				var popup =
-					'<h5>' + item['name'] + '</h5>' +
-					location['street'] + '<br />' +
-					location['zip'] + location['country'];
-
-
-				popup += '<br />' + link(item['website'], '<i class="fa fa-home fa-2x"></i>') +
-					' ' + facebook_link;
-
-				if (item['twitter_name'] && item['twitter_name'] !== '') {
-					popup += ' ' + twitterLink(item['twitter_name']);
-				}
-
-				L.marker([
-					location['latitude'],
-					location['longitude']
-				]).bindPopup(popup).addTo(map);
-			}
-
 		} else {
 			td('-', 'no-facebook');
 			td('-', 'no-facebook');
@@ -209,8 +175,56 @@ function renderTable(list) {
 	});
 }
 
+function renderMap(list) {
+	var map = L.map('mapContainer').setView([52.5, 5], 8);
+	L.tileLayer('http://a{s}.acetate.geoiq.com/tiles/acetate-hillshading/{z}/{x}/{y}.png', {
+		attribution: '&copy;2012 Esri & Stamen, Data from OSM and Natural Earth',
+		subdomains: '0123',
+		minZoom: 2,
+		maxZoom: 18
+	}).addTo(map);
+
+
+	tabs.on('shown.bs.tab', function () {
+		map.invalidateSize();
+	});
+	list.forEach(function (item) {
+		if (!item['facebook_url'] || item['facebook_url'] === '') {
+			return;
+		}
+		var facebook = item['facebook'];
+		if (!facebook['location'] || !facebook['location']['latitude']) {
+			return;
+		}
+
+		var location = facebook['location'];
+		var popup =
+			'<h5>' + item['name'] + '</h5>' +
+			location['street'] + '<br />' +
+			location['zip'] + location['country'];
+
+
+		popup += '<br />' + websiteLink(item['website']) +
+			' ' + facebookLink(item['facebook_url']);
+
+		if (item['twitter_name'] && item['twitter_name'] !== '') {
+			popup += ' ' + twitterLink(item['twitter_name']);
+		}
+
+		L.marker([
+			location['latitude'],
+			location['longitude']
+		]).bindPopup(popup).addTo(map);
+	});
+}
+
 $.getJSON('data/nl-churches-with-metrics.json', function onReply(list) {
 
-	renderStatistics(list);
+	if ($('#map').length === 1) {
+		renderMap(list);
+	}
+	if ($('#stats-table').length === 1) {
+		renderStatistics(list);
+	}
 	renderTable(list);
 });
