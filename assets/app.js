@@ -240,7 +240,7 @@ $.getJSON('data/nl-churches-with-metrics.json', function onReply(list) {
 			var data = {};
 			form.find('input').each(function (item) {
 				item = $(this);
-				data[item.attr('id')] = item.val();
+				data[item.attr('id')] = $.trim(item.val());
 			});
 
 			var name = form.find('input#name').parent();
@@ -263,6 +263,22 @@ $.getJSON('data/nl-churches-with-metrics.json', function onReply(list) {
 				form.find('input#twitter_name').removeClass('has-error');
 			}
 
+			var unique = true;
+			list.forEach(function (item) {
+				for (var key in data) {
+					if (item[key] === '') {
+						return;
+					}
+					if (item[key] === data[key]) {
+						console.log(item, 'looks like', data);
+						unique = false;
+					}
+				}
+			});
+			if (!unique) {
+				alert('Deze kerk lijkt al in de lijst te staan...');
+				return;
+			}
 
 			$.ajax({
 				url: 'http://jieter.nl/NL-social-churches/add-church.php',
