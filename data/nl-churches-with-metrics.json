@@ -70,7 +70,7 @@
 			"graphUrl": "http://graph.facebook.com/BethElHoogeveen",
 			"id": "136600443152407",
 			"likes": 111,
-			"talking_about_count": 29,
+			"talking_about_count": 32,
 			"were_here_count": 47,
 			"checkins": 1,
 			"location": {
@@ -124,7 +124,7 @@
 			"graphUrl": "http://graph.facebook.com/VEZwolle",
 			"id": "167627793301411",
 			"likes": 1117,
-			"talking_about_count": 176,
+			"talking_about_count": 163,
 			"were_here_count": 327,
 			"checkins": 32,
 			"location": {
@@ -204,7 +204,7 @@
 		"facebook": {
 			"graphUrl": "http://graph.facebook.com/vbgbethel",
 			"id": "293286710927",
-			"likes": 1150,
+			"likes": 1151,
 			"talking_about_count": 188,
 			"were_here_count": 1120,
 			"checkins": 132,
@@ -398,8 +398,8 @@
 		"facebook_url": "https://www.facebook.com/Mijnkerk",
 		"twitter_name": "@mijnkerkNL",
 		"twitter": {
-			"statuses_count": 507,
-			"followers_count": 1049,
+			"statuses_count": 508,
+			"followers_count": 1050,
 			"friends_count": 1191
 		},
 		"facebook": {
@@ -448,7 +448,7 @@
 			"graphUrl": "http://graph.facebook.com/KoptischOrthodoxeKerkEindhoven",
 			"id": "519236848096033",
 			"likes": 718,
-			"talking_about_count": 192,
+			"talking_about_count": 254,
 			"were_here_count": 81,
 			"checkins": 1,
 			"location": {
@@ -553,7 +553,7 @@
 		"facebook": {
 			"graphUrl": "http://graph.facebook.com/HillsongAmsterdam",
 			"id": "106632822794682",
-			"likes": 2961,
+			"likes": 2962,
 			"talking_about_count": 214,
 			"location": {
 				"street": "Oostelijke Handelskade 4",
@@ -624,14 +624,14 @@
 		"facebook_url": "https://www.facebook.com/clcdenhaag",
 		"twitter_name": "@CLCDenHaag",
 		"twitter": {
-			"statuses_count": 1538,
-			"followers_count": 811,
+			"statuses_count": 1539,
+			"followers_count": 810,
 			"friends_count": 177
 		},
 		"facebook": {
 			"graphUrl": "http://graph.facebook.com/clcdenhaag",
 			"id": "137850586233695",
-			"likes": 1257,
+			"likes": 1258,
 			"talking_about_count": 104,
 			"were_here_count": 3336,
 			"checkins": 439,
@@ -701,7 +701,7 @@
 		"facebook_url": "https://www.facebook.com/thousandhills",
 		"twitter_name": "@thousand_hills",
 		"twitter": {
-			"statuses_count": 1124,
+			"statuses_count": 1127,
 			"followers_count": 251,
 			"friends_count": 343
 		},
@@ -709,7 +709,7 @@
 			"graphUrl": "http://graph.facebook.com/thousandhills",
 			"id": "88656582656",
 			"likes": 1231,
-			"talking_about_count": 47,
+			"talking_about_count": 38,
 			"were_here_count": 1021,
 			"checkins": 126,
 			"location": {
@@ -758,8 +758,8 @@
 		"facebook_url": "https://www.facebook.com/vbgroningen",
 		"twitter_name": "@VBGroningen",
 		"twitter": {
-			"statuses_count": 861,
-			"followers_count": 566,
+			"statuses_count": 862,
+			"followers_count": 567,
 			"friends_count": 37
 		},
 		"facebook": {
@@ -794,7 +794,7 @@
 		"facebook": {
 			"graphUrl": "http://graph.facebook.com/CGKZwolle",
 			"id": "195170248809",
-			"likes": 326,
+			"likes": 327,
 			"talking_about_count": 4,
 			"were_here_count": 30,
 			"checkins": 6,
@@ -871,7 +871,7 @@
 		"facebook": {
 			"graphUrl": "http://graph.facebook.com/BaptistengemeenteKatwijk",
 			"id": "179065228843305",
-			"likes": 248,
+			"likes": 249,
 			"talking_about_count": 19,
 			"were_here_count": 91,
 			"checkins": 13,
@@ -1142,7 +1142,7 @@
 		"facebook": {
 			"graphUrl": "http://graph.facebook.com/comezelhem",
 			"id": "201342416544981",
-			"likes": 90,
+			"likes": 91,
 			"talking_about_count": 4,
 			"website": "http://www.come-zelhem.nl/"
 		},
@@ -1241,7 +1241,7 @@
 		"website": "http://www.gkbs.nl/",
 		"twitter": {
 			"statuses_count": 129,
-			"followers_count": 260,
+			"followers_count": 261,
 			"friends_count": 1
 		},
 		"facebook": {
@@ -1490,7 +1490,7 @@
 		"website": "http://www.bavo.nl/",
 		"twitter": {
 			"statuses_count": 239,
-			"followers_count": 110,
+			"followers_count": 111,
 			"friends_count": 64
 		}
 	},
@@ -1917,6 +1917,62 @@
 				"zip": ""
 			},
 			"website": "http://realitychurch.nl"
+		}
+	},
+	{
+		"name": "Opstandingskerk Utrecht",
+		"facebook_url": "https://www.facebook.com/Opstandingskerk",
+		"twitter_name": "@geloofhet",
+		"website": "http://www.geloofhet.nl/",
+		"twitter": {
+			"statuses_count": 8,
+			"followers_count": 45,
+			"friends_count": 60
+		},
+		"facebook": {
+			"graphUrl": "http://graph.facebook.com/Opstandingskerk",
+			"id": "144944792350410",
+			"likes": 115,
+			"talking_about_count": 3,
+			"were_here_count": 3,
+			"checkins": 1,
+			"location": {
+				"street": "Prinses Margrietstraat 126",
+				"city": "Utrecht",
+				"state": "",
+				"country": "Netherlands",
+				"zip": "3554 GJ",
+				"latitude": 52.114900220458,
+				"longitude": 5.0855844857669
+			},
+			"website": "http://www.geloofhet.nl"
+		}
+	},
+	{
+		"name": "De Burcht Sleeuwijk",
+		"facebook_url": "https://www.facebook.com/burchtsleeuwijk",
+		"twitter_name": "@burchtsleeuwijk",
+		"website": "http://www.deburchtsleeuwijk.nl/",
+		"twitter": {
+			"statuses_count": 132,
+			"followers_count": 42,
+			"friends_count": 39
+		},
+		"facebook": {
+			"graphUrl": "http://graph.facebook.com/burchtsleeuwijk",
+			"id": "290024714440909",
+			"likes": 88,
+			"were_here_count": 11,
+			"location": {
+				"street": "Rijksstraatweg 153",
+				"city": "Sleeuwijk",
+				"state": "",
+				"country": "Netherlands",
+				"zip": "4254 XD",
+				"latitude": 51.806578470464,
+				"longitude": 4.9418615011269
+			},
+			"website": "http://www.deburchtsleeuwijk.nl"
 		}
 	}
 ]
