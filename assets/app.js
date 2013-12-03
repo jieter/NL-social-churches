@@ -156,6 +156,9 @@
 
 		$('#churches').dataTable({
 			'sPaginationType': 'bs_normal',
+			//'bInfo': false,
+			'bLengthChange': false,
+
 			'aoColumnDefs': [
 				// no sorting
 				{ 'asSorting': [], 'aTargets': [1, 2, 7] },
@@ -178,6 +181,14 @@
 				}
 			]
 		});
+		$('#churches_filter')
+			.detach()
+			.appendTo('ul.nav-tabs')
+			.find('input')
+				.addClass('form-control')
+				.attr('placeholder', 'zoeken...');
+
+
 	}
 
 	function renderMap(list) {
