@@ -241,7 +241,7 @@
 		layer.addTo(map);
 	}
 
-	function renderAddForm(lidt) {
+	function renderAddForm(list) {
 
 		var form = $('#add-church');
 		form.on('submit', function (event) {
@@ -280,7 +280,6 @@
 						return;
 					}
 					if (item[key] === data[key]) {
-						console.log(item, 'looks like', data);
 						unique = false;
 					}
 				}
@@ -299,6 +298,7 @@
 				dataType: 'json',
 				success: function (event) {
 					form.find('input').val('');
+					alert('bedankt!');
 				}
 			});
 
