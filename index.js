@@ -4,6 +4,8 @@
  * Jan Pieter Waagmeester <jieter@jieter.nl>
  */
 
+'use strict';
+
 var fs = require('fs');
 var async = require('async');
 
@@ -112,5 +114,4 @@ async.waterfall([
 	console.log('Wrote %d churches to %s:', result.length, dstFilename);
 	console.log('      %d with Twitter metrics,', twitterCount);
 	console.log('      %d with Facebook metrics', facebookCount);
-
 });

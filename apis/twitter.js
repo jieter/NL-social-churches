@@ -3,6 +3,7 @@
  *
  * Jan Pieter Waagmeester <jieter@jieter.nl>
  */
+'use strict';
 
 var Twit = require('twit');
 var T = new Twit(require('./twitter-api-auth.js'));
@@ -43,7 +44,7 @@ function twitterMetrics(name, callback) {
 
 		callback(null, data);
 	});
-};
+}
 
 module.exports = twitterMetrics;
 module.exports.saveCache = function () {

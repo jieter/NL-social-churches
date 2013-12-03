@@ -3,6 +3,7 @@
  *
  * Jan Pieter Waagmeester <jieter@jieter.nl>
  */
+'use strict';
 
 var fs = require('fs');
 

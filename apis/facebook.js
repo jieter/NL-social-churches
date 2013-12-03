@@ -4,6 +4,7 @@
  *
  * Jan Pieter Waagmeester <jieter@jieter.nl>
  */
+'use strict';
 
 var request = require('request');
 

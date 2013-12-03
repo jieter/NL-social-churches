@@ -1,0 +1,11 @@
+{
+	"browser": true,
+	"node": true,
+	"strict": true,
+
+	"globals": {
+		"$": true,
+		"L": true
+	},
+	"sub": true
+}
