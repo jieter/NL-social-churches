@@ -1764,5 +1764,34 @@
 			},
 			"website": "http://www.cgk-heerde.nl"
 		}
+	},
+	{
+		"name": "De Verbinding, Baptistengemeente Amsterdam",
+		"facebook_url": "https://www.facebook.com/bgdeverbinding",
+		"twitter_name": "@bgdeverbinding",
+		"website": "http://bgdeverbinding.nl/",
+		"twitter": {
+			"statuses_count": 101,
+			"followers_count": 18,
+			"friends_count": 18
+		},
+		"facebook": {
+			"graphUrl": "http://graph.facebook.com/bgdeverbinding",
+			"id": "394028044008214",
+			"likes": 60,
+			"talking_about_count": 2,
+			"were_here_count": 19,
+			"checkins": 1,
+			"location": {
+				"street": "Schipluidenlaan 12",
+				"city": "Amsterdam",
+				"state": "",
+				"country": "Netherlands",
+				"zip": "1062 HE",
+				"latitude": 52.357239202259,
+				"longitude": 4.8378228244991
+			},
+			"website": "http://bgdeverbinding.nl"
+		}
 	}
 ]
