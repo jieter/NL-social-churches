@@ -181,13 +181,17 @@
 	}
 
 	function renderMap(list) {
-		var map = L.map('mapContainer').setView([52.5, 5], 8);
+		var map = L.map('mapContainer').setView([52.332, 5.389], 8);
 		L.tileLayer('http://a{s}.acetate.geoiq.com/tiles/acetate-hillshading/{z}/{x}/{y}.png', {
 			attribution: '&copy;2012 Esri & Stamen, Data from OSM and Natural Earth',
 			subdomains: '0123',
 			minZoom: 2,
 			maxZoom: 18
 		}).addTo(map);
+
+		map.on('click', function (e) {
+			console.log(map.getCenter());
+		})
 
 		var layer = L.featureGroup();
 
