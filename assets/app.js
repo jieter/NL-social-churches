@@ -5,7 +5,7 @@
  */
 
 // navigation
-var tabs = $('a[data-toggle="tab"').click(function (e) {
+var tabs = $('a[data-toggle="tab"]').click(function (e) {
 	e.preventDefault();
 	$(this).tab('show');
 })
