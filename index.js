@@ -66,6 +66,17 @@ var path = __dirname + '/data/';
 var srcFilename = path + 'nl-churches.json';
 var dstFilename = path + 'nl-churches-with-metrics.json';
 
+if (process.argv[2] && process.argv[2] === 'clean') {
+	var json = JSON.parse(fs.readFileSync(srcFilename));
+	fs.writeFileSync(
+		srcFilename,
+		JSON.stringify(json, null, '\t')
+	);
+
+	console.log('Cleaned up ' + srcFilename);
+	console.log();
+}
+
 async.waterfall([
 	function loadChurches(callback) {
 		var src = dstFilename;
