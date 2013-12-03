@@ -1875,5 +1875,23 @@
 			},
 			"website": "http://www.kleinlourdes.nl"
 		}
+	},
+	{
+		"name": "Protestantse Gemeente ‘t Harde",
+		"facebook_url": "https://www.facebook.com/pages/Protestantse-Gemeente-t-Harde/265064570213259",
+		"twitter_name": "@pgtharde",
+		"website": "http://www.pgtharde.nl",
+		"twitter": {
+			"statuses_count": 269,
+			"followers_count": 47,
+			"friends_count": 47
+		},
+		"facebook": {
+			"graphUrl": "http://graph.facebook.com/265064570213259",
+			"id": "265064570213259",
+			"likes": 145,
+			"talking_about_count": 2,
+			"website": "http://www.pgtharde.nl"
+		}
 	}
 ]
