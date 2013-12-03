@@ -1974,5 +1974,47 @@
 			},
 			"website": "http://www.deburchtsleeuwijk.nl"
 		}
+	},
+	{
+		"name": "Maranatha Ministries Amsterdam",
+		"facebook_url": "https://www.facebook.com/maranatha.kerk.amsterdam",
+		"twitter_name": "@MaranathaNL",
+		"website": "http://www.maranatha.nl",
+		"twitter": {
+			"statuses_count": 425,
+			"followers_count": 83,
+			"friends_count": 3
+		},
+		"facebook": {
+			"graphUrl": "http://graph.facebook.com/maranatha.kerk.amsterdam",
+			"id": "199285950116811",
+			"likes": 1069,
+			"talking_about_count": 365,
+			"were_here_count": 923,
+			"checkins": 280,
+			"location": {
+				"street": "Cabotstraat 33",
+				"city": "Amsterdam",
+				"state": "",
+				"country": "Netherlands",
+				"zip": "1057 VP",
+				"latitude": 52.367865148593,
+				"longitude": 4.8551600629735
+			},
+			"website": "http://www.maranatha.nl"
+		}
+	},
+	{
+		"name": "CAMA Parousia Woerden",
+		"facebook_url": "https://www.facebook.com/camawoerden",
+		"twitter_name": "",
+		"website": "http://www.camawoerden.nl/",
+		"facebook": {
+			"graphUrl": "http://graph.facebook.com/camawoerden",
+			"id": "171207376411360",
+			"likes": 70,
+			"talking_about_count": 5,
+			"website": "http://www.camawoerden.nl"
+		}
 	}
 ]
