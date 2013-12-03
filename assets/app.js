@@ -181,14 +181,13 @@
 				}
 			]
 		});
-		$('#churches_filter')
-			.detach()
+
+		var filter = $('#churches_filter').detach()
 			.appendTo('ul.nav-tabs')
 			.find('input')
 				.addClass('form-control')
 				.attr('placeholder', 'zoeken...');
-
-
+		$('#churches_wrapper .row').eq(0).remove();
 	}
 
 	function renderMap(list) {
