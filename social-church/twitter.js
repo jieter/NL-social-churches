@@ -6,7 +6,7 @@
 'use strict';
 
 var Twit = require('twit');
-var T = new Twit(require('./twitter-api-auth.js'));
+var T = new Twit(require('./credentials.js').twitter);
 
 var cache = require('./cache.js')('__twitter-cache.json');
 

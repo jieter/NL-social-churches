@@ -9,16 +9,24 @@
 var request = require('request');
 
 var cache = require('./cache.js')('__facebook-cache.json');
+var credentials = require('./credentials.js').facebook;
 
 function cachedGraphRequest(graphUrl, callback) {
 	if (cache.has(graphUrl)) {
 		callback(null, cache.get(graphUrl));
 	} else {
+
+		var url = graphUrl;
+		// if supplied, attach access_token
+		if (credentials.token !== '') {
+			url += '?access_token=' + credentials.token;
+		}
+
 		request({
-			url: graphUrl,
+			url: url,
 			json: true
 		}, function (err, response, body) {
-			if (err && response.statusCode !== 200) {
+			if (err || (response && response.statusCode !== 200)) {
 				callback(err);
 			} else {
 				cache.put(graphUrl, body);
@@ -28,22 +36,23 @@ function cachedGraphRequest(graphUrl, callback) {
 	}
 }
 
-
 function facebookMetrics (url, callback) {
 	var parts = url.split('/').filter(function (item) {
 		return item !== '';
 	});
 
-	var graphUrl = 'http://graph.facebook.com/' + parts[parts.length - 1];
+	var graphUrl = 'https://graph.facebook.com/' + parts[parts.length - 1];
 
 	cachedGraphRequest(graphUrl, function (err, result) {
-		if (err) {
-			return callback(err);
-		}
-
 		var data = {
 			graphUrl: graphUrl
 		};
+
+		if (err || result === undefined) {
+			data.message = 'Error requesting ' + graphUrl;
+			console.log(data.message);
+			return callback(null, data);
+		}
 
 		[
 			'id',

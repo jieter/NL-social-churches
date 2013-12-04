@@ -13,13 +13,21 @@ Je kunt zelf een record toevoegen in `data/nl-churches.json`, maar handiger is h
 
 Allereerst heb je [Node.js](http://nodejs.org/) nodig.
 
-Vervolgens een twitter api-key, zet die in `social-churches/twitter-api-auth.js` als volgt:
+Vervolgens een twitter api-key, en eventueel een Facebook token
+(alleen nodig voor bepaalde pagina's die aan leeftijdsgroepen gebonden zijn).
+Zet die in `social-churches/credentials.js` als volgt:
+
 ```JavaScript
 module.exports = {
-    consumer_key:         '',
-    consumer_secret:      '',
-    access_token:         '',
-    access_token_secret:  ''
+	twitter: {
+		consumer_key:         '',
+		consumer_secret:      '',
+		access_token:         '',
+		access_token_secret:  ''
+	},
+	facebook: {
+		token: ''
+	}
 };
 ```
 
