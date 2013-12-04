@@ -2373,5 +2373,20 @@
 			"talking_about_count": 10,
 			"website": "http://www.vvgh.nl"
 		}
+	},
+	{
+		"name": "Baptistengemeente Lelystad",
+		"facebook_url": "https://www.facebook.com/groups/143707035010/",
+		"twitter_name": "@BG_Hoeksteen",
+		"website": "http://www.baptistenlelystad.nl/",
+		"twitter": {
+			"statuses_count": 506,
+			"followers_count": 169,
+			"friends_count": 75
+		},
+		"facebook": {
+			"graphUrl": "https://graph.facebook.com/143707035010",
+			"id": "143707035010"
+		}
 	}
 ]
