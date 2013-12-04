@@ -200,10 +200,6 @@
 			maxZoom: 18
 		}).addTo(map);
 
-		map.on('click', function (e) {
-			console.log(map.getCenter());
-		})
-
 		var layer = L.featureGroup();
 
 		tabs.on('shown.bs.tab', function () {
