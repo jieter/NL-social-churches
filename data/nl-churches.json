@@ -385,7 +385,7 @@
 	},
 	{
 		"name": "PKN Wijkgemeente in Zeist-Noord",
-		"facebook_url": "http://www.noorderlichtgemeente.nl/",
+		"facebook_url": "https://www.facebook.com/noorderlichtzeist",
 		"twitter_name": "",
 		"website": "http://www.noorderlichtgemeente.nl/"
 	},
@@ -412,12 +412,6 @@
 		"facebook_url": "https://www.facebook.com/bgdeverbinding",
 		"twitter_name": "@bgdeverbinding",
 		"website": "http://bgdeverbinding.nl/"
-	},
-	{
-		"name": "Protestantse kerkgemeenschap Zoutelande",
-		"facebook_url": "https://www.facebook.com/groups/406167256145889/",
-		"twitter_name": "",
-		"website": ""
 	},
 	{
 		"name": "Onze Roeping Getrouw",
@@ -550,6 +544,12 @@
 		"facebook_url": "https://www.facebook.com/pages/Protestantse-kerk-Bergen-op-Zoom/268402903262084",
 		"twitter_name": "",
 		"website": "http://www.protestantsekerkbergenopzoom.nl"
+	},
+	{
+		"name": "Sionskerk Veenendaal",
+		"facebook_url": "http://www.facebook.com/SionskerkVeenendaal",
+		"twitter_name": "@sionskerkpkn",
+		"website": "http://www.hervormd-veenendaal.nl/startpagina-sionskerk"
 	},
 	{
 		"name": "",
