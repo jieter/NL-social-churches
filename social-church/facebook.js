@@ -27,7 +27,7 @@ function cachedGraphRequest(graphUrl, callback) {
 			json: true
 		}, function (err, response, body) {
 			if (err || (response && response.statusCode !== 200)) {
-				callback(err);
+				callback(err || new Error(response.body.error.message));
 			} else {
 				cache.put(graphUrl, body);
 				callback(null, body);
@@ -48,9 +48,9 @@ function facebookMetrics (url, callback) {
 			graphUrl: graphUrl
 		};
 
-		if (err || result === undefined) {
-			data.message = 'Error requesting ' + graphUrl;
-			console.log(data.message);
+		if (err) {
+			data.message = err.message;
+			console.log(err);
 			return callback(null, data);
 		}
 
@@ -60,12 +60,17 @@ function facebookMetrics (url, callback) {
 			'talking_about_count',
 			'were_here_count',
 			'checkins',
-			'location'
 		].forEach(function (key) {
 			if (result[key]) {
 				data[key] = result[key];
 			}
 		});
+
+		if (result['location']) {
+			data['location'] = result['location'];
+		} else if (result['venue']) {
+			data['location'] = result['venue'];
+		}
 
 		if (result['website']) {
 			if (result['website'].indexOf('http://') !== 0) {

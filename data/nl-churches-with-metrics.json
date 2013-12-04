@@ -1159,7 +1159,10 @@
 		},
 		"facebook": {
 			"graphUrl": "https://graph.facebook.com/148502305195044",
-			"id": "148502305195044"
+			"id": "148502305195044",
+			"location": {
+				"street": ""
+			}
 		}
 	},
 	{
@@ -2386,7 +2389,15 @@
 		},
 		"facebook": {
 			"graphUrl": "https://graph.facebook.com/143707035010",
-			"id": "143707035010"
+			"id": "143707035010",
+			"location": {
+				"street": "Schouw 24-96",
+				"city": "Lelystad",
+				"state": "Flevoland",
+				"country": "Netherlands",
+				"latitude": 52.5167,
+				"longitude": 5.45
+			}
 		}
 	}
 ]
