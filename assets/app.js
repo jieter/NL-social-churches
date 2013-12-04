@@ -113,7 +113,7 @@
 					td(facebook['checkins'], 'facebook_checkins');
 				} else {
 					td('besloten', 'facebook-closed')
-						.attr('title', 'Deze groep is besloten waardoor geen statistieken opgevraagd kunnen worden');
+						.attr('title', 'Deze groep is besloten of heeft een leeftijdsbegrenzing waardoor geen statistieken opgevraagd kunnen worden');
 
 					td('-', 'facebook-closed');
 					td('-', 'facebook-closed');
