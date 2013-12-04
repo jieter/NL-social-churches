@@ -26,7 +26,7 @@ module.exports = function (options, allDone) {
 
 	], function tasksDone(err, result) {
 		if (err) {
-			return callback(err);
+			return allDone(err);
 		}
 
 		// save the caches.
