@@ -2355,5 +2355,23 @@
 			},
 			"website": "http://hervormd-veenendaal.nl/index.php/laatste-nieuws-sionskerk"
 		}
+	},
+	{
+		"name": "Vergadering van gelovigen Hellevoetsluis",
+		"facebook_url": "http://www.facebook.com/vvghnl",
+		"twitter_name": "@vvghnl",
+		"website": "http://www.vvgh.nl",
+		"twitter": {
+			"statuses_count": 267,
+			"followers_count": 64,
+			"friends_count": 29
+		},
+		"facebook": {
+			"graphUrl": "https://graph.facebook.com/vvghnl",
+			"id": "115170661972994",
+			"likes": 45,
+			"talking_about_count": 10,
+			"website": "http://www.vvgh.nl"
+		}
 	}
 ]
