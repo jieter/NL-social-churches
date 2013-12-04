@@ -1,4 +1,3 @@
-
 /**
  * Fetch selected social media statistics for a list of Dutch churches.
  *
@@ -7,21 +6,16 @@
 
 'use strict';
 
-var fs = require('fs');
-var async = require('async');
-
-
-var path = __dirname + '/data/';
-var srcFilename = path + 'nl-churches.json';
-var dstFilename = path + 'nl-churches-with-metrics.json';
+var pathPrefix = __dirname + '/data/';
+var srcFilename =
 
 require('./social-church/index.js')({
 		skip: {
 			twitter: false,
 			facebook: false
 		},
-		src: srcFilename,
-		dst: dstFilename
+		src: pathPrefix + 'nl-churches.json',
+		dst: pathPrefix + 'nl-churches-with-metrics.json',
 	},
 	function (err, result) {
 		if (err) {
@@ -35,6 +29,5 @@ require('./social-church/index.js')({
 
 		console.log();
 		console.log('Wrote %d churches to %s:', result.count, dstFilename);
-
 	}
 );

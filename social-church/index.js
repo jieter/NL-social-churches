@@ -43,6 +43,19 @@ module.exports = function (options, allDone) {
 	});
 };
 
+function fixHttpUrl(website) {
+	if (!website) {
+		return website;
+	}
+
+	var protocol = website.substr(0, 7);
+	if (!(protocol === 'http://' || protocol === 'https:/')) {
+		website = 'http://' + website;
+	}
+
+	return website;
+}
+
 function loadChurches(options, report) {
 	return function (callback) {
 		report.log.push('Load churches from ' + options.src);
@@ -52,13 +65,10 @@ function loadChurches(options, report) {
 		// try to repair some common errors
 		list = list.map(function (item) {
 			if (item.website && item.website !== '') {
-				var website = item.website.toLowerCase();
-
-				if (website.substr(0, 7) !== 'http://') {
-					website = 'http://' + website;
-				}
-
-				item.website = website;
+				item.website = fixHttpUrl(item.website.toLowerCase());
+			}
+			if (item.facebook_url && item.facebook_url !== '') {
+				item.facebook_url = fixHttpUrl(item.facebook_url);
 			}
 
 			if (item.twitter_name && item.twitter_name !== '') {
