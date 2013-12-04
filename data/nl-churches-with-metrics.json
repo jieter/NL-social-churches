@@ -21,8 +21,8 @@
 				"state": "",
 				"country": "Netherlands",
 				"zip": "3136 GZ",
-				"latitude": 51.927683971518,
-				"longitude": 4.36223588607
+				"latitude": 51.9278605465,
+				"longitude": 4.36022661383
 			},
 			"website": "http://www.kvdnvlaardingen.nl"
 		},
@@ -50,8 +50,8 @@
 				"state": "",
 				"country": "Netherlands",
 				"zip": "3081 CN",
-				"latitude": 51.893186349756,
-				"longitude": 4.4887466041352
+				"latitude": 51.893233305548,
+				"longitude": 4.4888060175622
 			},
 			"website": "http://www.vorotterdam.nl"
 		},
@@ -79,8 +79,8 @@
 				"state": "",
 				"country": "Netherlands",
 				"zip": "7906 LB",
-				"latitude": 52.714172402867,
-				"longitude": 6.4917241878365
+				"latitude": 52.7155365469,
+				"longitude": 6.49060785771
 			},
 			"website": "http://www.beth-el.nl"
 		},
@@ -133,8 +133,8 @@
 				"state": "",
 				"country": "Netherlands",
 				"zip": "8041",
-				"latitude": 52.5159675,
-				"longitude": 6.0764641
+				"latitude": 52.5158530241,
+				"longitude": 6.07638641346
 			},
 			"website": "http://www.vezwolle.nl"
 		},
@@ -198,14 +198,14 @@
 		"twitter_name": "@Bethel",
 		"twitter": {
 			"statuses_count": 1185,
-			"followers_count": 1195,
+			"followers_count": 1196,
 			"friends_count": 42
 		},
 		"facebook": {
 			"graphUrl": "http://graph.facebook.com/vbgbethel",
 			"id": "293286710927",
 			"likes": 1152,
-			"talking_about_count": 129,
+			"talking_about_count": 118,
 			"were_here_count": 1120,
 			"checkins": 132,
 			"location": {
@@ -214,8 +214,8 @@
 				"state": "",
 				"country": "Netherlands",
 				"zip": "9206 AP",
-				"latitude": 53.117721265098,
-				"longitude": 6.0746874405293
+				"latitude": 53.1177227106,
+				"longitude": 6.0747021553
 			},
 			"website": "http://www.bethel.nl"
 		},
@@ -255,7 +255,7 @@
 		"facebook_url": "https://www.facebook.com/Kruiskerkinfo",
 		"twitter_name": "@Kruiskerkinfo",
 		"twitter": {
-			"statuses_count": 959,
+			"statuses_count": 960,
 			"followers_count": 150,
 			"friends_count": 17
 		},
@@ -272,8 +272,8 @@
 				"state": "",
 				"country": "Netherlands",
 				"zip": "1272 BP",
-				"latitude": 52.296332843986,
-				"longitude": 5.2300482260514
+				"latitude": 52.2965849161,
+				"longitude": 5.22656191464
 			},
 			"website": "http://kruiskerk.info"
 		},
@@ -319,8 +319,8 @@
 				"state": "",
 				"country": "Netherlands",
 				"zip": "3071 JX",
-				"latitude": 51.91122,
-				"longitude": 4.49726
+				"latitude": 51.9109183949,
+				"longitude": 4.49742845654
 			},
 			"website": "http://www.koningskerk.org"
 		},
@@ -360,8 +360,8 @@
 				"state": "",
 				"country": "Netherlands",
 				"zip": "7671 GT",
-				"latitude": 52.408357939431,
-				"longitude": 6.6242424080465
+				"latitude": 52.4081067105,
+				"longitude": 6.62313953647
 			},
 			"website": "http://www.ontmoetingskerkvriezenveen.nl"
 		},
@@ -397,14 +397,14 @@
 		"facebook_url": "https://www.facebook.com/Mijnkerk",
 		"twitter_name": "@mijnkerkNL",
 		"twitter": {
-			"statuses_count": 510,
-			"followers_count": 1050,
+			"statuses_count": 511,
+			"followers_count": 1051,
 			"friends_count": 1191
 		},
 		"facebook": {
 			"graphUrl": "http://graph.facebook.com/Mijnkerk",
 			"id": "484647548235132",
-			"likes": 1789,
+			"likes": 1791,
 			"talking_about_count": 161,
 			"website": "http://www.mijnkerk.nl"
 		},
@@ -432,8 +432,8 @@
 				"state": "",
 				"country": "Netherlands",
 				"zip": "7468 AA",
-				"latitude": 52.295035017945,
-				"longitude": 6.574492696661
+				"latitude": 52.2971542018,
+				"longitude": 6.57761428289
 			},
 			"website": "http://www.gereformeerdekerkenter.nl"
 		},
@@ -446,7 +446,7 @@
 		"facebook": {
 			"graphUrl": "http://graph.facebook.com/KoptischOrthodoxeKerkEindhoven",
 			"id": "519236848096033",
-			"likes": 722,
+			"likes": 724,
 			"talking_about_count": 262,
 			"were_here_count": 81,
 			"checkins": 1,
@@ -456,8 +456,8 @@
 				"state": "",
 				"country": "Netherlands",
 				"zip": "5644 CE",
-				"latitude": 51.421214452538,
-				"longitude": 5.4939131180916
+				"latitude": 51.4209127975,
+				"longitude": 5.4941337126
 			},
 			"website": "http://www.koptischekerkeindhoven.nl"
 		},
@@ -485,8 +485,8 @@
 				"state": "",
 				"country": "Netherlands",
 				"zip": "7003 AA",
-				"latitude": 51.966127003856,
-				"longitude": 6.3019744044555
+				"latitude": 51.9671023535,
+				"longitude": 6.30294858221
 			},
 			"website": "http://www.leef-doetinchem.nl"
 		},
@@ -524,7 +524,7 @@
 			"graphUrl": "http://graph.facebook.com/hervormd",
 			"id": "221840291277611",
 			"likes": 172,
-			"talking_about_count": 43,
+			"talking_about_count": 48,
 			"were_here_count": 41,
 			"checkins": 4,
 			"location": {
@@ -533,8 +533,8 @@
 				"state": "",
 				"country": "Netherlands",
 				"zip": "7671 EK",
-				"latitude": 52.412187719609,
-				"longitude": 6.6252922388953
+				"latitude": 52.4115693473,
+				"longitude": 6.62570627705
 			},
 			"website": "http://hervormdvriezenveen.nl/"
 		},
@@ -552,7 +552,7 @@
 		"facebook": {
 			"graphUrl": "http://graph.facebook.com/HillsongAmsterdam",
 			"id": "106632822794682",
-			"likes": 2972,
+			"likes": 2973,
 			"talking_about_count": 167,
 			"location": {
 				"street": "Oostelijke Handelskade 4",
@@ -587,8 +587,8 @@
 				"state": "",
 				"country": "Netherlands",
 				"zip": "1187 XR",
-				"latitude": 52.294305283608,
-				"longitude": 4.8569467272564
+				"latitude": 52.2901673648,
+				"longitude": 4.85058780481
 			},
 			"website": "http://www.xrds.nl"
 		},
@@ -611,8 +611,8 @@
 				"state": "",
 				"country": "Netherlands",
 				"zip": "1032 JW",
-				"latitude": 52.393249353938,
-				"longitude": 4.9136246157204
+				"latitude": 52.3930673952,
+				"longitude": 4.91308024223
 			},
 			"website": "http://www."
 		},
@@ -630,9 +630,9 @@
 		"facebook": {
 			"graphUrl": "http://graph.facebook.com/clcdenhaag",
 			"id": "137850586233695",
-			"likes": 1257,
+			"likes": 1259,
 			"talking_about_count": 86,
-			"were_here_count": 3338,
+			"were_here_count": 3339,
 			"checkins": 439,
 			"location": {
 				"street": "Escamplaan 280",
@@ -640,8 +640,8 @@
 				"state": "",
 				"country": "Netherlands",
 				"zip": "2547 GP",
-				"latitude": 52.062620893608,
-				"longitude": 4.2724213780725
+				"latitude": 52.062649741633,
+				"longitude": 4.2727272649337
 			},
 			"website": "http://www.clcdenhaag.nl"
 		},
@@ -664,8 +664,8 @@
 				"state": "",
 				"country": "Netherlands",
 				"zip": "4814 KB",
-				"latitude": 51.588745853515,
-				"longitude": 4.7540021582256
+				"latitude": 51.6190102004,
+				"longitude": 4.73376073879
 			},
 			"website": "http://www.jefta.org"
 		},
@@ -688,8 +688,8 @@
 				"state": "",
 				"country": "Netherlands",
 				"zip": "1032 LC ",
-				"latitude": 52.39471,
-				"longitude": 4.90874
+				"latitude": 52.3951783204,
+				"longitude": 4.90842777051
 			},
 			"website": "http://www.christworshipcentre.com"
 		},
@@ -707,7 +707,7 @@
 		"facebook": {
 			"graphUrl": "http://graph.facebook.com/thousandhills",
 			"id": "88656582656",
-			"likes": 1234,
+			"likes": 1236,
 			"talking_about_count": 45,
 			"were_here_count": 1021,
 			"checkins": 126,
@@ -717,8 +717,8 @@
 				"state": "",
 				"country": "Netherlands",
 				"zip": "1214 HA",
-				"latitude": 52.215567314287,
-				"longitude": 5.171135210704
+				"latitude": 52.2155719357,
+				"longitude": 5.17114317891
 			},
 			"website": "http://www.thousandhills.cc"
 		},
@@ -745,8 +745,8 @@
 				"state": "",
 				"country": "Netherlands",
 				"zip": "3026 VD",
-				"latitude": 51.91408,
-				"longitude": 4.44384
+				"latitude": 51.913626675,
+				"longitude": 4.44415198747
 			},
 			"website": "http://www.newlife010.nl"
 		},
@@ -774,8 +774,8 @@
 				"state": "",
 				"country": "Netherlands",
 				"zip": "9743AE",
-				"latitude": 53.20426,
-				"longitude": 6.55942
+				"latitude": 53.204187658,
+				"longitude": 6.55905708974
 			},
 			"website": "http://www.vbgroningen.nl/"
 		},
@@ -803,8 +803,8 @@
 				"state": "",
 				"country": "Netherlands",
 				"zip": "8011 VN",
-				"latitude": 52.51473,
-				"longitude": 6.09644
+				"latitude": 52.5148609119,
+				"longitude": 6.0978357891
 			},
 			"website": "http://www.cgkzwolle.nl"
 		},
@@ -824,7 +824,7 @@
 			"graphUrl": "http://graph.facebook.com/HervormdBarneveld",
 			"id": "279558128818311",
 			"likes": 313,
-			"talking_about_count": 12,
+			"talking_about_count": 10,
 			"location": {
 				"street": "",
 				"city": "Barneveld",
@@ -853,8 +853,8 @@
 				"state": "",
 				"country": "Netherlands",
 				"zip": "8096 CH",
-				"latitude": 52.45273,
-				"longitude": 5.91295
+				"latitude": 52.4529354254,
+				"longitude": 5.91234871306
 			},
 			"website": "http://www.vegoldebroek.nl"
 		}
@@ -880,8 +880,8 @@
 				"state": "",
 				"country": "Netherlands",
 				"zip": "2221 AA",
-				"latitude": 52.2075386,
-				"longitude": 4.4103999
+				"latitude": 52.2079562439,
+				"longitude": 4.41148557168
 			},
 			"website": "http://www.baptistengemeentekatwijk.nl"
 		},
@@ -899,7 +899,7 @@
 		"facebook": {
 			"graphUrl": "http://graph.facebook.com/CGLachaiRoi",
 			"id": "400354063378166",
-			"likes": 127,
+			"likes": 133,
 			"talking_about_count": 6,
 			"were_here_count": 82,
 			"checkins": 1,
@@ -909,8 +909,8 @@
 				"state": "",
 				"country": "Netherlands",
 				"zip": "3245 DL",
-				"latitude": 51.751108514224,
-				"longitude": 4.1567172530262
+				"latitude": 51.7498993502,
+				"longitude": 4.1570157744
 			},
 			"website": "http://www.lachai-roi.nl/"
 		},
@@ -961,8 +961,8 @@
 				"state": "",
 				"country": "Netherlands",
 				"zip": "3824 MK",
-				"latitude": 52.1921046,
-				"longitude": 5.3892692806265
+				"latitude": 52.1965582735,
+				"longitude": 5.3898131802
 			},
 			"website": "http://www.rafaelamersfoort.nl"
 		},
@@ -1003,8 +1003,8 @@
 				"state": "",
 				"country": "Netherlands",
 				"zip": "1033BW",
-				"latitude": 52.41495,
-				"longitude": 4.89311
+				"latitude": 52.4150828675,
+				"longitude": 4.89294581509
 			},
 			"website": "http://www.pinkstergemeente-agape.nl"
 		},
@@ -1032,8 +1032,8 @@
 				"state": "",
 				"country": "Netherlands",
 				"zip": "3771 EP ",
-				"latitude": 52.138285204093,
-				"longitude": 5.5903055726162
+				"latitude": 52.142538717853,
+				"longitude": 5.5854144332974
 			},
 			"website": "http://www.doorbrekers.nl"
 		},
@@ -1058,7 +1058,7 @@
 		"twitter_name": "@VineyardA_dam",
 		"twitter": {
 			"statuses_count": 402,
-			"followers_count": 601,
+			"followers_count": 602,
 			"friends_count": 530
 		},
 		"facebook": {
@@ -1099,8 +1099,8 @@
 				"state": "",
 				"country": "Netherlands",
 				"zip": "4201 BA",
-				"latitude": 51.8287506,
-				"longitude": 4.97856
+				"latitude": 51.8305441646,
+				"longitude": 4.97309818768
 			},
 			"website": "http://gorinchem.gkv.nl/"
 		},
@@ -1122,8 +1122,8 @@
 				"state": "",
 				"country": "Netherlands",
 				"zip": "3817 ER",
-				"latitude": 52.14502,
-				"longitude": 5.39745
+				"latitude": 52.1470867587,
+				"longitude": 5.40617987741
 			},
 			"website": "http://www.amersfoort.nazarener.nl/"
 		},
@@ -1203,8 +1203,8 @@
 				"state": "",
 				"country": "Netherlands",
 				"zip": "2624 BG",
-				"latitude": 51.9984512,
-				"longitude": 4.3564701
+				"latitude": 51.9984312083,
+				"longitude": 4.35668574834
 			},
 			"website": "http://www.levendwater.nl/en"
 		}
@@ -1226,8 +1226,8 @@
 				"state": "",
 				"country": "Netherlands",
 				"zip": "4285 BA",
-				"latitude": 51.816325289412,
-				"longitude": 5.0030049171133
+				"latitude": 51.8163716831,
+				"longitude": 5.00320985595
 			},
 			"website": "http://www.hervormdegemeentewoudrichem.nl"
 		}
@@ -1245,7 +1245,7 @@
 		"facebook": {
 			"graphUrl": "http://graph.facebook.com/280158508701206",
 			"id": "280158508701206",
-			"likes": 250,
+			"likes": 252,
 			"talking_about_count": 26,
 			"location": {
 				"street": "",
@@ -1316,8 +1316,8 @@
 				"state": "",
 				"country": "Netherlands",
 				"zip": "2533 JT",
-				"latitude": 52.051442643084,
-				"longitude": 4.2955646518541
+				"latitude": 52.0513735081,
+				"longitude": 4.295919771
 			},
 			"website": "http://www.marcuskerk-denhaag.nl"
 		}
@@ -1343,7 +1343,7 @@
 		"website": "http://www.luthersekerkhaarlem.nl/",
 		"twitter": {
 			"statuses_count": 1775,
-			"followers_count": 363,
+			"followers_count": 364,
 			"friends_count": 299
 		},
 		"facebook": {
@@ -1376,8 +1376,8 @@
 				"state": "",
 				"country": "Netherlands",
 				"zip": "9712 PT",
-				"latitude": 53.223387626149,
-				"longitude": 6.5616664238187
+				"latitude": 53.2227366944,
+				"longitude": 6.5614359727
 			},
 			"website": "http://www.nieuwekerk.org"
 		}
@@ -1405,8 +1405,8 @@
 				"state": "",
 				"country": "Netherlands",
 				"zip": "2153 LS",
-				"latitude": 52.264715350077,
-				"longitude": 4.6346818836872
+				"latitude": 52.2645901599,
+				"longitude": 4.63534487381
 			},
 			"website": "http://www.wittekerk.nl"
 		}
@@ -1445,8 +1445,8 @@
 				"state": "",
 				"country": "Netherlands",
 				"zip": "2712 KC",
-				"latitude": 52.050670195469,
-				"longitude": 4.4999552158691
+				"latitude": 52.0508477981,
+				"longitude": 4.49985385189
 			},
 			"website": "http://www.kompaszoetermeer.nl"
 		}
@@ -1457,7 +1457,7 @@
 		"twitter_name": "@KerkMaranatha",
 		"website": "http://www.hervormdegemeentemaranatha.nl/",
 		"twitter": {
-			"statuses_count": 616,
+			"statuses_count": 617,
 			"followers_count": 190,
 			"friends_count": 155
 		},
@@ -1474,8 +1474,8 @@
 				"state": "",
 				"country": "Netherlands",
 				"zip": "2957 RJ",
-				"latitude": 51.88687,
-				"longitude": 4.68027
+				"latitude": 51.8869148901,
+				"longitude": 4.68033978148
 			},
 			"website": "http://www.hervormdegemeentemaranatha.nl"
 		}
@@ -1497,7 +1497,7 @@
 		"twitter_name": "@KralingenWest",
 		"website": "http://www.hervormdkralingenwest.nl/",
 		"twitter": {
-			"statuses_count": 202,
+			"statuses_count": 203,
 			"followers_count": 92,
 			"friends_count": 32
 		},
@@ -1518,7 +1518,7 @@
 			"graphUrl": "http://graph.facebook.com/hervormd",
 			"id": "221840291277611",
 			"likes": 172,
-			"talking_about_count": 43,
+			"talking_about_count": 48,
 			"were_here_count": 41,
 			"checkins": 4,
 			"location": {
@@ -1527,8 +1527,8 @@
 				"state": "",
 				"country": "Netherlands",
 				"zip": "7671 EK",
-				"latitude": 52.412187719609,
-				"longitude": 6.6252922388953
+				"latitude": 52.4115693473,
+				"longitude": 6.62570627705
 			},
 			"website": "http://hervormdvriezenveen.nl/"
 		}
@@ -1551,8 +1551,8 @@
 				"state": "",
 				"country": "Netherlands",
 				"zip": "5161 ED",
-				"latitude": 51.6702635381,
-				"longitude": 5.0494442010498
+				"latitude": 51.6704729806,
+				"longitude": 5.05018990923
 			},
 			"website": "http://www.hervormd-sprang.nl"
 		}
@@ -1575,8 +1575,8 @@
 				"state": "",
 				"country": "Netherlands",
 				"zip": "3433 CM",
-				"latitude": 52.004024946849,
-				"longitude": 5.094536820924
+				"latitude": 52.0040249468,
+				"longitude": 5.09453682092
 			},
 			"website": "http://www.hervormdvreeswijk.nl/"
 		}
@@ -1599,8 +1599,8 @@
 				"state": "",
 				"country": "Netherlands",
 				"zip": "1325WB",
-				"latitude": 52.36019,
-				"longitude": 5.20527
+				"latitude": 52.3597658154,
+				"longitude": 5.20443319796
 			},
 			"website": "http://www.rafaelalmere.nl"
 		}
@@ -1658,8 +1658,8 @@
 		"facebook": {
 			"graphUrl": "http://graph.facebook.com/Pgbarneveld",
 			"id": "539645659444030",
-			"likes": 91,
-			"talking_about_count": 7,
+			"likes": 92,
+			"talking_about_count": 11,
 			"website": "http://www.pgbarneveld.nl"
 		}
 	},
@@ -1706,8 +1706,8 @@
 				"state": "",
 				"country": "Netherlands",
 				"zip": "1185 AM",
-				"latitude": 52.291792920506,
-				"longitude": 4.8622377731848
+				"latitude": 52.3034329885,
+				"longitude": 4.857692511
 			},
 			"website": "http://www.stadshartkerk.nl"
 		}
@@ -1756,8 +1756,8 @@
 				"state": "",
 				"country": "Netherlands",
 				"zip": "8181 GG",
-				"latitude": 52.3820686,
-				"longitude": 6.0394402
+				"latitude": 52.379790062025,
+				"longitude": 6.033122567408
 			},
 			"website": "http://www.cgk-heerde.nl"
 		}
@@ -1784,8 +1784,8 @@
 				"state": "",
 				"country": "Netherlands",
 				"zip": "1062 HE",
-				"latitude": 52.357239202259,
-				"longitude": 4.8378228244991
+				"latitude": 52.3572392023,
+				"longitude": 4.8378228245
 			},
 			"website": "http://bgdeverbinding.nl"
 		}
@@ -1896,7 +1896,7 @@
 		"twitter_name": "@twitreality",
 		"website": "http://realitychurch.nl/",
 		"twitter": {
-			"statuses_count": 171,
+			"statuses_count": 172,
 			"followers_count": 50,
 			"friends_count": 19
 		},
@@ -1938,8 +1938,8 @@
 				"state": "",
 				"country": "Netherlands",
 				"zip": "3554 GJ",
-				"latitude": 52.114900220458,
-				"longitude": 5.0855844857669
+				"latitude": 52.1140729745,
+				"longitude": 5.07976399879
 			},
 			"website": "http://www.geloofhet.nl"
 		}
@@ -1957,7 +1957,7 @@
 		"facebook": {
 			"graphUrl": "http://graph.facebook.com/burchtsleeuwijk",
 			"id": "290024714440909",
-			"likes": 90,
+			"likes": 91,
 			"were_here_count": 11,
 			"location": {
 				"street": "Rijksstraatweg 153",
@@ -1965,8 +1965,8 @@
 				"state": "",
 				"country": "Netherlands",
 				"zip": "4254 XD",
-				"latitude": 51.806578470464,
-				"longitude": 4.9418615011269
+				"latitude": 51.819284116,
+				"longitude": 4.94691065513
 			},
 			"website": "http://www.deburchtsleeuwijk.nl"
 		}
@@ -1994,8 +1994,8 @@
 				"state": "",
 				"country": "Netherlands",
 				"zip": "1057 VP",
-				"latitude": 52.367865148593,
-				"longitude": 4.8551600629735
+				"latitude": 52.367919003487,
+				"longitude": 4.8550932581858
 			},
 			"website": "http://www.maranatha.nl"
 		}
@@ -2008,7 +2008,7 @@
 		"facebook": {
 			"graphUrl": "http://graph.facebook.com/camawoerden",
 			"id": "171207376411360",
-			"likes": 99,
+			"likes": 105,
 			"talking_about_count": 4,
 			"location": {
 				"street": "Overstek 2",
@@ -2028,7 +2028,7 @@
 		"twitter_name": "@wellsekerk",
 		"website": "http://hervormdegemeentewell.nl/",
 		"twitter": {
-			"statuses_count": 10653,
+			"statuses_count": 10657,
 			"followers_count": 46,
 			"friends_count": 35
 		},
@@ -2036,7 +2036,7 @@
 			"graphUrl": "http://graph.facebook.com/kerkWellAmmerzoden",
 			"id": "101833656638544",
 			"likes": 141,
-			"talking_about_count": 14,
+			"talking_about_count": 13,
 			"location": {
 				"street": "",
 				"city": "Dorpstraat 7",
@@ -2068,8 +2068,8 @@
 				"state": "",
 				"country": "Netherlands",
 				"zip": "",
-				"latitude": 52.01471677297,
-				"longitude": 5.5549039719817
+				"latitude": 52.0170768635,
+				"longitude": 5.55751075675
 			},
 			"website": "http://www.mozaiek0318.nl"
 		}
@@ -2091,8 +2091,8 @@
 				"state": "",
 				"country": "Netherlands",
 				"zip": "7411 PM",
-				"latitude": 52.25692,
-				"longitude": 6.15401
+				"latitude": 52.2567279902,
+				"longitude": 6.15374555978
 			},
 			"website": "http://www.baptistendeventer.nl"
 		}
@@ -2106,7 +2106,7 @@
 			"graphUrl": "http://graph.facebook.com/korpsutrecht",
 			"id": "157893457595542",
 			"likes": 194,
-			"talking_about_count": 7,
+			"talking_about_count": 8,
 			"were_here_count": 116,
 			"checkins": 36,
 			"location": {
@@ -2115,8 +2115,8 @@
 				"state": "",
 				"country": "Netherlands",
 				"zip": "3562 GG Utrecht",
-				"latitude": 52.12044,
-				"longitude": 5.11783
+				"latitude": 52.1184340172,
+				"longitude": 5.11580878047
 			},
 			"website": "http://www.legerdesheilsutrecht.nl"
 		}
@@ -2127,7 +2127,7 @@
 		"twitter_name": "@openhofkerk",
 		"website": "http://www.pgaalsmeer.nl",
 		"twitter": {
-			"statuses_count": 1610,
+			"statuses_count": 1612,
 			"followers_count": 41,
 			"friends_count": 29
 		},
@@ -2144,8 +2144,8 @@
 				"state": "",
 				"country": "Netherlands",
 				"zip": "1431 HH",
-				"latitude": 52.267403406542,
-				"longitude": 4.768849550368
+				"latitude": 52.26727737,
+				"longitude": 4.7687035
 			},
 			"website": "http://www.pgaalsmeer.nl"
 		}
@@ -2156,7 +2156,7 @@
 		"twitter_name": "@ichthuswveen",
 		"website": "http://www.baptistengemeente-ichthus.nl/",
 		"twitter": {
-			"statuses_count": 83,
+			"statuses_count": 84,
 			"followers_count": 90,
 			"friends_count": 216
 		},
@@ -2164,7 +2164,7 @@
 			"graphUrl": "http://graph.facebook.com/BaptistengemeenteIchthusWaddinxveen",
 			"id": "275326095871319",
 			"likes": 146,
-			"talking_about_count": 5,
+			"talking_about_count": 4,
 			"website": "http://www.baptistengemeente-ichthus.nl"
 		}
 	},
@@ -2174,7 +2174,7 @@
 		"twitter_name": "@openhofkerk",
 		"website": "http://pgaalsmeer.nl/",
 		"twitter": {
-			"statuses_count": 1610,
+			"statuses_count": 1612,
 			"followers_count": 41,
 			"friends_count": 29
 		},
@@ -2191,8 +2191,8 @@
 				"state": "",
 				"country": "Netherlands",
 				"zip": "1431 HH",
-				"latitude": 52.267403406542,
-				"longitude": 4.768849550368
+				"latitude": 52.26727737,
+				"longitude": 4.7687035
 			},
 			"website": "http://www.pgaalsmeer.nl"
 		}
@@ -2206,7 +2206,7 @@
 			"graphUrl": "http://graph.facebook.com/korpsutrecht",
 			"id": "157893457595542",
 			"likes": 194,
-			"talking_about_count": 7,
+			"talking_about_count": 8,
 			"were_here_count": 116,
 			"checkins": 36,
 			"location": {
@@ -2215,8 +2215,8 @@
 				"state": "",
 				"country": "Netherlands",
 				"zip": "3562 GG Utrecht",
-				"latitude": 52.12044,
-				"longitude": 5.11783
+				"latitude": 52.1184340172,
+				"longitude": 5.11580878047
 			},
 			"website": "http://www.legerdesheilsutrecht.nl"
 		}
@@ -2265,9 +2265,9 @@
 		"twitter_name": "@stjosephOLVA",
 		"website": "http://www.stjoseph-olva.nl",
 		"twitter": {
-			"statuses_count": 683,
+			"statuses_count": 684,
 			"followers_count": 98,
-			"friends_count": 203
+			"friends_count": 204
 		}
 	},
 	{
