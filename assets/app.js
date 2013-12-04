@@ -10,6 +10,7 @@
 	var tabs = $('a[data-toggle="tab"]').click(function (e) {
 		e.preventDefault();
 		$(this).tab('show');
+		window.location.hash = $(this).attr('href');
 	});
 
 	var link = function (href, body) {
@@ -318,6 +319,11 @@
 		}
 		if ($('#add-church').length === 1) {
 			renderAddForm(list);
+		}
+
+		if (window.location.hash !== '') {
+			console.log($('a[href="' + window.location.hash + '"]'));
+			$('a[href="' + window.location.hash + '"]').click();
 		}
 	});
 
