@@ -2249,5 +2249,16 @@
 			},
 			"website": "http://www.ngkvoorthuizenbarneveld.nl"
 		}
+	},
+	{
+		"name": "R.K. geloofsgemeenschap St. Joseph",
+		"facebook_url": "",
+		"twitter_name": "@stjosephOLVA",
+		"website": "http://www.stjoseph-olva.nl",
+		"twitter": {
+			"statuses_count": 683,
+			"followers_count": 99,
+			"friends_count": 203
+		}
 	}
 ]
