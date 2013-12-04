@@ -28,6 +28,6 @@ require('./social-church/index.js')({
 		});
 
 		console.log();
-		console.log('Wrote %d churches to %s:', result.count, dstFilename);
+		console.log('Wrote %d churches to %s.', result.count, result.dst);
 	}
 );

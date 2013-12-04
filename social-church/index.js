@@ -15,7 +15,8 @@ var facebook = require('./facebook.js');
 module.exports = function (options, allDone) {
 
 	var report = {
-		log: []
+		log: [],
+		dst: options.dst
 	};
 
 	async.waterfall([

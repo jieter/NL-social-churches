@@ -7,21 +7,13 @@ Naar idee en vraag van <a href="https://twitter.com/creatov">@creatov</a>: http:
 
 ## Kerken toevoegen
 
-Maak voor elke kerk een nieuwe record aan in nl-churches.json
-```
-{
-	"name": "Naam van de kerk",
-	"facebook_url": "https://www.facebook.com/...",
-	"twitter"_name": "@...",
-	"website": "http://..."
-}
-```
+Je kunt zelf een record toevoegen in `data/nl-churches.json`, maar handiger is het formulier gebruiken op http://jieter.github.io/NL-social-churches/ onder het tabje 'over'.
 
-## Metrics updaten.
+## Zelf metrics updaten.
 
 Allereerst heb je [Node.js](http://nodejs.org/) nodig.
 
-Vervolgens een twitter api-key, zet die in `apis/twitter-api-auth.js` als volgt:
+Vervolgens een twitter api-key, zet die in `social-churches/twitter-api-auth.js` als volgt:
 ```JavaScript
 module.exports = {
     consumer_key:         '',
@@ -41,12 +33,10 @@ en kan je de boel updaten met
 
 ```
 $ node index.js
-Load churches from [...]/NL-social-church/data/nl-churches.json
-Wrote 57 churches to [...]/NL-social-church/data/nl-churches-with-metrics.json:
-      41 with Twitter metrics,
-      54 with Facebook metrics
+Load churches from [...]NL-social-church/data/nl-churches.json
+Cleaned up [...]NL-social-church/data/nl-churches.json
+
+Wrote 98 churches to [...]NL-social-church/data/nl-churches-with-metrics.json
 ```
 
-Met `node index.js reload` wordt naar nieuwe kerken in `nl-churches.json` gekeken.
-
-Twitter limiteert het aantal aanvragen tot 180 per 15 minuten, maar aanvragen worden gecached in `api/__twitter-cache.json`, na twee uur wordt alles weer opnieuw geladen. Als het aantal kerken dus onder de 180 blijft zou het herhaaldelijk aanroepen van het script dus ook geen probleem moeten opleveren.
+Twitter limiteert het aantal aanvragen tot 180 per 15 minuten, maar aanvragen worden gecached in `social-church/__twitter-cache.json`, na twee uur wordt alles weer opnieuw geladen. Als het aantal kerken dus onder de 180 blijft zou het herhaaldelijk aanroepen van het script dus ook geen probleem moeten opleveren.
