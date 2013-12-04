@@ -38,6 +38,7 @@ function facebookMetrics (url, callback) {
 
 	cachedGraphRequest(graphUrl, function (err, result) {
 		if (err) {
+			console.log(graphUrl);
 			return callback(err);
 		}
 

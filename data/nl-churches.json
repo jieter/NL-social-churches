@@ -495,7 +495,7 @@
 		"name": "Baptisten Gemeente Deventer",
 		"facebook_url": "https://www.facebook.com/baptistendeventer",
 		"twitter_name": "",
-		"website": "www.baptistendeventer.nl"
+		"website": "http://www.baptistendeventer.nl"
 	},
 	{
 		"name": "Leger des Heils korps Utrecht",
@@ -529,9 +529,15 @@
 	},
 	{
 		"name": "ParkCity Church",
-		"facebook_url": "facebook.com/parkcitychurch.heerlen",
+		"facebook_url": "http://facebook.com/parkcitychurch.heerlen",
 		"twitter_name": "@parkcitychurch",
-		"website": "www.parkcitychurch.nl"
+		"website": "http://www.parkcitychurch.nl"
+	},
+	{
+		"name": "NGK Voorthuizen-Barneveld",
+		"facebook_url": "http://www.facebook.com/ngkvoorthuizenbarneveld",
+		"twitter_name": "@NGK_VhznBveld",
+		"website": "http://www.ngkvoorthuizenbarneveld.nl"
 	},
 	{
 		"name": "",
