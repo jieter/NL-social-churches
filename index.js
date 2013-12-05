@@ -15,12 +15,12 @@ require('./social-church/index.js')({
 			facebook: false
 		},
 		src: pathPrefix + 'nl-churches.json',
+		remoteSrc: 'http://jieter.nl/NL-social-churches/nl-churches.json',
 		dst: pathPrefix + 'nl-churches-with-metrics.json',
 	},
 	function (err, result) {
 		if (err) {
 			console.error('Failed fetching metrics:\n', err);
-			return;
 		}
 
 		result.log.forEach(function (l) {

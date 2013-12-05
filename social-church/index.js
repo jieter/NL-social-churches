@@ -8,6 +8,7 @@
 
 var fs = require('fs');
 var async = require('async');
+var request = require('request');
 
 var twitter = require('./twitter.js');
 var facebook = require('./facebook.js');
@@ -21,6 +22,12 @@ module.exports = function (options, allDone) {
 
 	async.waterfall([
 		loadChurches(options, report),
+
+		fetchNewChurches(options, report),
+
+		cleanUpAndSave(options, report),
+		filterEmpty(options, report),
+
 		addTwitterMetrics(options, report),
 		addFacebookMetrics(options, report),
 
@@ -48,6 +55,7 @@ function fixHttpUrl(website) {
 	if (!website) {
 		return website;
 	}
+	website = website.replace(' ', '');
 
 	var protocol = website.substr(0, 7);
 	if (!(protocol === 'http://' || protocol === 'https:/')) {
@@ -57,13 +65,61 @@ function fixHttpUrl(website) {
 	return website;
 }
 
+
 function loadChurches(options, report) {
 	return function (callback) {
 		report.log.push('Load churches from ' + options.src);
 
 		var list = JSON.parse(fs.readFileSync(options.src));
 
-		// try to repair some common errors
+		callback(null, list);
+	};
+}
+
+function fetchNewChurches(options, report) {
+	return function (list, callback) {
+		if (!options.remoteSrc) {
+			report.log.push('Skip remote fetching...');
+			return callback(null, list);
+		}
+
+		request({
+			url: options.remoteSrc,
+			json: true
+		}, function (err, response, body) {
+			if (err || (response && response.statusCode !== 200)) {
+				report.log.push('Error fetching remote ' + options.remoteSrc);
+			}
+
+			report.log.push('Analyzing ' + body.length + ' remote items: ');
+			body.forEach(function (newItem) {
+				var isNew = true;
+				list.forEach(function (item) {
+					// test equality
+					var equal =
+						(newItem.name === item.name) ||
+						(newItem.twitter_name !== '' && newItem.twitter_name === item.twitter_name) ||
+						(newItem.facebook_url !== '' && newItem.facebook_url === item.facebook_url);
+
+					if (equal)  {
+						report.log.push('Skipping record (' + newItem.name + '), already in list.');
+						isNew = false;
+					}
+				});
+
+				if (isNew) {
+					list.push(newItem);
+				}
+			});
+
+			return callback(null, list);
+		})
+	};
+}
+
+function cleanUpAndSave(options, report) {
+	// try to repair some common errors
+	return function (list, callback) {
 		list = list.map(function (item) {
 			if (item.website && item.website !== '') {
 				item.website = fixHttpUrl(item.website.toLowerCase());
@@ -87,7 +143,13 @@ function loadChurches(options, report) {
 
 		report.log.push('Cleaned up ' + options.src);
 
-		// make sure no empty records exist
+		callback(null, list);
+	}
+}
+
+function filterEmpty(options, report) {
+	// make sure no empty records exist
+	return function(list, callback) {
 		list = list.filter(function (item) {
 			return item['name'] !== '';
 		});
