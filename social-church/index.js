@@ -114,7 +114,7 @@ function fetchNewChurches(options, report) {
 			});
 
 			return callback(null, list);
-		})
+		});
 	};
 }
 
@@ -145,7 +145,7 @@ function cleanUpAndSave(options, report) {
 		report.log.push('Cleaned up list, saved to ' + options.src);
 
 		callback(null, list);
-	}
+	};
 }
 
 function filterEmpty(options, report) {
