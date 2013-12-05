@@ -40,7 +40,7 @@
 		"facebook": {
 			"graphUrl": "https://graph.facebook.com/VORotterdam",
 			"id": "142866119103429",
-			"likes": 647,
+			"likes": 648,
 			"talking_about_count": 114,
 			"were_here_count": 2076,
 			"checkins": 220,
@@ -98,7 +98,7 @@
 		"facebook": {
 			"graphUrl": "https://graph.facebook.com/reconnectnl",
 			"id": "370576742963306",
-			"likes": 311,
+			"likes": 312,
 			"talking_about_count": 108,
 			"location": {
 				"street": "Lange Begijnestraat 11",
@@ -117,7 +117,7 @@
 		"twitter_name": "@VEZwolle",
 		"twitter": {
 			"statuses_count": 587,
-			"followers_count": 682,
+			"followers_count": 683,
 			"friends_count": 127
 		},
 		"facebook": {
@@ -198,13 +198,13 @@
 		"twitter_name": "@Bethel",
 		"twitter": {
 			"statuses_count": 1186,
-			"followers_count": 1196,
+			"followers_count": 1197,
 			"friends_count": 42
 		},
 		"facebook": {
 			"graphUrl": "https://graph.facebook.com/vbgbethel",
 			"id": "293286710927",
-			"likes": 1153,
+			"likes": 1154,
 			"talking_about_count": 118,
 			"were_here_count": 1120,
 			"checkins": 132,
@@ -398,7 +398,7 @@
 		"twitter_name": "@mijnkerkNL",
 		"twitter": {
 			"statuses_count": 515,
-			"followers_count": 1051,
+			"followers_count": 1052,
 			"friends_count": 1191
 		},
 		"facebook": {
@@ -475,7 +475,7 @@
 		"facebook": {
 			"graphUrl": "https://graph.facebook.com/LeefDoetinchem",
 			"id": "343139999069499",
-			"likes": 220,
+			"likes": 221,
 			"talking_about_count": 38,
 			"were_here_count": 64,
 			"checkins": 3,
@@ -546,13 +546,13 @@
 		"twitter_name": "@hillsongams",
 		"twitter": {
 			"statuses_count": 227,
-			"followers_count": 4019,
+			"followers_count": 4020,
 			"friends_count": 15
 		},
 		"facebook": {
 			"graphUrl": "https://graph.facebook.com/HillsongAmsterdam",
 			"id": "106632822794682",
-			"likes": 2973,
+			"likes": 2974,
 			"talking_about_count": 167,
 			"location": {
 				"street": "Oostelijke Handelskade 4",
@@ -632,7 +632,7 @@
 			"id": "137850586233695",
 			"likes": 1259,
 			"talking_about_count": 86,
-			"were_here_count": 3339,
+			"were_here_count": 3340,
 			"checkins": 439,
 			"location": {
 				"street": "Escamplaan 280",
@@ -700,14 +700,14 @@
 		"facebook_url": "https://www.facebook.com/thousandhills",
 		"twitter_name": "@thousand_hills",
 		"twitter": {
-			"statuses_count": 1129,
-			"followers_count": 251,
+			"statuses_count": 1130,
+			"followers_count": 253,
 			"friends_count": 345
 		},
 		"facebook": {
 			"graphUrl": "https://graph.facebook.com/thousandhills",
 			"id": "88656582656",
-			"likes": 1238,
+			"likes": 1240,
 			"talking_about_count": 45,
 			"were_here_count": 1021,
 			"checkins": 126,
@@ -758,13 +758,13 @@
 		"twitter_name": "@VBGroningen",
 		"twitter": {
 			"statuses_count": 862,
-			"followers_count": 568,
+			"followers_count": 569,
 			"friends_count": 37
 		},
 		"facebook": {
 			"graphUrl": "https://graph.facebook.com/vbgroningen",
 			"id": "117169972216",
-			"likes": 567,
+			"likes": 568,
 			"talking_about_count": 66,
 			"were_here_count": 350,
 			"checkins": 32,
@@ -899,7 +899,7 @@
 		"facebook": {
 			"graphUrl": "https://graph.facebook.com/CGLachaiRoi",
 			"id": "400354063378166",
-			"likes": 134,
+			"likes": 136,
 			"talking_about_count": 6,
 			"were_here_count": 82,
 			"checkins": 1,
@@ -951,7 +951,7 @@
 		"facebook": {
 			"graphUrl": "https://graph.facebook.com/rafaelamersfoort",
 			"id": "134144006628876",
-			"likes": 402,
+			"likes": 403,
 			"talking_about_count": 79,
 			"were_here_count": 657,
 			"checkins": 47,
@@ -1517,7 +1517,7 @@
 		"twitter_name": "@BavoKerk",
 		"website": "http://www.bavo.nl/",
 		"twitter": {
-			"statuses_count": 240,
+			"statuses_count": 241,
 			"followers_count": 111,
 			"friends_count": 64
 		}
@@ -1620,7 +1620,7 @@
 		"facebook": {
 			"graphUrl": "https://graph.facebook.com/rafaelalmere",
 			"id": "166946843366785",
-			"likes": 40,
+			"likes": 41,
 			"talking_about_count": 1,
 			"were_here_count": 23,
 			"checkins": 12,
@@ -1689,7 +1689,7 @@
 		"facebook": {
 			"graphUrl": "https://graph.facebook.com/Pgbarneveld",
 			"id": "539645659444030",
-			"likes": 92,
+			"likes": 93,
 			"talking_about_count": 11,
 			"website": "http://www.pgbarneveld.nl"
 		}
@@ -1916,7 +1916,7 @@
 		"twitter_name": "@pgtharde",
 		"website": "http://www.pgtharde.nl",
 		"twitter": {
-			"statuses_count": 269,
+			"statuses_count": 271,
 			"followers_count": 47,
 			"friends_count": 47
 		},
@@ -2046,7 +2046,7 @@
 		"facebook": {
 			"graphUrl": "https://graph.facebook.com/camawoerden",
 			"id": "171207376411360",
-			"likes": 109,
+			"likes": 110,
 			"talking_about_count": 4,
 			"location": {
 				"street": "Overstek 2",
@@ -2066,7 +2066,7 @@
 		"twitter_name": "@wellsekerk",
 		"website": "http://hervormdegemeentewell.nl/",
 		"twitter": {
-			"statuses_count": 10665,
+			"statuses_count": 10666,
 			"followers_count": 46,
 			"friends_count": 35
 		},
@@ -2304,7 +2304,7 @@
 		"website": "http://www.stjoseph-olva.nl",
 		"twitter": {
 			"statuses_count": 687,
-			"followers_count": 98,
+			"followers_count": 99,
 			"friends_count": 204
 		}
 	},
@@ -2383,7 +2383,7 @@
 		"twitter_name": "@BG_Hoeksteen",
 		"website": "http://www.baptistenlelystad.nl/",
 		"twitter": {
-			"statuses_count": 506,
+			"statuses_count": 507,
 			"followers_count": 169,
 			"friends_count": 75
 		},
@@ -2411,6 +2411,39 @@
 			"likes": 156,
 			"talking_about_count": 51,
 			"website": "http://www.prinsesjulianakerk.nl/"
+		}
+	},
+	{
+		"name": "Kom en Zie Schinnen",
+		"facebook_url": "https://www.facebook.com/komenzie.schinnen",
+		"twitter_name": "@kzschinnen",
+		"website": "http://www.komenzie.net",
+		"twitter": {
+			"statuses_count": 199,
+			"followers_count": 98,
+			"friends_count": 225
+		},
+		"facebook": {
+			"graphUrl": "https://graph.facebook.com/komenzie.schinnen",
+			"id": "100005443715963"
+		}
+	},
+	{
+		"name": "Protestantse Gemeente Enschede",
+		"facebook_url": "https://www.facebook.com/PGEnschede",
+		"twitter_name": "",
+		"website": "http://www.pgenschede.nl",
+		"facebook": {
+			"graphUrl": "https://graph.facebook.com/PGEnschede",
+			"id": "161194977304693",
+			"likes": 156,
+			"talking_about_count": 7,
+			"location": {
+				"street": "",
+				"city": "Varviksingel 139",
+				"zip": ""
+			},
+			"website": "http://www.pgenschede.nl"
 		}
 	}
 ]
