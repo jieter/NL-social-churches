@@ -78,8 +78,8 @@ function loadChurches(options, report) {
 
 function fetchNewChurches(options, report) {
 	return function (list, callback) {
-		if (!options.remoteSrc) {
-			report.log.push('Skip remote fetching...');
+		if (!options.remoteSrc || options.skip.remoteFetch) {
+			report.log.push('Skipping remote fetching...');
 			return callback(null, list);
 		}
 
@@ -108,6 +108,7 @@ function fetchNewChurches(options, report) {
 				});
 
 				if (isNew) {
+					report.log.push('Adding new remote record: ' + newItem.name);
 					list.push(newItem);
 				}
 			});
@@ -141,7 +142,7 @@ function cleanUpAndSave(options, report) {
 		// write repaired file to src
 		fs.writeFileSync(options.src, JSON.stringify(list, null, '\t'));
 
-		report.log.push('Cleaned up ' + options.src);
+		report.log.push('Cleaned up list, saved to ' + options.src);
 
 		callback(null, list);
 	}
