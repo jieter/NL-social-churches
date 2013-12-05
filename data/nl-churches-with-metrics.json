@@ -4,7 +4,7 @@
 		"facebook_url": "https://www.facebook.com/KerkvandeNazarenerVlaardingen",
 		"twitter_name": "@kvdnvlaardingen",
 		"twitter": {
-			"statuses_count": 156,
+			"statuses_count": 158,
 			"followers_count": 124,
 			"friends_count": 120
 		},
@@ -63,7 +63,7 @@
 		"twitter_name": "@bethelhgv",
 		"twitter": {
 			"statuses_count": 3103,
-			"followers_count": 139,
+			"followers_count": 140,
 			"friends_count": 107
 		},
 		"facebook": {
@@ -91,7 +91,7 @@
 		"facebook_url": "https://www.facebook.com/reconnectnl",
 		"twitter_name": "@reconnectnl",
 		"twitter": {
-			"statuses_count": 56,
+			"statuses_count": 57,
 			"followers_count": 40,
 			"friends_count": 8
 		},
@@ -148,7 +148,7 @@
 		"twitter": {
 			"statuses_count": 1373,
 			"followers_count": 70,
-			"friends_count": 141
+			"friends_count": 142
 		},
 		"facebook": {
 			"graphUrl": "https://graph.facebook.com/PaaskerkOss",
@@ -263,7 +263,7 @@
 			"graphUrl": "https://graph.facebook.com/Kruiskerkinfo",
 			"id": "196399117090830",
 			"likes": 100,
-			"talking_about_count": 12,
+			"talking_about_count": 14,
 			"were_here_count": 25,
 			"checkins": 4,
 			"location": {
@@ -285,7 +285,7 @@
 		"twitter_name": "@jongenvrij",
 		"twitter": {
 			"statuses_count": 1433,
-			"followers_count": 604,
+			"followers_count": 605,
 			"friends_count": 42
 		},
 		"facebook": {
@@ -372,7 +372,7 @@
 		"facebook_url": "https://www.facebook.com/ChristengemeenteHardinxveldGiessendam",
 		"twitter_name": "@ChrGemHveldGdam",
 		"twitter": {
-			"statuses_count": 187,
+			"statuses_count": 188,
 			"followers_count": 46,
 			"friends_count": 4
 		},
@@ -398,13 +398,13 @@
 		"twitter_name": "@mijnkerkNL",
 		"twitter": {
 			"statuses_count": 515,
-			"followers_count": 1052,
+			"followers_count": 1054,
 			"friends_count": 1191
 		},
 		"facebook": {
 			"graphUrl": "https://graph.facebook.com/Mijnkerk",
 			"id": "484647548235132",
-			"likes": 1791,
+			"likes": 1790,
 			"talking_about_count": 160,
 			"website": "http://www.mijnkerk.nl"
 		},
@@ -416,14 +416,14 @@
 		"twitter_name": "@kerkenter",
 		"twitter": {
 			"statuses_count": 105,
-			"followers_count": 160,
+			"followers_count": 161,
 			"friends_count": 72
 		},
 		"facebook": {
 			"graphUrl": "https://graph.facebook.com/gkenter",
 			"id": "101950543246013",
 			"likes": 130,
-			"talking_about_count": 13,
+			"talking_about_count": 12,
 			"were_here_count": 76,
 			"checkins": 10,
 			"location": {
@@ -476,7 +476,7 @@
 			"graphUrl": "https://graph.facebook.com/LeefDoetinchem",
 			"id": "343139999069499",
 			"likes": 221,
-			"talking_about_count": 38,
+			"talking_about_count": 40,
 			"were_here_count": 64,
 			"checkins": 3,
 			"location": {
@@ -552,7 +552,7 @@
 		"facebook": {
 			"graphUrl": "https://graph.facebook.com/HillsongAmsterdam",
 			"id": "106632822794682",
-			"likes": 2974,
+			"likes": 2975,
 			"talking_about_count": 167,
 			"location": {
 				"street": "Oostelijke Handelskade 4",
@@ -579,7 +579,6 @@
 			"id": "250968861596595",
 			"likes": 973,
 			"talking_about_count": 83,
-			"were_here_count": 253,
 			"checkins": 38,
 			"location": {
 				"street": "Buitenplein 55",
@@ -601,7 +600,7 @@
 		"facebook": {
 			"graphUrl": "https://graph.facebook.com/mariakerk",
 			"id": "309928182409193",
-			"likes": 1502,
+			"likes": 1503,
 			"talking_about_count": 36,
 			"were_here_count": 425,
 			"checkins": 49,
@@ -624,7 +623,7 @@
 		"twitter_name": "@CLCDenHaag",
 		"twitter": {
 			"statuses_count": 1540,
-			"followers_count": 811,
+			"followers_count": 812,
 			"friends_count": 177
 		},
 		"facebook": {
@@ -700,14 +699,14 @@
 		"facebook_url": "https://www.facebook.com/thousandhills",
 		"twitter_name": "@thousand_hills",
 		"twitter": {
-			"statuses_count": 1130,
+			"statuses_count": 1131,
 			"followers_count": 253,
 			"friends_count": 345
 		},
 		"facebook": {
 			"graphUrl": "https://graph.facebook.com/thousandhills",
 			"id": "88656582656",
-			"likes": 1240,
+			"likes": 1242,
 			"talking_about_count": 45,
 			"were_here_count": 1021,
 			"checkins": 126,
@@ -766,7 +765,6 @@
 			"id": "117169972216",
 			"likes": 568,
 			"talking_about_count": 66,
-			"were_here_count": 350,
 			"checkins": 32,
 			"location": {
 				"street": "Friesestraatweg 221",
@@ -823,7 +821,7 @@
 		"facebook": {
 			"graphUrl": "https://graph.facebook.com/HervormdBarneveld",
 			"id": "279558128818311",
-			"likes": 313,
+			"likes": 314,
 			"talking_about_count": 10,
 			"location": {
 				"street": "",
@@ -872,7 +870,6 @@
 			"id": "179065228843305",
 			"likes": 250,
 			"talking_about_count": 20,
-			"were_here_count": 91,
 			"checkins": 13,
 			"location": {
 				"street": "Groen van Prinstererweg 1",
@@ -892,14 +889,14 @@
 		"facebook_url": "https://www.facebook.com/CGLachaiRoi",
 		"twitter_name": "@CGLachaiRoi",
 		"twitter": {
-			"statuses_count": 90,
+			"statuses_count": 91,
 			"followers_count": 27,
 			"friends_count": 95
 		},
 		"facebook": {
 			"graphUrl": "https://graph.facebook.com/CGLachaiRoi",
 			"id": "400354063378166",
-			"likes": 136,
+			"likes": 137,
 			"talking_about_count": 6,
 			"were_here_count": 82,
 			"checkins": 1,
@@ -1064,7 +1061,7 @@
 		"facebook": {
 			"graphUrl": "https://graph.facebook.com/128574734098",
 			"id": "128574734098",
-			"likes": 1140,
+			"likes": 1142,
 			"talking_about_count": 46,
 			"location": {
 				"street": "Meeting Point (our Sunday morning gathering) location: Keizersgracht 102 (in de Rode Hoed), Amsterdam. We begin at 11:00 and conclude at 12:30.",
@@ -1662,7 +1659,7 @@
 		"twitter_name": "@PGHarderwijk",
 		"website": "http://www.pgharderwijk.nl/",
 		"twitter": {
-			"statuses_count": 10,
+			"statuses_count": 11,
 			"followers_count": 42,
 			"friends_count": 47
 		},
@@ -1690,7 +1687,7 @@
 			"graphUrl": "https://graph.facebook.com/Pgbarneveld",
 			"id": "539645659444030",
 			"likes": 93,
-			"talking_about_count": 11,
+			"talking_about_count": 12,
 			"website": "http://www.pgbarneveld.nl"
 		}
 	},
@@ -2046,7 +2043,7 @@
 		"facebook": {
 			"graphUrl": "https://graph.facebook.com/camawoerden",
 			"id": "171207376411360",
-			"likes": 110,
+			"likes": 112,
 			"talking_about_count": 4,
 			"location": {
 				"street": "Overstek 2",
@@ -2066,14 +2063,14 @@
 		"twitter_name": "@wellsekerk",
 		"website": "http://hervormdegemeentewell.nl/",
 		"twitter": {
-			"statuses_count": 10666,
+			"statuses_count": 10670,
 			"followers_count": 46,
 			"friends_count": 35
 		},
 		"facebook": {
 			"graphUrl": "https://graph.facebook.com/kerkWellAmmerzoden",
 			"id": "101833656638544",
-			"likes": 142,
+			"likes": 143,
 			"talking_about_count": 13,
 			"location": {
 				"street": "",
@@ -2096,7 +2093,7 @@
 		"facebook": {
 			"graphUrl": "https://graph.facebook.com/232846420175891",
 			"id": "232846420175891",
-			"likes": 606,
+			"likes": 605,
 			"talking_about_count": 64,
 			"were_here_count": 175,
 			"checkins": 20,
@@ -2194,7 +2191,7 @@
 		"twitter_name": "@ichthuswveen",
 		"website": "http://www.baptistengemeente-ichthus.nl/",
 		"twitter": {
-			"statuses_count": 84,
+			"statuses_count": 85,
 			"followers_count": 90,
 			"friends_count": 216
 		},
@@ -2384,7 +2381,7 @@
 		"website": "http://www.baptistenlelystad.nl/",
 		"twitter": {
 			"statuses_count": 507,
-			"followers_count": 169,
+			"followers_count": 170,
 			"friends_count": 75
 		},
 		"facebook": {
@@ -2444,6 +2441,34 @@
 				"zip": ""
 			},
 			"website": "http://www.pgenschede.nl"
+		}
+	},
+	{
+		"name": "Driestwegkerk",
+		"facebook_url": "http://facebook.com/driestwegkerk",
+		"twitter_name": "@driestwegkerk",
+		"website": "http://www.driestwegkerk.nl",
+		"twitter": {
+			"statuses_count": 79,
+			"followers_count": 36,
+			"friends_count": 126
+		},
+		"facebook": {
+			"graphUrl": "https://graph.facebook.com/driestwegkerk",
+			"id": "136291856551208",
+			"likes": 61,
+			"talking_about_count": 5,
+			"were_here_count": 19,
+			"location": {
+				"street": "Driestweg 4",
+				"city": "Nunspeet",
+				"state": "",
+				"country": "Netherlands",
+				"zip": "8071 BT",
+				"latitude": 52.375255102865,
+				"longitude": 5.7825402185676
+			},
+			"website": "http://www.driestwegkerk.nl"
 		}
 	}
 ]
