@@ -586,5 +586,29 @@
 		"facebook_url": "http://facebook.com/driestwegkerk",
 		"twitter_name": "@driestwegkerk",
 		"website": "http://www.driestwegkerk.nl"
+	},
+	{
+		"name": "Pelgrimvaderskerk (Hervormde Gemeente Delfshaven, Rotterdam)",
+		"facebook_url": "https://www.facebook.com/Pelgrimvaderskerk",
+		"twitter_name": "@kerkindestad",
+		"website": "http://www.pelgrimvaderskerk.nl"
+	},
+	{
+		"name": "Protestantse gemeente Waalwijk",
+		"facebook_url": "",
+		"twitter_name": "@PGWaalwijk",
+		"website": "http://www.pgwaalwijk.nl"
+	},
+	{
+		"name": "Protestantse wijkgemeente Kerk aan de Haven",
+		"facebook_url": "",
+		"twitter_name": "@kerkaandehaven",
+		"website": "http://www.kerkaandehaven.nl"
+	},
+	{
+		"name": "Protestantse wijkgemeente Ambrosiuskerk",
+		"facebook_url": "",
+		"twitter_name": "@Ambrosiuskerk",
+		"website": "http://www.kerkinwaalwijk.nl"
 	}
 ]
