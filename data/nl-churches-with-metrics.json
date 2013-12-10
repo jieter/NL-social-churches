@@ -12,7 +12,7 @@
 			"graphUrl": "https://graph.facebook.com/KerkvandeNazarenerVlaardingen",
 			"id": "340107662675701",
 			"likes": 414,
-			"talking_about_count": 76,
+			"talking_about_count": 52,
 			"were_here_count": 9,
 			"checkins": 3,
 			"location": {
@@ -70,7 +70,7 @@
 			"graphUrl": "https://graph.facebook.com/BethElHoogeveen",
 			"id": "136600443152407",
 			"likes": 113,
-			"talking_about_count": 22,
+			"talking_about_count": 29,
 			"were_here_count": 48,
 			"checkins": 1,
 			"location": {
@@ -116,7 +116,7 @@
 		"facebook_url": "https://www.facebook.com/VEZwolle",
 		"twitter_name": "@VEZwolle",
 		"twitter": {
-			"statuses_count": 588,
+			"statuses_count": 589,
 			"followers_count": 686,
 			"friends_count": 127
 		},
@@ -204,7 +204,7 @@
 		"facebook": {
 			"graphUrl": "https://graph.facebook.com/vbgbethel",
 			"id": "293286710927",
-			"likes": 1164,
+			"likes": 1165,
 			"talking_about_count": 107,
 			"were_here_count": 1123,
 			"checkins": 132,
@@ -256,7 +256,7 @@
 		"twitter_name": "@Kruiskerkinfo",
 		"twitter": {
 			"statuses_count": 977,
-			"followers_count": 153,
+			"followers_count": 152,
 			"friends_count": 17
 		},
 		"facebook": {
@@ -397,7 +397,7 @@
 		"facebook_url": "https://www.facebook.com/Mijnkerk",
 		"twitter_name": "@mijnkerkNL",
 		"twitter": {
-			"statuses_count": 522,
+			"statuses_count": 523,
 			"followers_count": 1067,
 			"friends_count": 1213
 		},
@@ -528,7 +528,7 @@
 		"facebook": {
 			"graphUrl": "https://graph.facebook.com/HillsongAmsterdam",
 			"id": "106632822794682",
-			"likes": 3001,
+			"likes": 3002,
 			"talking_about_count": 344,
 			"location": {
 				"street": "Oostelijke Handelskade 4",
@@ -606,7 +606,7 @@
 			"graphUrl": "https://graph.facebook.com/clcdenhaag",
 			"id": "137850586233695",
 			"likes": 1266,
-			"talking_about_count": 59,
+			"talking_about_count": 58,
 			"were_here_count": 3505,
 			"checkins": 439,
 			"location": {
@@ -674,8 +674,8 @@
 		"facebook_url": "https://www.facebook.com/thousandhills",
 		"twitter_name": "@thousand_hills",
 		"twitter": {
-			"statuses_count": 1146,
-			"followers_count": 253,
+			"statuses_count": 1148,
+			"followers_count": 254,
 			"friends_count": 347
 		},
 		"facebook": {
@@ -739,7 +739,7 @@
 			"graphUrl": "https://graph.facebook.com/vbgroningen",
 			"id": "117169972216",
 			"likes": 571,
-			"talking_about_count": 93,
+			"talking_about_count": 76,
 			"checkins": 32,
 			"location": {
 				"street": "Friesestraatweg 221",
@@ -797,7 +797,7 @@
 			"graphUrl": "https://graph.facebook.com/HervormdBarneveld",
 			"id": "279558128818311",
 			"likes": 317,
-			"talking_about_count": 78,
+			"talking_about_count": 81,
 			"location": {
 				"street": "",
 				"city": "Barneveld",
@@ -817,7 +817,7 @@
 			"graphUrl": "https://graph.facebook.com/vegoldebroek",
 			"id": "177798955579273",
 			"likes": 143,
-			"talking_about_count": 22,
+			"talking_about_count": 45,
 			"were_here_count": 21,
 			"checkins": 3,
 			"location": {
@@ -953,7 +953,7 @@
 			"graphUrl": "https://graph.facebook.com/koepelkerkarnhem",
 			"id": "294522140639079",
 			"likes": 204,
-			"talking_about_count": 8,
+			"talking_about_count": 2,
 			"website": "http://www.koepelkerk-arnhem.nl"
 		},
 		"website": "http://www.koepelkerk-arnhem.nl"
@@ -966,7 +966,7 @@
 			"graphUrl": "https://graph.facebook.com/agapeamsterdam",
 			"id": "373749475739",
 			"likes": 304,
-			"talking_about_count": 4,
+			"talking_about_count": 3,
 			"were_here_count": 487,
 			"checkins": 11,
 			"location": {
@@ -1037,7 +1037,7 @@
 			"graphUrl": "https://graph.facebook.com/128574734098",
 			"id": "128574734098",
 			"likes": 1144,
-			"talking_about_count": 32,
+			"talking_about_count": 17,
 			"location": {
 				"street": "Meeting Point (our Sunday morning gathering) location: Keizersgracht 102 (in de Rode Hoed), Amsterdam. We begin at 11:00 and conclude at 12:30.",
 				"city": "Amsterdam",
@@ -1299,7 +1299,7 @@
 			"id": "503837436377686",
 			"likes": 78,
 			"talking_about_count": 13,
-			"were_here_count": 106,
+			"were_here_count": 107,
 			"checkins": 1,
 			"location": {
 				"street": "Jan Luykenlaan 90",
@@ -1392,7 +1392,7 @@
 		"website": "http://www.wittekerk.nl/",
 		"twitter": {
 			"statuses_count": 774,
-			"followers_count": 151,
+			"followers_count": 152,
 			"friends_count": 165
 		},
 		"facebook": {
@@ -1431,7 +1431,7 @@
 		"twitter_name": "@KompasZmeer",
 		"website": "http://www.kompaszoetermeer.nl/",
 		"twitter": {
-			"statuses_count": 542,
+			"statuses_count": 543,
 			"followers_count": 245,
 			"friends_count": 254
 		},
@@ -1615,7 +1615,7 @@
 		"facebook": {
 			"graphUrl": "https://graph.facebook.com/crosspointgetsewoud",
 			"id": "171611036265221",
-			"likes": 217,
+			"likes": 218,
 			"talking_about_count": 47,
 			"location": {
 				"street": "",
@@ -1772,8 +1772,8 @@
 				"state": "",
 				"country": "Netherlands",
 				"zip": "8181 GG",
-				"latitude": 52.379790062025,
-				"longitude": 6.033122567408
+				"latitude": 52.3820686,
+				"longitude": 6.0394402
 			},
 			"website": "http://www.cgk-heerde.nl"
 		}
@@ -2036,7 +2036,7 @@
 		"twitter_name": "@wellsekerk",
 		"website": "http://hervormdegemeentewell.nl/",
 		"twitter": {
-			"statuses_count": 10750,
+			"statuses_count": 10754,
 			"followers_count": 47,
 			"friends_count": 35
 		},
@@ -2519,7 +2519,7 @@
 			"graphUrl": "https://graph.facebook.com/181271458575708?fref=ts",
 			"id": "181271458575708",
 			"likes": 241,
-			"talking_about_count": 4,
+			"talking_about_count": 5,
 			"were_here_count": 36,
 			"checkins": 7,
 			"location": {
@@ -2613,6 +2613,24 @@
 				"longitude": 6.47182307953
 			},
 			"website": "http://www.deschutse.net"
+		}
+	},
+	{
+		"name": "Protestantse Gemeente Lexmond",
+		"facebook_url": "https://www.facebook.com/pages/Lux-Mundi/270441862974399?fref=ts",
+		"twitter_name": "@luxmundi7",
+		"website": "http://www.lux-mundi.nl/",
+		"twitter": {
+			"statuses_count": 561,
+			"followers_count": 76,
+			"friends_count": 101
+		},
+		"facebook": {
+			"graphUrl": "https://graph.facebook.com/270441862974399?fref=ts",
+			"id": "270441862974399",
+			"likes": 85,
+			"talking_about_count": 20,
+			"website": "http://www.lux-mundi.nl"
 		}
 	}
 ]
