@@ -101,11 +101,6 @@
 		"twitter_name": "@NazarenerHlem"
 	},
 	{
-		"name": "Hervormd Vriezenveen",
-		"facebook_url": "https://www.facebook.com/hervormd",
-		"twitter_name": ""
-	},
-	{
 		"name": "Hillsong Amsterdam",
 		"facebook_url": "https://www.facebook.com/HillsongAmsterdam",
 		"twitter_name": "@hillsongams"
@@ -486,7 +481,7 @@
 		"website": "http://mozaiek0318.nl"
 	},
 	{
-		"name": "Baptisten Gemeente Deventer",
+		"name": "Baptistengemeente Deventer",
 		"facebook_url": "https://www.facebook.com/baptistendeventer",
 		"twitter_name": "",
 		"website": "http://www.baptistendeventer.nl"
@@ -540,7 +535,7 @@
 		"website": "http://www.stjoseph-olva.nl"
 	},
 	{
-		"name": "protestantsegemeente Bergen op Zoom",
+		"name": "Protestantsegemeente Bergen op Zoom",
 		"facebook_url": "https://www.facebook.com/pages/Protestantse-kerk-Bergen-op-Zoom/268402903262084",
 		"twitter_name": "",
 		"website": "http://www.protestantsekerkbergenopzoom.nl"
