@@ -610,5 +610,29 @@
 		"facebook_url": "",
 		"twitter_name": "@Ambrosiuskerk",
 		"website": "http://www.kerkinwaalwijk.nl"
+	},
+	{
+		"name": "Doopsgezinden",
+		"facebook_url": "https://www.facebook.com/pages/Doopsgezinden/181271458575708?fref=ts",
+		"twitter_name": "@doopsgezinden",
+		"website": "http://www.doopsgezind.nl"
+	},
+	{
+		"name": "Jeugdkerk Cross-Road, Hoogeveen",
+		"facebook_url": "http://www.facebook.com/crossroadhgv",
+		"twitter_name": "@CrossRoad_HGV",
+		"website": "http://www.cross-road.nl"
+	},
+	{
+		"name": "Vrije Baptisten Gemeente 'de Brug', Hoogeveen",
+		"facebook_url": "http://www.facebook.com/vbgdebrug",
+		"twitter_name": "@VBGDeBrug",
+		"website": "http://www.debrughoogeveen.nl"
+	},
+	{
+		"name": "Unie Baptistengemeente 'de Schutse', Hoogeveen",
+		"facebook_url": "http://www.facebook.com/deschutse",
+		"twitter_name": "@deschutse",
+		"website": "http://www.deschutse.net"
 	}
 ]
