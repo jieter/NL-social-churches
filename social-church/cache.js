@@ -28,6 +28,7 @@ function Cache (filename, ttl) {
 
 	this.put = function (key, obj) {
 		this._cache[key] = obj;
+		return obj;
 	};
 
 	this.clear = function () {

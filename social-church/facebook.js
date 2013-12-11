@@ -11,6 +11,26 @@ var request = require('request');
 var cache = require('./cache.js')('__facebook-cache.json');
 var credentials = require('./credentials.js').facebook;
 
+
+function requestToken(credentials) {
+	var url = 'https://graph.facebook.com/oauth/access_token';
+	url += '?grant_type=fb_exchange_token';
+	url += '&client_id=' + credentials.appID;
+	url += '&client_secret=' + credentials.appSecret;
+	url += '&fb_exchange_token=' + credentials.shortToken;
+
+	request({
+		url: url,
+		method: 'POST'
+	}, function (err, response, body) {
+		if (err) {
+			console.error(err);
+			return;
+		}
+		console.log(body);
+	});
+}
+
 function cachedGraphRequest(graphUrl, callback) {
 	if (cache.has(graphUrl)) {
 		callback(null, cache.get(graphUrl));
@@ -94,13 +114,6 @@ module.exports.clearCache = function () {
 	cache.clear();
 };
 
-// Simple testing...
 if (require.main === module) {
-	var urls = 'https://www.facebook.com/DoorBrekers,https://www.facebook.com/pages/Vineyard-Amsterdam/128574734098,https://www.facebook.com/GKvGorinchem,https://www.facebook.com/pages/Kerk-van-de-Nazarener-Amersfoort/122890037726628,https://www.facebook.com/comezelhem,https://www.facebook.com/groups/148502305195044/'.split(',');
-
-	urls.forEach(function (item) {
-		facebookMetrics(item, function (err, result) {
-			console.log(err, result);
-		});
-	});
+	requestToken(credentials);
 }

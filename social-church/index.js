@@ -130,9 +130,17 @@ function cleanUpAndSave(options, report) {
 			}
 
 			if (item.twitter_name && item.twitter_name !== '') {
-				var twitter_name = item.twitter_name;
+				var twitter_name = item.twitter_name.trim();
+
 				if (twitter_name[0] !== '@') {
-					item.twitter_name = '@' + item.twitter_name;
+					// if we get an url, only use the last part.
+					if (twitter_name.indexOf('http') == 0) {
+						var parts = twitter_name.split('/').filter(function (element) {
+							return element !== '';
+						});
+						twitter_name = parts[parts.length - 1];
+					}
+					item.twitter_name = '@' + twitter_name;
 				}
 			}
 
