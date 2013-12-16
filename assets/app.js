@@ -248,26 +248,29 @@
 			form.find('input').each(function (item) {
 				item = $(this);
 				data[item.attr('id')] = $.trim(item.val());
-			});
+			}).removeClass('has-error');
 
 			var name = form.find('input#name').parent();
 			if (data.name.length < 3) {
 				name.addClass('has-error');
 				alert('Naam mag niet leeg zijn');
 				return;
-			} else {
-				name.removeClass('has-error');
 			}
 
 			if (data['facebook_url'] === '' && data['twitter_name'] === '') {
-				form.find('input#facebook_url').addClass('has-error');
+				form.find('input#twitter_name').addClass('has-error');
 				form.find('input#facebook_url').addClass('has-error');
 
 				alert('Voer minstens één social medium in');
+
 				return;
-			} else {
-				form.find('input#twitter_name').removeClass('has-error');
-				form.find('input#twitter_name').removeClass('has-error');
+			}
+
+			if (data['twitter_name'] !== '' && data['twitter_name'].substr(0, 1) !== '@') {
+				alert('Geef een twitternaam in die begint met een @');
+				form.find('input#twitter_name').addClass('has-error');
+
+				return;
 			}
 
 			var unique = true;
