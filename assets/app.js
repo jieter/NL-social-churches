@@ -6,7 +6,7 @@
 (function () {
 	'use strict';
 
-	// navigation
+	// Tabbed navigation
 	var tabs = $('a[data-toggle="tab"]').click(function (e) {
 		e.preventDefault();
 		$(this).tab('show');
@@ -68,128 +68,6 @@
 			stats.append('<tr><td>' + stat[0] + '</td><td>' + stat[1] + '</td></tr>');
 		});
 	}
-	function renderTable(list) {
-		var table = $('table#churches');
-		var tr, facebook;
-		list.forEach(function (item) {
-			tr = $('<tr></tr>');
-
-			var td = function (value, cssClass) {
-				if (value === undefined) {
-					value = '';
-				}
-				var ret = $('<td>' + value + '</td>');
-				if (cssClass) {
-					ret.addClass(cssClass);
-				}
-				return ret.appendTo(tr);
-			};
-
-			td(item['name']);
-
-			if (item['website']) {
-				td(websiteLink(item['website']), 'website')
-					.find('a').attr('title', 'Ga naar website van deze kerk');
-			} else {
-				td();
-			}
-
-			if (item['facebook_url'] && item['facebook_url'] !== '') {
-				facebook = item['facebook'];
-
-				td(facebookLink(item['facebook_url']), 'facebook');
-
-				if (facebook['likes']) {
-					td(facebook['likes'], 'facebook_likes');
-					td(facebook['talking_about_count'], 'facebook_talking_about');
-
-					if (facebook['talking_about_count'] && facebook['likes'] > 0) {
-						var activiteit = facebook['talking_about_count'] / facebook['likes'];
-
-						td(activiteit, 'facebook_activiteit');
-					} else {
-						td('');
-					}
-					td(facebook['checkins'], 'facebook_checkins');
-				} else {
-					td('besloten', 'facebook-closed')
-						.attr('title', 'Deze groep is besloten waardoor geen statistieken opgevraagd kunnen worden');
-
-					td('-', 'facebook-closed');
-					td('-', 'facebook-closed');
-					td('-', 'facebook-closed');
-				}
-			} else {
-				td('-', 'no-facebook');
-				td('-', 'no-facebook');
-				td('-', 'no-facebook');
-				td('-', 'no-facebook');
-				td('-', 'no-facebook');
-			}
-
-			if (item['twitter_name'] && item['twitter_name'] !== '') {
-				var twitter = item['twitter'];
-
-				td(twitterLink(item['twitter_name']), 'twitter');
-
-				td(twitter['statuses_count'], 'twitter_tweets');
-				td(twitter['followers_count'], 'twitter_followers');
-			} else {
-				td('-', 'no-twitter');
-				td('-', 'no-twitter');
-				td('-', 'no-twitter');
-			}
-			table.append(tr);
-		});
-
-		$.extend($.fn.dataTableExt.oSort, {
-			'percent-pre': function (a) {
-				var x = (a == "-") ? 0 : a.replace( /%/, "" );
-					return parseFloat( x );
-			},
-			'percent-asc': function (a, b) {
-				return ((a < b) ? -1 : ((a > b) ? 1 : 0));
-			},
-			'percent-desc': function (a, b) {
-				return ((a < b) ? 1 : ((a > b) ? -1 : 0));
-			}
-		});
-
-		$('#churches').dataTable({
-			'sPaginationType': 'bs_normal',
-			//'bInfo': false,
-			'bLengthChange': false,
-
-			'aoColumnDefs': [
-				// no sorting
-				{ 'asSorting': [], 'aTargets': [1, 2, 7] },
-
-				{ 'sType': 'numeric', 'aTargets': [3] },
-				{
-					'sType': 'percent',
-					'aTargets': [5],
-					'mRender': function (data, type, full) {
-						if (data === '' || data === '-') {
-							return '-';
-						} else {
-							data = '' + (Math.round(data * 1000) / 10);
-							if (data.indexOf('.') === -1) {
-								data += '.0';
-							}
-							return data + '%';
-						}
-					}
-				}
-			]
-		});
-
-		var filter = $('#churches_filter').detach()
-			.appendTo('ul.nav-tabs')
-			.find('input')
-				.addClass('form-control')
-				.attr('placeholder', 'zoeken...');
-		$('#churches_wrapper .row').eq(0).remove();
-	}
 
 	function renderMap(list) {
 		var map = L.map('mapContainer').setView([52.332, 5.389], 8);
@@ -219,7 +97,7 @@
 			var popup =
 				'<h5>' + item['name'] + '</h5>' +
 				location['street'] + '<br />' +
-				location['zip'] + ' ' + location['country'];
+				location['zip'] + ' ' + location['city'];
 
 
 			popup += '<br />' + websiteLink(item['website']) +
@@ -306,9 +184,158 @@
 		});
 	}
 
+	var tableColumns = {
+		name: {title: 'Naam', 'label': 'Naam'},
+		website: {
+			title: 'Website',
+			transform: websiteLink,
+			noSort: true
+		},
+
+		facebook_url: {
+			title: 'Facebook',
+			transform: facebookLink,
+			noSort: true
+		},
+		facebook_likes: {
+			title: 'Facebook likes',
+			icon: 'fa-thumbs-o-up',
+			get: function (item) {
+				if (item.facebook_name !== '') {
+					if (item.facebook && item.facebook.likes) {
+						return item.facebook.likes;
+					} else {
+						return 'besloten';
+					}
+				}
+			}
+		},
+		facebook_talking_about: {
+			title: 'Facebook interacites (talking about this',
+			icon: 'fa-comments-o',
+			get: function (item) {
+				if (item.facebook && item.facebook.talking_about_count) {
+					return item.facebook.talking_about_count;
+				}
+			}
+		},
+		facebook_activiteit: {
+			title: 'Activiteit (interacties / likes)',
+			icon: 'fa-signal',
+			get: function (item) {
+				if (item.facebook) {
+					var facebook = item.facebook;
+					if (facebook.talking_about_count > 0 && facebook.likes > 0){
+						var data = facebook.talking_about_count / facebook.likes;
+						data = '' + (Math.round(data * 1000) / 10);
+						if (data.indexOf('.') === -1) {
+							data += '.0';
+						}
+						return data + '%';
+					}
+				}
+			}
+		},
+		facebook_checkins: {
+			title: 'Facebook checkins',
+			icon: 'fa-check',
+			get: function (item) {
+				if (item.facebook && item.facebook.checkins) {
+					return item.facebook.checkins;
+				}
+			}
+		},
+
+		twitter_name: {
+			title: 'Twitter',
+			transform: twitterLink,
+			noSort: true
+		},
+		tweets: {
+			title: 'Tweets',
+			icon: 'fa-twitter',
+			get: function (item) {
+				if (item.twitter && item.twitter.statuses_count) {
+					return item.twitter.statuses_count;
+				}
+			}
+		},
+		followers: {
+			title: 'Twittervolgers',
+			icon: 'fa-users',
+			get: function (item) {
+				if (item.twitter && item.twitter.followers_count) {
+					return item.twitter.followers_count;
+				}
+			}
+		}
+	};
+
+	var headerTr = $('<tr></tr>').appendTo('#churches thead');
+	var th, col;
+	var keys = [];
+	for (var key in tableColumns) {
+		col = tableColumns[key];
+
+		th = $('<th></th>')
+			.addClass(key)
+			.attr('data-sort', key);
+
+		if (!col.noSort) {
+			th.addClass('sort')
+		}
+		if (col.title) {
+			th.attr('title', col.title);
+		}
+		if (col.icon) {
+			th.html('<i class="fa ' + col.icon + '"></i>');
+		} else if (col.label) {
+			th.html(col.label);
+		}
+		th.appendTo(headerTr);
+		keys.push(key);
+	}
+
+	function renderTable(columns, list) {
+		var tbody = $('table#churches tbody');
+		var key, col, tr, td, html;
+		list.forEach(function (item) {
+			tr = $('<tr></tr>');
+
+			for (key in columns) {
+				col = columns[key];
+
+				td = $('<td></td>').addClass(key);
+
+				html = col.get ? col.get(item) || '' : item[key];
+				if (html && html !== '' && col.transform) {
+					html = col.transform(html);
+				}
+				td.html(html);
+
+				td.addClass((html === 'besloten') ? 'no-data' : '');
+				tr.append(td);
+			}
+			tbody.append(tr);
+		});
+
+		$('#count').html('<p>' + list.length + ' kerken</p>');
+
+		var list = new List('social-churches-page', {
+			valueNames: keys,
+			page: 10,
+			plugins: [
+				ListPagination({
+					paginationClass: 'pagination',
+					outerWindow: 1
+				})
+			]
+		});
+	}
+
 	$.getJSON('data/nl-churches-with-metrics.json', function onReply(list) {
 
-		renderTable(list);
+		renderTable(tableColumns, list);
 
 		if ($('#map').length === 1) {
 			renderMap(list);
@@ -321,7 +348,6 @@
 		}
 
 		if (window.location.hash !== '') {
-			console.log($('a[href="' + window.location.hash + '"]'));
 			$('a[href="' + window.location.hash + '"]').click();
 		}
 	});
