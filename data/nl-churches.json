@@ -641,5 +641,17 @@
 		"facebook_url": "https://www.facebook.com/CrossroadsRdam",
 		"twitter_name": "@CrossroadsRdam",
 		"website": "http://www.crossroadsrotterdam.nl"
+	},
+	{
+		"name": "Protestantse Wijkgemeente Stadspolders Dordrecht",
+		"facebook_url": "https://www.facebook.com/pages/Protestantse-Wijkgemeente-Stadspolders/262453940530401",
+		"twitter_name": "@pknstadspolders",
+		"website": "http://www.pkn-stadspolders.nl/"
+	},
+	{
+		"name": "Protestantse gemeente De Levensbron Rilland",
+		"facebook_url": "https://www.facebook.com/delevensbronrilland",
+		"twitter_name": "",
+		"website": "http://delevensbronrilland.nl/"
 	}
 ]
