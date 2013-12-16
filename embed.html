@@ -10,7 +10,6 @@
 
 	<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7/leaflet.css" />
 
-	<link rel="stylesheet" href="assets/lib/datatables.css" />
 	<link rel="stylesheet" href="assets/style.css" />
 
 	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -26,52 +25,40 @@
 	.tab-content {
 		max-height: 621px;
 	}
-	#mapContainer {
-		height: 600px;
-	}
 	th i {
 		min-width: 30px;
+	}
+	.nav-tabs label {
+		float: right;
 	}
 	</style>
 
 	<!-- Open links in new window. -->
 	<base target="_blank" />
 </head>
-<body>
+<body id="social-churches-page">
 
 <ul class="nav nav-tabs">
 	<li class="active"><a href="#list" data-toggle="tab">Overzicht</a></li>
 	<li><a href="#map" data-toggle="tab">Kaart</a></li>
 	<li><a href="#about" data-toggle="tab">Over</a></li>
+
+	<div id="#churches_filter">
+		<label>
+			<input type="text" class="form-control search" placeholder="zoeken..." />
+		</label>
+	</div>
 </ul>
 <div class="tab-content">
 	<div class="tab-pane fade in active" id="list">
 		<table class="table table-striped table-bordered table-condensed" id="churches">
-			<thead>
-				<tr>
-					<th>Naam</th>
-					<th title="Website"></th>
-					<th title="Facebook"></th>
-					<th title="Facebook likes" class="facebook_likes">
-						<i class="fa fa-thumbs-o-up"></i>
-					</th>
-					<th title="Facebook interacties (Talking about this)" class="facebook_talking_about"><i class="fa fa-comments-o"></i></th>
-					<th title="Activiteit (interacties / likes)">
-						<i class="fa fa-signal"></i>
-					</th>
-					<th title="Facebook checkins" class="facebook_checkins">
-						<i class="fa fa-check"></i>
-					</th>
-					<th title="Twitter"></th>
-					<th title="Tweets">
-						<i class="fa fa-twitter"></i>
-					</th>
-					<th title="Twittervolgers">
-						<i class="fa fa-users"></i>
-					</th>
-				</tr>
-			</thead>
+			<thead></thead>
+			<tbody class="list"></tbody>
 		</table>
+		<div>
+			<ul class="pagination pull-right col-md-4"></ul>
+			<div class="btn-group"><div class="btn btn-default" id="count"></div></div>
+		</div>
 	</div>
 	<div class="tab-pane fade" id="map">
 		<div id="mapContainer"></div>
@@ -123,10 +110,11 @@
 	</div>
 </div>
 
-<script src="https://code.jquery.com/jquery.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
 <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.2/js/bootstrap.min.js"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/datatables/1.9.4/jquery.dataTables.js"></script>
-<script src="assets/lib/datatables.js"></script>
+
+<script src="assets/lib/list.js"></script>
+<script src="assets/lib/list.pagination.js"></script>
 <script src="http://cdn.leafletjs.com/leaflet-0.7/leaflet.js"></script>
 
 <script src="assets/app.js"></script>
