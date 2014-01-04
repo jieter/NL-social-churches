@@ -659,5 +659,35 @@
 		"facebook_url": "http://www.facebook.com/pgworkum",
 		"twitter_name": "",
 		"website": "http://www.pgworkum.nl"
+	},
+	{
+		"name": "24/7 Church",
+		"facebook_url": "https://www.facebook.com/247Church?bookmark_t=page",
+		"twitter_name": "",
+		"website": "http://www.24-7-church.com/home"
+	},
+	{
+		"name": "Christelijke gemeente De Wegwijzer",
+		"facebook_url": "https://www.facebook.com/pages/Christelijke-Gemeente-De-Wegwijzer/132791400112810",
+		"twitter_name": "@wegwijzeralmere",
+		"website": "http://www.dewegwijzer-almere.nl"
+	},
+	{
+		"name": "Protestantse Gemeente Apeldoorn",
+		"facebook_url": "https://www.facebook.com/ProtestantsApeldoorn",
+		"twitter_name": "@protestants055",
+		"website": "http://www.pkn-apeldoorn.nl"
+	},
+	{
+		"name": "De Salvator",
+		"facebook_url": "https://www.facebook.com/desalvator",
+		"twitter_name": "@DeSalvator",
+		"website": "http://desalvator.nl/"
+	},
+	{
+		"name": "CGK Emmeloord",
+		"facebook_url": "https://www.facebook.com/CGKEmmeloord",
+		"twitter_name": "@CGKEmmeloord",
+		"website": "http://www.hoeksteenemmeloord.nl/"
 	}
 ]
