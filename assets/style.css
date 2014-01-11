@@ -10,6 +10,7 @@
 .twitter {
 	white-space: nowrap;
 }
+
 td.facebook_likes, td.facebook_checkins,
 td.twitter_tweets, td.twitter_followers,
 td.facebook_talking_about, td.facebook_activiteit {
@@ -30,7 +31,6 @@ td.facebook_talking_about, td.facebook_activiteit {
 .fa-facebook, .fa-facebook-square {
 	color: #3b5998;
 }
-
 .fa-twitter, .twitter {
 	color: #55acee;
 }
