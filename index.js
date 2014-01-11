@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 /**
  * Fetch selected social media statistics for a list of Dutch churches.
  *
