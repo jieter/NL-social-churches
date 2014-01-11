@@ -11,23 +11,21 @@ var srcFilename =
 
 require('./social-church/index.js')({
 
-		// Bepaalde onderdelen uit de pijplijn kunnen worden
-		// overgeslagen
+		// Skip certain things (for development)
 		skip: {
 			remoteFetch: false,
 			twitter: false,
 			facebook: false
 		},
 
-		// De lijst met kerken, facebook-urls, twitternames en websites.
+		// input list of churches
 		src: pathPrefix + 'nl-churches.json',
 
-		// het webformulier post naar een php-bestandje op jieter.nl,
-		// stop ze in een json bestand waar dit scriptje ze weer uit vist.
+		// The form posts to a PHP file at this url, this script can fetch them
+		// from the JSON file produced by that.
 		remoteSrc: 'http://jieter.nl/NL-social-churches/nl-churches.json',
 
-		// uiteindelijke datafile, met een gedeelte uit de responses
-		// van de beide API's.
+		// output list.
 		dst: pathPrefix + 'nl-churches-with-metrics.json',
 	},
 	function (err, result) {
