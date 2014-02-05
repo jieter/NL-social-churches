@@ -319,7 +319,7 @@
 			tbody.append(tr);
 		});
 
-		$('#count').html('<p>' + list.length + ' kerken</p>');
+		$('#count').html(list.length + ' kerken');
 
 		var list = new List('social-churches-page', {
 			valueNames: keys,

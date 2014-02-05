@@ -49,6 +49,8 @@ td.facebook_talking_about, td.facebook_activiteit {
 }
 #count {
 	padding-top: 5px;
+	padding: 6px 12px;
+	line-height: 20px;
 }
 
 table.table thead .sort { cursor: pointer; 	*cursor: hand;}
