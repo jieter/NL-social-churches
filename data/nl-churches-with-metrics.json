@@ -2253,7 +2253,7 @@
 	},
 	{
 		"name": "NGK Voorthuizen-Barneveld",
-		"facebook_url": "http://www.facebook.com/ngkvoorthuizenbarneveld",
+		"facebook_url": "https://www.facebook.com/ngkdeontmoeting",
 		"twitter_name": "@NGKDeOntmoeting",
 		"website": "http://www.ngkvoorthuizenbarneveld.nl",
 		"twitter": {
@@ -2262,8 +2262,11 @@
 			"friends_count": 162
 		},
 		"facebook": {
-			"graphUrl": "https://graph.facebook.com/ngkvoorthuizenbarneveld",
-			"message": "Unsupported get request."
+			"graphUrl": "https://graph.facebook.com/ngkdeontmoeting",
+			"id": "131135357057226",
+			"likes": 168,
+			"talking_about_count": 174,
+			"website": "http://www.ngkdeontmoeting.nl"
 		}
 	},
 	{
