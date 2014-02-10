@@ -27,7 +27,10 @@ function twitterUser(name, callback) {
 function twitterMetrics(name, callback) {
 	twitterUser(name, function (err, reply) {
 		if (err) {
-			console.log(err);
+			console.log({
+				name: name,
+				message: err.message
+			});
 			return callback(null, {
 				name: name,
 				message: err.message

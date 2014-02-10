@@ -70,7 +70,10 @@ function facebookMetrics (url, callback) {
 
 		if (err) {
 			data.message = err.message;
-			console.log(err);
+			console.log({
+				url: url,
+				message: err.message
+			});
 			return callback(null, data);
 		}
 
@@ -115,5 +118,6 @@ module.exports.clearCache = function () {
 };
 
 if (require.main === module) {
+	// https://developers.facebook.com/tools/explorer
 	requestToken(credentials);
 }
