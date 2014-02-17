@@ -690,5 +690,17 @@
 		"facebook_url": "https://www.facebook.com/CGKEmmeloord",
 		"twitter_name": "@CGKEmmeloord",
 		"website": "http://www.hoeksteenemmeloord.nl/"
+	},
+	{
+		"name": "GKv De Kandelaar",
+		"facebook_url": "https://www.facebook.com/gkvstadskanaal",
+		"twitter_name": "",
+		"website": "http://www.gkvdekandelaar.nl/"
+	},
+	{
+		"name": "GKV Pijnacker-Noordorp",
+		"facebook_url": "https://www.facebook.com/facebook.gkvpn.nl",
+		"twitter_name": "@GKvHetKruispunt",
+		"website": "http://www.gkvpn.nl"
 	}
 ]
