@@ -669,7 +669,7 @@
 	},
 	{
 		"name": "Christelijke gemeente De Wegwijzer",
-		"facebook_url": "https://www.facebook.com/pages/Christelijke-Gemeente-De-Wegwijzer/132791400112810",
+		"facebook_url": "https://www.facebook.com/dewegwijzeralmere",
 		"twitter_name": "@wegwijzeralmere",
 		"website": "http://www.dewegwijzer-almere.nl"
 	},
@@ -692,7 +692,7 @@
 		"website": "http://www.hoeksteenemmeloord.nl/"
 	},
 	{
-		"name": "GKv De Kandelaar",
+		"name": "GKV De Kandelaar",
 		"facebook_url": "https://www.facebook.com/gkvstadskanaal",
 		"twitter_name": "",
 		"website": "http://www.gkvdekandelaar.nl/"
@@ -702,5 +702,23 @@
 		"facebook_url": "https://www.facebook.com/facebook.gkvpn.nl",
 		"twitter_name": "@GKvHetKruispunt",
 		"website": "http://www.gkvpn.nl"
+	},
+	{
+		"name": "hervormde gemeente Den Bommel",
+		"facebook_url": "https://www.facebook.com/hervormdegemeente.denbommel.1",
+		"twitter_name": "",
+		"website": "http://www.hervormdegemeentedenbommel.nl"
+	},
+	{
+		"name": "Baptistengemeente Doetinchem",
+		"facebook_url": "https://www.facebook.com/baptistendoetinchem",
+		"twitter_name": "@baptistendgem",
+		"website": "http://baptistendoetinchem.nl"
+	},
+	{
+		"name": "GKV de Levensbron, Ten Boer",
+		"facebook_url": "https://www.facebook.com/pages/Gkv-De-Levensbron-Ten-Boer/492050977501464",
+		"twitter_name": "",
+		"website": "http://www.tenboer.gkv.nl/"
 	}
 ]
