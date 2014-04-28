@@ -68,7 +68,7 @@
 			"graphUrl": "https://graph.facebook.com/BethElHoogeveen",
 			"id": "136600443152407",
 			"likes": 124,
-			"talking_about_count": 20,
+			"talking_about_count": 16,
 			"were_here_count": 63,
 			"checkins": 63,
 			"location": {
@@ -118,7 +118,7 @@
 		"facebook": {
 			"graphUrl": "https://graph.facebook.com/VEZwolle",
 			"id": "167627793301411",
-			"likes": 1351,
+			"likes": 1353,
 			"talking_about_count": 399,
 			"were_here_count": 439,
 			"checkins": 439,
@@ -197,7 +197,7 @@
 			"graphUrl": "https://graph.facebook.com/vbgbethel",
 			"id": "293286710927",
 			"likes": 1380,
-			"talking_about_count": 192,
+			"talking_about_count": 155,
 			"were_here_count": 1494,
 			"checkins": 1494,
 			"location": {
@@ -245,7 +245,7 @@
 		"facebook_url": "https://www.facebook.com/Kruiskerkinfo",
 		"twitter_name": "@Kruiskerkinfo",
 		"twitter": {
-			"statuses_count": 1293,
+			"statuses_count": 1295,
 			"followers_count": 165,
 			"friends_count": 17
 		},
@@ -281,7 +281,7 @@
 			"graphUrl": "https://graph.facebook.com/jongenvrijnl",
 			"id": "113240012075632",
 			"likes": 1271,
-			"talking_about_count": 277,
+			"talking_about_count": 263,
 			"website": "http://www.jongenvrij.nl"
 		},
 		"website": "http://www.jongenvrij.nl"
@@ -414,7 +414,7 @@
 			"graphUrl": "https://graph.facebook.com/gkenter",
 			"id": "101950543246013",
 			"likes": 185,
-			"talking_about_count": 28,
+			"talking_about_count": 27,
 			"were_here_count": 107,
 			"checkins": 107,
 			"location": {
@@ -510,14 +510,14 @@
 		"twitter_name": "@hillsongams",
 		"twitter": {
 			"statuses_count": 301,
-			"followers_count": 4464,
+			"followers_count": 4466,
 			"friends_count": 15
 		},
 		"facebook": {
 			"graphUrl": "https://graph.facebook.com/HillsongAmsterdam",
 			"id": "106632822794682",
-			"likes": 4985,
-			"talking_about_count": 1028,
+			"likes": 4991,
+			"talking_about_count": 781,
 			"were_here_count": 425,
 			"checkins": 425,
 			"location": {
@@ -617,7 +617,6 @@
 			"graphUrl": "https://graph.facebook.com/evangelischekerkjefta",
 			"id": "156184131096088",
 			"likes": 102,
-			"talking_about_count": 4,
 			"were_here_count": 88,
 			"checkins": 88,
 			"location": {
@@ -668,7 +667,7 @@
 			"graphUrl": "https://graph.facebook.com/thousandhills",
 			"id": "88656582656",
 			"likes": 1608,
-			"talking_about_count": 103,
+			"talking_about_count": 90,
 			"were_here_count": 1304,
 			"checkins": 1304,
 			"location": {
@@ -723,7 +722,7 @@
 			"graphUrl": "https://graph.facebook.com/vbgroningen",
 			"id": "117169972216",
 			"likes": 724,
-			"talking_about_count": 25,
+			"talking_about_count": 15,
 			"checkins": 420,
 			"location": {
 				"city": "Groningen",
@@ -743,7 +742,7 @@
 		"twitter_name": "@CGKZwolle",
 		"twitter": {
 			"statuses_count": 802,
-			"followers_count": 846,
+			"followers_count": 845,
 			"friends_count": 121
 		},
 		"facebook": {
@@ -770,7 +769,7 @@
 		"twitter_name": "@hervbvld",
 		"website": "http://www.hervormdbarneveld.nl/",
 		"twitter": {
-			"statuses_count": 4939,
+			"statuses_count": 4940,
 			"followers_count": 436,
 			"friends_count": 361
 		},
@@ -898,7 +897,7 @@
 		"facebook": {
 			"graphUrl": "https://graph.facebook.com/rafaelamersfoort",
 			"id": "134144006628876",
-			"likes": 457,
+			"likes": 459,
 			"talking_about_count": 6,
 			"were_here_count": 807,
 			"checkins": 807,
@@ -967,7 +966,7 @@
 			"graphUrl": "https://graph.facebook.com/DoorBrekers",
 			"id": "138279382864577",
 			"likes": 1906,
-			"talking_about_count": 49,
+			"talking_about_count": 51,
 			"were_here_count": 1422,
 			"checkins": 1422,
 			"location": {
@@ -989,7 +988,7 @@
 		"facebook": {
 			"graphUrl": "https://graph.facebook.com/westlandnetwerk",
 			"id": "141635765905039",
-			"likes": 229,
+			"likes": 230,
 			"talking_about_count": 2,
 			"website": "http://www.westland-netwerk.nl"
 		},
@@ -1307,7 +1306,7 @@
 		"website": "http://www.luthersekerkhaarlem.nl/",
 		"twitter": {
 			"statuses_count": 1794,
-			"followers_count": 370,
+			"followers_count": 371,
 			"friends_count": 316
 		},
 		"facebook": {
@@ -1385,7 +1384,7 @@
 		}
 	},
 	{
-		"name": "Kompas Zoetermeer (GkV)",
+		"name": "GkV Het Kompas Zoetermeer",
 		"facebook_url": "https://www.facebook.com/KompasZoetermeer",
 		"twitter_name": "@KompasZmeer",
 		"website": "http://www.kompaszoetermeer.nl/",
@@ -1476,7 +1475,7 @@
 			"graphUrl": "https://graph.facebook.com/hervormd",
 			"id": "221840291277611",
 			"likes": 283,
-			"talking_about_count": 79,
+			"talking_about_count": 60,
 			"were_here_count": 61,
 			"checkins": 61,
 			"location": {
@@ -1905,7 +1904,7 @@
 			"graphUrl": "https://graph.facebook.com/burchtsleeuwijk",
 			"id": "290024714440909",
 			"likes": 100,
-			"talking_about_count": 19,
+			"talking_about_count": 20,
 			"were_here_count": 14,
 			"checkins": 14,
 			"location": {
@@ -1932,7 +1931,7 @@
 		"facebook": {
 			"graphUrl": "https://graph.facebook.com/maranatha.kerk.amsterdam",
 			"id": "199285950116811",
-			"likes": 1244,
+			"likes": 1245,
 			"talking_about_count": 141,
 			"were_here_count": 1135,
 			"checkins": 1135,
@@ -1976,7 +1975,7 @@
 		"twitter_name": "@wellsekerk",
 		"website": "http://hervormdegemeentewell.nl/",
 		"twitter": {
-			"statuses_count": 13926,
+			"statuses_count": 13938,
 			"followers_count": 48,
 			"friends_count": 34
 		},
@@ -1984,7 +1983,7 @@
 			"graphUrl": "https://graph.facebook.com/kerkWellAmmerzoden",
 			"id": "101833656638544",
 			"likes": 168,
-			"talking_about_count": 7,
+			"talking_about_count": 6,
 			"location": {
 				"city": "Dorpstraat 7",
 				"zip": "5325 XG"
@@ -1998,17 +1997,17 @@
 		"twitter_name": "@mozaiek0318",
 		"website": "http://mozaiek0318.nl",
 		"twitter": {
-			"statuses_count": 481,
-			"followers_count": 486,
+			"statuses_count": 484,
+			"followers_count": 489,
 			"friends_count": 117
 		},
 		"facebook": {
 			"graphUrl": "https://graph.facebook.com/232846420175891",
 			"id": "232846420175891",
-			"likes": 808,
+			"likes": 807,
 			"talking_about_count": 308,
-			"were_here_count": 332,
-			"checkins": 332,
+			"were_here_count": 333,
+			"checkins": 333,
 			"location": {
 				"city": "Veenendaal",
 				"country": "Netherlands",
@@ -2105,7 +2104,7 @@
 		"facebook": {
 			"graphUrl": "https://graph.facebook.com/BaptistengemeenteIchthusWaddinxveen",
 			"id": "275326095871319",
-			"likes": 167,
+			"likes": 168,
 			"talking_about_count": 28,
 			"website": "http://www.baptistengemeente-ichthus.nl"
 		}
@@ -2201,7 +2200,7 @@
 		"website": "http://www.stjoseph-olva.nl",
 		"twitter": {
 			"statuses_count": 1036,
-			"followers_count": 123,
+			"followers_count": 124,
 			"friends_count": 248
 		}
 	},
@@ -2374,7 +2373,7 @@
 		"website": "http://www.pelgrimvaderskerk.nl",
 		"twitter": {
 			"statuses_count": 1599,
-			"followers_count": 930,
+			"followers_count": 931,
 			"friends_count": 896
 		},
 		"facebook": {
@@ -2468,7 +2467,7 @@
 			"graphUrl": "https://graph.facebook.com/crossroadhgv",
 			"id": "107531265952464",
 			"likes": 205,
-			"talking_about_count": 54,
+			"talking_about_count": 33,
 			"location": {
 				"city": "Hoogeveen",
 				"country": "Netherlands",
@@ -2652,9 +2651,9 @@
 		"twitter_name": "@24_7_Church",
 		"website": "http://www.24-7-church.com/home",
 		"twitter": {
-			"statuses_count": 192,
+			"statuses_count": 194,
 			"followers_count": 75,
-			"friends_count": 315
+			"friends_count": 327
 		},
 		"facebook": {
 			"graphUrl": "https://graph.facebook.com/247Church?bookmark_t=page",
@@ -2724,7 +2723,7 @@
 			"graphUrl": "https://graph.facebook.com/desalvator",
 			"id": "206655726041281",
 			"likes": 344,
-			"talking_about_count": 23,
+			"talking_about_count": 11,
 			"were_here_count": 253,
 			"checkins": 253,
 			"location": {
@@ -2795,7 +2794,7 @@
 		"website": "http://www.gkvpn.nl",
 		"twitter": {
 			"statuses_count": 75,
-			"followers_count": 40,
+			"followers_count": 39,
 			"friends_count": 18
 		},
 		"facebook": {
@@ -2832,7 +2831,7 @@
 		"twitter_name": "@baptistendgem",
 		"website": "http://baptistendoetinchem.nl",
 		"twitter": {
-			"statuses_count": 266,
+			"statuses_count": 268,
 			"followers_count": 189,
 			"friends_count": 33
 		},
