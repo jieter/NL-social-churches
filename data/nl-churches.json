@@ -1,7 +1,7 @@
 [
 	{
 		"name": "Kerk van de Nazarener Vlaardingen",
-		"facebook_url": "https://www.facebook.com/KerkvandeNazarenerVlaardingen",
+		"facebook_url": "https://www.facebook.com/kvdnvlaardingen",
 		"twitter_name": "@kvdnvlaardingen",
 		"website": "http://www.kvdnvlaardingen.info/"
 	},
@@ -738,5 +738,11 @@
 		"facebook_url": "http://www.facebook.com/GKVEMMELOORD",
 		"twitter_name": "@GKVEmmeloord",
 		"website": "http://www.gkvemmeloord.nl"
+	},
+	{
+		"name": "Pinkstergemeente de Schuilplaats",
+		"facebook_url": "http://www.facebook.com/pgdeschuilplaats",
+		"twitter_name": "",
+		"website": "http://www.pgdeschuilplaats.nl"
 	}
 ]
