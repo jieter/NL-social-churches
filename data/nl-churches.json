@@ -744,5 +744,11 @@
 		"facebook_url": "http://www.facebook.com/pgdeschuilplaats",
 		"twitter_name": "",
 		"website": "http://www.pgdeschuilplaats.nl"
+	},
+	{
+		"name": "City Life Church Zwolle",
+		"facebook_url": "https://www.facebook.com/CLCZwolle",
+		"twitter_name": "@CLCZwolle",
+		"website": "http://www.clczwolle.nl"
 	}
 ]
