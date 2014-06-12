@@ -9,7 +9,6 @@
 'use strict';
 
 var pathPrefix = __dirname + '/data/';
-var srcFilename =
 
 require('./social-church/index.js')({
 
@@ -41,5 +40,11 @@ require('./social-church/index.js')({
 
 		console.log();
 		console.log('Wrote %d churches to %s.', result.count, result.dst);
+		console.log();
+		console.log('Stats:')
+		require('./social-church/stats.js')({
+			filename: result.dst,
+			dst: pathPrefix + 'stats.json'
+		});
 	}
 );
