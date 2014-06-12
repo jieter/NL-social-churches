@@ -55,12 +55,21 @@ var date = function() {
 	return now.toISOString().slice(0, 10);
 };
 module.exports = function (options) {
-	if (!fs.existsSync(options.filename)) {
-		return false;
+	if (options.data) {
+		var data = options.data;
+	} else {
+		if (!fs.existsSync(options.filename)) {
+			return false;
+		}
+
+		// read current data
+		var data = JSON.parse(fs.readFileSync(options.filename));
 	}
 
-	// read current data
-	var data = JSON.parse(fs.readFileSync(options.filename));
+	// default date to todays date
+	if (!options.date) {
+		options.date = date()
+	}
 
 	var result = {};
 	Object.keys(metrics).forEach(function (metric) {
@@ -82,7 +91,13 @@ module.exports = function (options) {
 		var list = JSON.parse(fs.readFileSync(options.dst));
 	}
 
-	list[date()] = result;
+	list[options.date] = result;
 
-	fs.writeFileSync(options.dst, JSON.stringify(list, null, 2));
+	var ret = {}
+	Object.keys(list).sort()
+		.forEach(function (k) {
+			ret[k] = list[k];
+		});
+
+	fs.writeFileSync(options.dst, JSON.stringify(ret, null, 2));
 };
