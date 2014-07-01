@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 /**
  * Fetch selected Facebook statistics for profile/group/page url
  * from the Facebook graph API
@@ -118,6 +119,7 @@ module.exports.clearCache = function () {
 };
 
 if (require.main === module) {
+	console.log('Go to https://developers.facebook.com/tools/explorer to get a new API code');
 	// https://developers.facebook.com/tools/explorer
 	requestToken(credentials);
 }
