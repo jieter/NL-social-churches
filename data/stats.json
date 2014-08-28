@@ -361,5 +361,16 @@
     "tweets": 76826,
     "friends": 11809,
     "followers": 26401
+  },
+  "2014-08-28": {
+    "total": 135,
+    "twitter": 92,
+    "facebook": 127,
+    "website": 133,
+    "likes": 44654,
+    "checkins": 19807,
+    "tweets": 77794,
+    "friends": 11947,
+    "followers": 26641
   }
 }
