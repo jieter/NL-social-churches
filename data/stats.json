@@ -394,5 +394,16 @@
     "tweets": 79816,
     "friends": 12073,
     "followers": 27035
+  },
+  "2014-10-02": {
+    "total": 137,
+    "twitter": 92,
+    "facebook": 129,
+    "website": 135,
+    "likes": 46615,
+    "checkins": 21284,
+    "tweets": 80444,
+    "friends": 12073,
+    "followers": 27146
   }
 }
