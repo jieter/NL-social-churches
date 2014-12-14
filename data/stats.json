@@ -405,5 +405,38 @@
     "tweets": 80444,
     "friends": 12073,
     "followers": 27146
+  },
+  "2014-10-14": {
+    "total": 137,
+    "twitter": 92,
+    "facebook": 129,
+    "website": 135,
+    "likes": 47283,
+    "checkins": 22087,
+    "tweets": 81401,
+    "friends": 12127,
+    "followers": 27364
+  },
+  "2014-10-29": {
+    "total": 138,
+    "twitter": 92,
+    "facebook": 130,
+    "website": 135,
+    "likes": 48307,
+    "checkins": 22603,
+    "tweets": 81588,
+    "friends": 11922,
+    "followers": 27027
+  },
+  "2014-12-14": {
+    "total": 141,
+    "twitter": 92,
+    "facebook": 133,
+    "website": 138,
+    "likes": 51190,
+    "checkins": 24312,
+    "tweets": 85240,
+    "friends": 12236,
+    "followers": 27877
   }
 }

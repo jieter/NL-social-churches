@@ -68,8 +68,7 @@
 	},
 	{
 		"name": "Ontmoetingskerk Vriezenveen",
-		"facebook_url": "https://www.facebook.com/OntmoetingskerkVriezenveen",
-		"twitter_name": "@JDCOntmoetKerk"
+		"facebook_url": "https://www.facebook.com/OntmoetingskerkVriezenveen"
 	},
 	{
 		"name": "Christengemeente Hardinxveld-Giessendam",
@@ -776,9 +775,33 @@
 		"website": "http://www.gkvmorgenster.nl"
 	},
 	{
+		"name": "PKN Denekamp",
+		"facebook_url": "https://www.facebook.com/pages/PKN-Denekamp/594514513992457",
+		"twitter_name": "",
+		"website": ""
+	},
+	{
+		"name": "NGK Culemborg",
+		"facebook_url": "https://www.facebook.com/#!/groups/353879298071288/",
+		"twitter_name": "",
+		"website": "http://www.ngkculemborg.nl/"
+	},
+	{
 		"name": "Pkn Denekamp",
 		"facebook_url": "http://PKNdenekamp",
 		"twitter_name": "",
 		"website": "http://www.facebook.com/pages/pkn-denekamp/594514513992457"
+	},
+	{
+		"name": "Hervormde Kerk Vledderveen (Groningen)",
+		"facebook_url": "http://www.facebook.com/hervormdekerkvledderveen",
+		"twitter_name": "",
+		"website": "http://www.jeruel.nl"
+	},
+	{
+		"name": "GKV Oldehove",
+		"facebook_url": "https://www.facebook.com/groups/229761280373009",
+		"twitter_name": "",
+		"website": "http://www.oldehove.gkv.nl/"
 	}
 ]
