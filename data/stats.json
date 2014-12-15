@@ -430,7 +430,7 @@
   },
   "2014-12-14": {
     "total": 141,
-    "twitter": 92,
+    "twitter": 91,
     "facebook": 133,
     "website": 138,
     "likes": 51190,
@@ -438,5 +438,16 @@
     "tweets": 85240,
     "friends": 12236,
     "followers": 27877
+  },
+  "2014-12-15": {
+    "total": 141,
+    "twitter": 91,
+    "facebook": 133,
+    "website": 138,
+    "likes": 51213,
+    "checkins": 24315,
+    "tweets": 86046,
+    "friends": 12426,
+    "followers": 28211
   }
 }
