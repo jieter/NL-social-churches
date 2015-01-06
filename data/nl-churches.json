@@ -752,14 +752,8 @@
 		"website": "http://www.clczwolle.nl"
 	},
 	{
-		"name": "Volle Evangelie Gemeente Kampen",
-		"facebook_url": "https://www.facebook.com/pages/Volle-Evangelie-Gemeente-Kampen/474974575914068",
-		"twitter_name": "",
-		"website": "http://www.vegk.nl"
-	},
-	{
 		"name": "CGK Groningen",
-		"facebook_url": "https://www.facebook.com/groups/cgk.groningen/",
+		"facebook_url": "https://www.facebook.com/groups/cgk.groningen",
 		"twitter_name": "",
 		"website": "http://cgk-gn.nl/"
 	},
@@ -789,9 +783,9 @@
 	},
 	{
 		"name": "Pkn Denekamp",
-		"facebook_url": "http://PKNdenekamp",
+		"facebook_url": "http://www.facebook.com/pages/PKN-Denekamp/594514513992457",
 		"twitter_name": "",
-		"website": "http://www.facebook.com/pages/pkn-denekamp/594514513992457"
+		"website": "http://www.pkn-denekamp.nl/"
 	},
 	{
 		"name": "Hervormde Kerk Vledderveen (Groningen)",
@@ -804,5 +798,11 @@
 		"facebook_url": "https://www.facebook.com/groups/229761280373009",
 		"twitter_name": "",
 		"website": "http://www.oldehove.gkv.nl/"
+	},
+	{
+		"name": "Evangelische Kerk De Vriendschap",
+		"facebook_url": "https://www.facebook.com/pages/De-Vriendschap/328348964013554",
+		"twitter_name": "",
+		"website": "http://www.ekvriendschap.nl"
 	}
 ]
