@@ -482,5 +482,16 @@
     "tweets": 92092,
     "friends": 13141,
     "followers": 29246
+  },
+  "2015-03-09": {
+    "total": 141,
+    "twitter": 92,
+    "facebook": 133,
+    "website": 139,
+    "likes": 55517,
+    "checkins": 27533,
+    "tweets": 93438,
+    "friends": 13217,
+    "followers": 29507
   }
 }
