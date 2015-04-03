@@ -471,7 +471,7 @@
 	},
 	{
 		"name": "PKN Well - Ammerzoden",
-		"facebook_url": "https://www.facebook.com/kerkWellAmmerzoden",
+		"facebook_url": "https://www.facebook.com/pagina.kerkWellAmmerzoden",
 		"twitter_name": "@wellsekerk",
 		"website": "http://hervormdegemeentewell.nl/"
 	},
@@ -810,5 +810,11 @@
 		"facebook_url": "https://www.facebook.com/ngkdepelgrim",
 		"twitter_name": "@ngkdepelgrim",
 		"website": "http://www.ngkdepelgrim.nl/"
+	},
+	{
+		"name": "Gkv Dalfsen-oost",
+		"facebook_url": "https://www.facebook.com/gkvdalfsenoost?fref=ts",
+		"twitter_name": "",
+		"website": "http://dalfsen-oost.gkv.nl/"
 	}
 ]
