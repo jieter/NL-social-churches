@@ -6,13 +6,13 @@
 	<meta charset="utf-8">
 
 	<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css">
-	<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+	<link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.css" rel="stylesheet">
 
 	<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7/leaflet.css" />
 
 	<link rel="stylesheet" href="assets/lib/datatables.css" />
 	<link rel="stylesheet" href="assets/style.css" />
-	
+
 	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
 	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 	<!--[if lt IE 9]>
@@ -31,9 +31,10 @@
 	</h1>
 
 	<ul class="nav nav-tabs">
-		<li class="active"><a href="#list" data-toggle="tab">Overzicht</a></li>
-		<li><a href="#map" data-toggle="tab">Kaart</a></li>
-		<li><a href="#about" data-toggle="tab">Over</a></li>
+		<li class="active"><a href="#list" data-toggle="tab">Overzicht <i class="fa fa-list"></i></a></li>
+		<li><a href="#map" data-toggle="tab">Kaart <i class="fa fa-map-marker"></i></a></li>
+		<li><a href="#stats" data-toggle="tab">Stats <i class="fa fa-bar-chart-o"></i></a></li>
+		<li><a href="#about" data-toggle="tab">Over <i class="fa fa-users"></i></a></li>
 	</ul>
 
 	<div class="tab-content">
@@ -57,6 +58,29 @@
 		</div>
 		<div class="tab-pane fade" id="map">
 			<div id="mapContainer"></div>
+		</div>
+
+		<script src="http://d3js.org/d3.v3.js"></script>
+		<style>
+			.axis path,
+			.axis line {
+			  fill: none;
+			  stroke: #000;
+			  shape-rendering: crispEdges;
+			}
+
+			.x.axis path {
+			  display: none;
+			}
+
+			.line {
+			  fill: none;
+			  stroke: steelblue;
+			  stroke-width: 1.5px;
+			}
+		</style>
+		<div class="tab-pane fade" id="stats">
+
 		</div>
 
 		<div class="tab-pane fade" id="about">

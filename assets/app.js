@@ -68,6 +68,7 @@
 			stats.append('<tr><td>' + stat[0] + '</td><td>' + stat[1] + '</td></tr>');
 		});
 	}
+
 	function renderTable(list) {
 		var table = $('table#churches');
 		var tr, facebook;
@@ -144,8 +145,8 @@
 
 		$.extend($.fn.dataTableExt.oSort, {
 			'percent-pre': function (a) {
-				var x = (a == "-") ? 0 : a.replace( /%/, "" );
-					return parseFloat( x );
+				var x = (a === '-') ? 0 : a.replace(/%/, '');
+					return parseFloat(x);
 			},
 			'percent-asc': function (a, b) {
 				return ((a < b) ? -1 : ((a > b) ? 1 : 0));
@@ -162,13 +163,13 @@
 
 			'aoColumnDefs': [
 				// no sorting
-				{ 'asSorting': [], 'aTargets': [1, 2, 7] },
+				{'asSorting': [], 'aTargets': [1, 2, 7]},
 
-				{ 'sType': 'numeric', 'aTargets': [3] },
+				{'sType': 'numeric', 'aTargets': [3]},
 				{
 					'sType': 'percent',
 					'aTargets': [5],
-					'mRender': function (data, type, full) {
+					'mRender': function (data) {
 						if (data === '' || data === '-') {
 							return '-';
 						} else {
@@ -183,7 +184,7 @@
 			]
 		});
 
-		var filter = $('#churches_filter').detach()
+		$('#churches_filter').detach()
 			.appendTo('ul.nav-tabs')
 			.find('input')
 				.addClass('form-control')
@@ -296,15 +297,142 @@
 					json: JSON.stringify(data)
 				},
 				dataType: 'json',
-				success: function (event) {
+				success: function () {
 					form.find('input').val('');
 					alert('bedankt!');
 				}
 			});
-
-			return false;
 		});
 	}
+
+	var renderStats = function () {
+		// http://bl.ocks.org/mbostock/3884955
+		var margin = {top: 20, right: 180, bottom: 30, left: 50},
+			width = window.innerWidth - 100 - margin.left - margin.right,
+			height = 500 - margin.top - margin.bottom;
+
+		var parseDate = d3.time.format('%Y-%m-%d').parse;
+
+		var x = d3.time.scale().range([0, width]);
+
+		var y1 = d3.scale.linear().range([height, 0]);
+		var y2 = d3.scale.linear().range([height, 0]);
+
+		var color = d3.scale.category10();
+
+		var xAxis = d3.svg.axis().scale(x).orient('bottom');
+
+		var y1Axis = d3.svg.axis().scale(y1).orient('left')
+		               .tickFormat(d3.format('s'));
+
+		var line = d3.svg.line()
+			.interpolate('basis')
+			.x(function(d) { return x(d.date); })
+			.y(function(d) { return d.yaxis(d.value); });
+
+		var svg = d3.select('#stats').append('svg')
+				.attr('width', width + margin.left + margin.right)
+				.attr('height', height + margin.top + margin.bottom)
+			.append('g')
+				.attr('transform', 'translate(' + margin.left + ',' + margin.top + ')');
+
+		var flatten = function (obj) {
+			var ret = [];
+			for (var date in obj) {
+				var data = obj[date];
+				ret.push({
+					date: parseDate(date),
+
+					tweets: data.tweets,
+					likes: data.likes,
+					checkins: data.checkins,
+					totaal: data.total
+				});
+			}
+
+			ret.sort(function (a, b) {
+				return a.date - b.date;
+			});
+
+			return ret;
+		};
+
+		var axisMap = {
+			'tweets': y1,
+			'likes': y1,
+			'checkins': y1,
+			'totaal': y2
+		};
+
+		d3.json('data/stats.json', function(error, data) {
+			data = flatten(data);
+			color.domain(d3.keys(data[0]).filter(function(key) { return key !== 'date'; }));
+
+			var lines = color.domain().map(function(name) {
+				return {
+					name: name,
+					values: data.map(function(d) {
+						return {
+							yaxis: axisMap[name],
+							date: d.date, value: +d[name]
+						};
+					})
+				};
+			});
+
+			x.domain(d3.extent(data, function(d) { return d.date; }));
+			y1.domain([
+				0,
+				d3.max(lines, function(c) {
+					return d3.max(c.values, function(v) {
+						return (v.yaxis === y1) ? v.value : 0;
+					});
+				})
+			]);
+			y2.domain([
+				0,
+				d3.max(lines, function(c) {
+					return d3.max(c.values, function(v) {
+						return (v.yaxis === y2) ? v.value : 0;
+					});
+				}) * 1.1
+			]);
+
+			svg.append('g')
+				.attr('class', 'x axis')
+				.attr('transform', 'translate(0,' + height + ')')
+				.call(xAxis);
+
+			svg.append('g')
+				.attr('class', 'y axis')
+				.call(y1Axis)
+			.append('text')
+				.attr('transform', 'rotate(-90)')
+				.attr('y', 6)
+				.attr('dy', '.71em')
+				.style('text-anchor', 'end');
+
+			var graph = svg.selectAll('.graph')
+				.data(lines)
+					.enter().append('g')
+					.attr('class', 'graph');
+
+			graph.append('path')
+				.attr('class', 'line')
+				.attr('d', function(d) { return line(d.values); })
+				.style('stroke', function(d) { return color(d.name); });
+
+			graph.append('text')
+				.datum(function(d) { return {name: d.name, value: d.values[d.values.length - 1]}; })
+				.attr('transform', function(d) {
+					return 'translate(' + x(d.value.date) + ',' + d.value.yaxis(d.value.value) + ')';
+				})
+				.attr('x', 3)
+				.attr('dy', '.35em')
+				.text(function(d) { return d.name; });
+		});
+
+	};
 
 	$.getJSON('data/nl-churches-with-metrics.json', function onReply(list) {
 
@@ -320,8 +448,11 @@
 			renderAddForm(list);
 		}
 
+		if ($('#stats').length === 1 && d3) {
+			renderStats();
+		}
+
 		if (window.location.hash !== '') {
-			console.log($('a[href="' + window.location.hash + '"]'));
 			$('a[href="' + window.location.hash + '"]').click();
 		}
 	});

@@ -1,7 +1,11 @@
 {
+  "scripts": {
+      "lint": "eslint *.js assets/*.js"
+  },
   "devDependencies": {
-    "twit": "~1.1.11",
     "async": "~0.2.9",
-    "request": "~2.27.0"
+    "eslint": "^0.16.1",
+    "request": "~2.27.0",
+    "twit": "~1.1.11"
   }
 }

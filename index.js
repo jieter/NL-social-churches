@@ -7,8 +7,9 @@
  */
 
 'use strict';
+var path = require('path');
 
-var pathPrefix = __dirname + '/data/';
+var pathPrefix = path.join(__dirname, '/data/');
 
 require('./social-church/index.js')({
 
@@ -27,7 +28,7 @@ require('./social-church/index.js')({
 		remoteSrc: 'http://jieter.nl/NL-social-churches/nl-churches.json',
 
 		// output list.
-		dst: pathPrefix + 'nl-churches-with-metrics.json',
+		dst: pathPrefix + 'nl-churches-with-metrics.json'
 	},
 	function (err, result) {
 		if (err) {
@@ -41,7 +42,7 @@ require('./social-church/index.js')({
 		console.log();
 		console.log('Wrote %d churches to %s.', result.count, result.dst);
 		console.log();
-		console.log('Stats:')
+		console.log('Stats:');
 		require('./social-church/stats.js')({
 			filename: result.dst,
 			dst: pathPrefix + 'stats.json'
