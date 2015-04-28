@@ -816,5 +816,17 @@
 		"facebook_url": "https://www.facebook.com/gkvdalfsenoost?fref=ts",
 		"twitter_name": "",
 		"website": "http://dalfsen-oost.gkv.nl/"
+	},
+	{
+		"name": "De Nieuwe Rank",
+		"facebook_url": "https://www.facebook.com/denieuwerank",
+		"twitter_name": "",
+		"website": "http://www.denieuwerank.nl/"
+	},
+	{
+		"name": "Faith Westland",
+		"facebook_url": "https://www.facebook.com/FaithWestland",
+		"twitter_name": "@FaithWestland",
+		"website": "http://www.faithwestland.nl"
 	}
 ]

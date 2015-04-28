@@ -515,5 +515,16 @@
     "tweets": 95330,
     "friends": 13387,
     "followers": 29903
+  },
+  "2015-04-28": {
+    "total": 145,
+    "twitter": 94,
+    "facebook": 137,
+    "website": 144,
+    "likes": 58008,
+    "checkins": 29882,
+    "tweets": 97629,
+    "friends": 13626,
+    "followers": 30338
   }
 }
