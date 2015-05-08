@@ -828,5 +828,11 @@
 		"facebook_url": "https://www.facebook.com/FaithWestland",
 		"twitter_name": "@FaithWestland",
 		"website": "http://www.faithwestland.nl"
+	},
+	{
+		"name": "GKV de Rank",
+		"facebook_url": "https://www.facebook.com/GKVdeRank?fref=ts",
+		"twitter_name": "@GKVRankZuidhorn",
+		"website": "http://www.derank.nl/"
 	}
 ]
