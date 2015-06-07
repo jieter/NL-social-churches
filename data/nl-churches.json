@@ -840,5 +840,17 @@
 		"facebook_url": "",
 		"twitter_name": "@MaranathaRkerk",
 		"website": "http://ridderkerk.gkv.nl"
+	},
+	{
+		"name": "Protestantse Gemeente Zeewolde",
+		"facebook_url": "https://www.facebook.com/pgzeewolde",
+		"twitter_name": "@pgzeewolde",
+		"website": "http://www.pgzeewolde.nl"
+	},
+	{
+		"name": "Lijnbaankerk Aalsmeer",
+		"facebook_url": "https://www.facebook.com/lijnbaankerk?ref=hl",
+		"twitter_name": "",
+		"website": "http://www.lijnbaankerk.nl"
 	}
 ]
