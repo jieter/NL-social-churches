@@ -570,5 +570,27 @@
     "tweets": 100863,
     "friends": 13485,
     "followers": 31330
+  },
+  "2015-08-17": {
+    "total": 151,
+    "twitter": 97,
+    "facebook": 142,
+    "website": 150,
+    "likes": 62780,
+    "checkins": 32729,
+    "tweets": 102345,
+    "friends": 13714,
+    "followers": 31713
+  },
+  "2015-09-29": {
+    "total": 151,
+    "twitter": 97,
+    "facebook": 142,
+    "website": 150,
+    "likes": 65053,
+    "checkins": 34067,
+    "tweets": 105970,
+    "friends": 13990,
+    "followers": 32365
   }
 }

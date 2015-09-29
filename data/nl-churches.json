@@ -411,7 +411,7 @@
 	},
 	{
 		"name": "Onze Roeping Getrouw",
-		"facebook_url": "https://www.facebook.com/pages/Onze-Roeping-Getrouw",
+		"facebook_url": "https://www.facebook.com/onzeroeping.getrouw",
 		"twitter_name": "",
 		"website": ""
 	},
@@ -519,7 +519,7 @@
 	},
 	{
 		"name": "ParkCity Church",
-		"facebook_url": "http://facebook.com/parkcitychurch.heerlen",
+		"facebook_url": "https://www.facebook.com/ParkCity-Church-192321247453526",
 		"twitter_name": "@parkcitychurch",
 		"website": "http://www.parkcitychurch.nl"
 	},
@@ -660,12 +660,6 @@
 		"facebook_url": "http://www.facebook.com/pgworkum",
 		"twitter_name": "",
 		"website": "http://www.pgworkum.nl"
-	},
-	{
-		"name": "24/7 Church",
-		"facebook_url": "https://www.facebook.com/247Church?bookmark_t=page",
-		"twitter_name": "@24_7_Church",
-		"website": "http://www.24-7-church.com/home"
 	},
 	{
 		"name": "Christelijke gemeente De Wegwijzer",
@@ -858,5 +852,17 @@
 		"facebook_url": "https://www.facebook.com/gereformeerdekerkbovenhardinxveld",
 		"twitter_name": "",
 		"website": "http://www.pknbovenhardinxveld.nl"
+	},
+	{
+		"name": "Protestants Marken",
+		"facebook_url": "https://www.facebook.com/protestantsmarken",
+		"twitter_name": "",
+		"website": "http://www.protestantsmarken.nl/"
+	},
+	{
+		"name": "Protestantse Gemeente Biddinghuizen",
+		"facebook_url": "https://www.facebook.com/KerkBiddinghuizen",
+		"twitter_name": "@KerkBHZ",
+		"website": "http://www.pgbiddinghuizen.nl/"
 	}
 ]
