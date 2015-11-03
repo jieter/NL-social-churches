@@ -592,5 +592,16 @@
     "tweets": 105970,
     "friends": 13990,
     "followers": 32365
+  },
+  "2015-11-03": {
+    "total": 153,
+    "twitter": 99,
+    "facebook": 144,
+    "website": 152,
+    "likes": 66727,
+    "checkins": 35314,
+    "tweets": 110837,
+    "friends": 14656,
+    "followers": 33258
   }
 }

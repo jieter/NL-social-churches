@@ -864,5 +864,17 @@
 		"facebook_url": "https://www.facebook.com/KerkBiddinghuizen",
 		"twitter_name": "@KerkBHZ",
 		"website": "http://www.pgbiddinghuizen.nl/"
+	},
+	{
+		"name": "Pauluskerk Wezep",
+		"facebook_url": "http://facebook.com/pauluskerkwezep",
+		"twitter_name": "@pauluskerk",
+		"website": "http://www.pauluskerkwezep.nl"
+	},
+	{
+		"name": "Vrije Evangelische Gemeente Hilversum",
+		"facebook_url": "https://www.facebook.com/Vrije-Evangelische-Gemeente-Hilversum-632234140147406/",
+		"twitter_name": "@veghilversum",
+		"website": "http://www.veghilversum.nl"
 	}
 ]
