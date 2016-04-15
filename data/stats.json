@@ -603,5 +603,16 @@
     "tweets": 110837,
     "friends": 14656,
     "followers": 33258
+  },
+  "2016-04-15": {
+    "total": 160,
+    "twitter": 101,
+    "facebook": 151,
+    "website": 157,
+    "likes": 71599,
+    "checkins": 34693,
+    "tweets": 120366,
+    "friends": 15925,
+    "followers": 35007
   }
 }

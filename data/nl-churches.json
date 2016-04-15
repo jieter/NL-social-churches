@@ -876,5 +876,47 @@
 		"facebook_url": "https://www.facebook.com/Vrije-Evangelische-Gemeente-Hilversum-632234140147406/",
 		"twitter_name": "@veghilversum",
 		"website": "http://www.veghilversum.nl"
+	},
+	{
+		"name": "KerkvoorNu",
+		"facebook_url": "https://www.facebook.com/kerkvoornu/?fref=ts",
+		"twitter_name": "",
+		"website": "http://htp:://www.kerkvoornu.nl"
+	},
+	{
+		"name": "Petrakerk Veenendaal",
+		"facebook_url": "https://www.facebook.com/petrakerk.veenendaal",
+		"twitter_name": "",
+		"website": "http://www.petrakerk.nl/"
+	},
+	{
+		"name": "Baptisten Gemeente Steenwijk",
+		"facebook_url": "https://nl-nl.facebook.com/baptistensteenwijk",
+		"twitter_name": "@BGSteenwijk",
+		"website": "http://baptistensteenwijk.nl"
+	},
+	{
+		"name": "Protestantse Gemeente Venlo",
+		"facebook_url": "https://www.facebook.com/ProtestantseGemeenteVenlo",
+		"twitter_name": "",
+		"website": "http://www.joriskerk.net/"
+	},
+	{
+		"name": "Baptisten Gemeente Emmeloord \"de Regenboog\"",
+		"facebook_url": "https://www.facebook.com/baptistengemeente.deregenboog",
+		"twitter_name": "",
+		"website": "http://www.bgdr.nl"
+	},
+	{
+		"name": "de Brug",
+		"facebook_url": "https://www.facebook.com/DeBrugEindhoven/",
+		"twitter_name": "@DeBrugEindhoven",
+		"website": "http://brug.nu"
+	},
+	{
+		"name": "Evangelisch Luthse gemeente Amsterdam Zuidoost",
+		"facebook_url": "https://Facebook.com/lutherszuidoost",
+		"twitter_name": "",
+		"website": "http://lutherszuidoost.nl"
 	}
 ]
