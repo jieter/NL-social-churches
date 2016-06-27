@@ -194,11 +194,9 @@
 
 	function renderMap(list) {
 		var map = L.map('mapContainer').setView([52.332, 5.389], 8);
-		L.tileLayer('http://a{s}.acetate.geoiq.com/tiles/acetate-hillshading/{z}/{x}/{y}.png', {
-			attribution: '&copy;2012 Esri & Stamen, Data from OSM and Natural Earth',
-			subdomains: '0123',
-			minZoom: 2,
-			maxZoom: 18
+		L.tileLayer('http://{s}.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png', {
+			maxZoom: 19,
+			attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>, Tiles courtesy of <a href="http://hot.openstreetmap.org/" target="_blank">Humanitarian OpenStreetMap Team</a>'
 		}).addTo(map);
 
 		var layer = L.featureGroup();
@@ -308,7 +306,7 @@
 	var renderStats = function () {
 		// http://bl.ocks.org/mbostock/3884955
 		var margin = {top: 20, right: 180, bottom: 30, left: 50},
-			width = window.innerWidth - 100 - margin.left - margin.right,
+			width = window.innerWidth - 300 - margin.left - margin.right,
 			height = 500 - margin.top - margin.bottom;
 
 		var parseDate = d3.time.format('%Y-%m-%d').parse;
